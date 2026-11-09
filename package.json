@@ -1,0 +1,34 @@
+{
+  "name": "extratime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm run dev -w @extratime/api\" \"npm run dev -w @extratime/web\"",
+    "build": "npm run build -w @extratime/shared && npm run build -w @extratime/api -w @extratime/web",
+    "lint": "eslint . --max-warnings 0 && prettier --check .",
+    "typecheck": "tsc -b packages/shared apps/api apps/web",
+    "test": "vitest run --allowOnly=false",
+    "verify": "npm run lint && npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.0",
+    "@vitest/coverage-v8": "^5.1.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^10.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.1.0"
+  }
+}
