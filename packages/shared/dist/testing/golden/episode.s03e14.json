@@ -1,0 +1,72 @@
+{
+    "id": "ep_s03e14",
+    "slug": "s03e14-derby-day-fallout",
+    "title": "Derby Day Fallout",
+    "season": 3,
+    "episodeNumber": 14,
+    "episodeType": "full",
+    "summary": "Jordan and Sam pick apart a chaotic derby: the red card that turned the game, the half-time gamble and what the result means for the title race. Plus your questions.",
+    "description": "Jordan Reyes and Sam Okafor pick apart a chaotic derby weekend, joined by youth football coach Ellis Marchetti for the tactical breakdown.\n\nChapters\n00:00 Intro\n03:05 Derby reaction\n24:50 Tactical breakdown with Ellis Marchetti\n47:50 Listener questions\n\nSend us your questions: https://www.extratime.example/about",
+    "publishedAt": "2026-11-02T18:00:00Z",
+    "updatedAt": "2026-11-03T08:20:00Z",
+    "durationSeconds": 3725,
+    "artwork": {
+        "url": "https://i.ytimg.com/vi/Xk3pQ9vL2mA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Episode artwork for Derby Day Fallout"
+    },
+    "hosts": [
+        {
+            "id": "host_jordan-reyes",
+            "slug": "jordan-reyes",
+            "name": "Jordan Reyes",
+            "avatarUrl": "/images/hosts/jordan-reyes.jpg"
+        },
+        {
+            "id": "host_sam-okafor",
+            "slug": "sam-okafor",
+            "name": "Sam Okafor",
+            "avatarUrl": "/images/hosts/sam-okafor.jpg"
+        }
+    ],
+    "guests": [
+        { "name": "Ellis Marchetti", "description": "Youth football coach and tactics writer" }
+    ],
+    "tags": ["derby", "tactics", "title-race", "listener-questions"],
+    "chapters": [
+        { "startSeconds": 0, "title": "Intro" },
+        { "startSeconds": 185, "title": "Derby reaction" },
+        { "startSeconds": 1490, "title": "Tactical breakdown with Ellis Marchetti" },
+        { "startSeconds": 2870, "title": "Listener questions" }
+    ],
+    "media": {
+        "preferred": "youtube",
+        "audio": null,
+        "video": {
+            "provider": "youtube",
+            "videoId": "Xk3pQ9vL2mA",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Xk3pQ9vL2mA",
+            "watchUrl": "https://www.youtube.com/watch?v=Xk3pQ9vL2mA"
+        }
+    },
+    "sources": [
+        {
+            "platform": "youtube",
+            "externalId": "Xk3pQ9vL2mA",
+            "url": "https://www.youtube.com/watch?v=Xk3pQ9vL2mA",
+            "publishedAt": "2026-11-02T18:00:00Z",
+            "metrics": { "views": 48210, "likes": 2140, "comments": 312 },
+            "fetchedAt": "2026-11-06T21:45:00Z"
+        },
+        {
+            "platform": "facebook",
+            "externalId": "1093847562019384",
+            "url": "https://www.facebook.com/watch/?v=1093847562019384",
+            "publishedAt": "2026-11-02T19:30:00Z",
+            "metrics": { "views": null, "likes": 412, "comments": 37 },
+            "fetchedAt": "2026-11-06T21:45:00Z"
+        }
+    ],
+    "platforms": ["youtube", "facebook"]
+}

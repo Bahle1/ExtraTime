@@ -1,0 +1,27 @@
+import { z } from 'zod';
+import { MAX_SLUG_LENGTH } from '../constants/api-limits.constants.js';
+import { PLATFORMS } from '../constants/platforms.constants.js';
+import { SITE_IMAGE_PATH_PREFIX } from '../constants/site-images.constants.js';
+const PATH_SEGMENT = '[A-Za-z0-9_-]+(?:\\.[A-Za-z0-9_-]+)*';
+const SITE_IMAGE_PATH = new RegExp(`^${SITE_IMAGE_PATH_PREFIX}${PATH_SEGMENT}(?:/${PATH_SEGMENT})*$`);
+export const PlatformSchema = z.enum(PLATFORMS);
+export const SlugSchema = z
+    .string()
+    .max(MAX_SLUG_LENGTH)
+    .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
+export const TimestampSchema = z.iso.datetime();
+/** Raw platform count; null when the platform does not report it. */
+export const CountSchema = z.int().nonnegative().nullable();
+export const PublicUrlSchema = z.url({ protocol: /^https$/, hostname: z.regexes.domain });
+export const SiteImagePathSchema = z.string().regex(SITE_IMAGE_PATH);
+export const ImageUrlSchema = z.union([PublicUrlSchema, SiteImagePathSchema]);
+export const ImageSchema = z.object({
+    url: ImageUrlSchema,
+    width: z.int().positive(),
+    height: z.int().positive(),
+    alt: z.string(),
+});
+/** Builds the schema of an opaque ID with a type prefix such as 'ep_'. */
+export function prefixedIdSchema(prefix) {
+    return z.string().regex(new RegExp(`^${prefix}[A-Za-z0-9_-]+$`));
+}

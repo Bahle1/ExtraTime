@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "id": "sp_ig_17958312045561234",
+      "platform": "instagram",
+      "kind": "video",
+      "caption": "Was that ever a red card? Full breakdown in S03E14, out now. Link in bio.",
+      "permalink": "https://www.instagram.com/reel/DQf4kEr3eL1/",
+      "publishedAt": "2026-11-04T19:05:00Z",
+      "media": [
+        {
+          "type": "video",
+          "url": null,
+          "thumbnailUrl": "https://scontent.cdninstagram.com/v/fake-path/reel-thumbnail.jpg?oe=6930A1B2",
+          "width": null,
+          "height": null
+        }
+      ],
+      "author": { "name": "ExtraTime", "handle": "extratime_example", "avatarUrl": null },
+      "metrics": { "likes": 1873, "comments": 64, "shares": null, "views": null },
+      "relatedEpisodeId": "ep_s03e14",
+      "relatedEpisodeSlug": "s03e14-derby-day-fallout",
+      "fetchedAt": "2026-11-06T21:40:00Z"
+    },
+    {
+      "id": "sp_fb_104857392018475_918273645501928",
+      "platform": "facebook",
+      "kind": "image",
+      "caption": "Behind the scenes before recording the derby episode. Who called the result right?",
+      "permalink": "https://www.facebook.com/permalink.php?story_fbid=918273645501928&id=104857392018475",
+      "publishedAt": "2026-11-03T17:30:00Z",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent.xx.fbcdn.net/v/fake-path/studio-photo.jpg?oe=6931B2C3",
+          "thumbnailUrl": "https://scontent.xx.fbcdn.net/v/fake-path/studio-photo.jpg?oe=6931B2C3",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "author": { "name": "ExtraTime", "handle": null, "avatarUrl": null },
+      "metrics": { "likes": 236, "comments": 41, "shares": 12, "views": null },
+      "relatedEpisodeId": null,
+      "relatedEpisodeSlug": null,
+      "fetchedAt": "2026-11-06T21:45:00Z"
+    }
+  ],
+  "meta": {
+    "limit": 2,
+    "nextCursor": "eyJ2IjoxLCJwIjoiMjAyNi0xMS0wM1QxNzozMDowMFoiLCJpIjoic3BfZmJfMTA0ODU3MzkyMDE4NDc1XzkxODI3MzY0NTUwMTkyOCJ9",
+    "generatedAt": "2026-11-06T21:45:00Z",
+    "sources": [
+      {
+        "platform": "youtube",
+        "status": "ok",
+        "lastSuccessAt": "2026-11-06T21:45:00Z",
+        "message": null
+      },
+      {
+        "platform": "instagram",
+        "status": "ok",
+        "lastSuccessAt": "2026-11-06T21:40:00Z",
+        "message": null
+      },
+      {
+        "platform": "facebook",
+        "status": "ok",
+        "lastSuccessAt": "2026-11-06T21:45:00Z",
+        "message": null
+      }
+    ]
+  }
+}

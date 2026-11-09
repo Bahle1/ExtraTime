@@ -1,0 +1,8 @@
+{
+    "type": "https://www.extratime.example/problems/not-found",
+    "title": "Resource not found",
+    "status": 404,
+    "detail": "No episode matches the slug 's03e99-unknown-episode'.",
+    "instance": "/api/v1/episodes/s03e99-unknown-episode",
+    "requestId": "6f1d2c9a-3b7e-4f21-9a8c-5e0b7d4a1c33"
+}
