@@ -1,0 +1,389 @@
+[
+  {
+    "id": "3:54140",
+    "name": "Header · Default",
+    "width": 1360,
+    "height": 86,
+    "group": "Navigation examples",
+    "text": [
+      "ExtraTIME",
+      "Episodes",
+      "Hosts",
+      "Social",
+      "About",
+      "Watch ↗"
+    ],
+    "fills": [
+      "#0A0A0A @ 92%"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+    "render": "renders/components/library/header-default.png"
+  },
+  {
+    "id": "3:54141",
+    "name": "Header · Scrolled",
+    "width": 1360,
+    "height": 68,
+    "group": "Navigation examples",
+    "text": [
+      "ExtraTIME",
+      "Episodes",
+      "Hosts",
+      "Social",
+      "About",
+      "Watch ↗"
+    ],
+    "fills": [
+      "#0A0A0A @ 92%"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+    "render": "renders/components/library/header-scrolled.png"
+  },
+  {
+    "id": "3:54142",
+    "name": "Button",
+    "width": 124,
+    "height": 48,
+    "group": "Control examples / Buttons",
+    "text": [
+      "▶ Play latest"
+    ],
+    "fills": [
+      "#B4F071"
+    ],
+    "strokes": [
+      "#000000 @ 0%"
+    ],
+    "layout": "row; padding 0 20 0 20; gap 12; fill #B4F071",
+    "render": "renders/components/library/button-primary.png"
+  },
+  {
+    "id": "3:54143",
+    "name": "Button",
+    "width": 168,
+    "height": 48,
+    "group": "Control examples / Buttons",
+    "text": [
+      "Explore episodes →"
+    ],
+    "fills": [
+      "#000000 @ 0%"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "row; padding 0 20 0 20; gap 12; fill #000000 @ 0%",
+    "render": "renders/components/library/button-secondary.png"
+  },
+  {
+    "id": "3:54144",
+    "name": "Button · Keyboard focus",
+    "width": 132,
+    "height": 56,
+    "group": "Control examples / Buttons",
+    "text": [
+      "▶ Play latest"
+    ],
+    "fills": [
+      "#0A0A0A"
+    ],
+    "strokes": [
+      "#B4F071"
+    ],
+    "layout": "row; padding 4 4 4 4; fill #0A0A0A",
+    "render": "renders/components/library/button-keyboard-focus-primary.png"
+  },
+  {
+    "id": "3:54145",
+    "name": "Button · Keyboard focus",
+    "width": 176,
+    "height": 56,
+    "group": "Control examples / Buttons",
+    "text": [
+      "Explore episodes →"
+    ],
+    "fills": [
+      "#0A0A0A"
+    ],
+    "strokes": [
+      "#B4F071"
+    ],
+    "layout": "row; padding 4 4 4 4; fill #0A0A0A",
+    "render": "renders/components/library/button-keyboard-focus-secondary.png"
+  },
+  {
+    "id": "3:54150",
+    "name": "Filter chip",
+    "width": 46,
+    "height": 39,
+    "group": "Control examples / Filter examples",
+    "text": [
+      "All"
+    ],
+    "fills": [
+      "#1B1B18"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "row; padding 12 16 12 16; fill #1B1B18; radius 100",
+    "render": "renders/components/library/filter-chip.png"
+  },
+  {
+    "id": "3:54151",
+    "name": "Filter · Active",
+    "width": 89,
+    "height": 39,
+    "group": "Control examples / Filter examples",
+    "text": [
+      "Instagram"
+    ],
+    "fills": [
+      "#B4F071"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "row; padding 12 16 12 16; fill #B4F071; radius 100",
+    "render": "renders/components/library/filter-active.png"
+  },
+  {
+    "id": "3:54152",
+    "name": "Filter · Unavailable",
+    "width": 162,
+    "height": 39,
+    "group": "Control examples / Filter examples",
+    "text": [
+      "Facebook · unavailable"
+    ],
+    "fills": [
+      "#1B1B18"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "row; padding 12 16 12 16; fill #1B1B18; radius 100",
+    "render": "renders/components/library/filter-unavailable.png"
+  },
+  {
+    "id": "3:54153",
+    "name": "Follow row",
+    "width": 600,
+    "height": 88,
+    "group": "Control examples / Follow row example",
+    "text": [
+      "YouTube",
+      "@extratimeorg",
+      "↗"
+    ],
+    "fills": [],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "row; padding 20 0 20 0; gap 16",
+    "render": "renders/components/library/follow-row.png"
+  },
+  {
+    "id": "3:54146",
+    "name": "Episode card",
+    "width": 328,
+    "height": 409,
+    "group": "Episode card examples / Card states",
+    "text": [
+      "FULL CIRCLE",
+      "EPISODE ARTWORK · PLACEHOLDER",
+      "ET /",
+      "CONVERSATION · 58 MIN · 8 Jul 2025",
+      "Full Circle - Coach Pitso Mosimane",
+      "Coach Pitso Mosimane",
+      "Play →",
+      "Watch on YouTube ↗"
+    ],
+    "fills": [
+      "#131311"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "column; padding 0 0 24 0; gap 20; fill #131311",
+    "render": "renders/components/library/episode-card.png"
+  },
+  {
+    "id": "3:54147",
+    "name": "Episode card · Hover",
+    "width": 328,
+    "height": 409,
+    "group": "Episode card examples / Card states",
+    "text": [
+      "FULL CIRCLE",
+      "EPISODE ARTWORK · PLACEHOLDER",
+      "ET /",
+      "CONVERSATION · 58 MIN · 8 Jul 2025",
+      "Full Circle - Coach Pitso Mosimane",
+      "Coach Pitso Mosimane",
+      "Play →",
+      "Watch on YouTube ↗"
+    ],
+    "fills": [
+      "#131311"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "column; padding 0 0 24 0; gap 20; fill #131311",
+    "render": "renders/components/library/episode-card-hover.png"
+  },
+  {
+    "id": "3:54148",
+    "name": "Episode card · Playing",
+    "width": 328,
+    "height": 409,
+    "group": "Episode card examples / Card states",
+    "text": [
+      "NOW PLAYING",
+      "Close video ×",
+      "Full Circle - Coach Pitso Mosimane",
+      "YOUTUBE PLAYER · VISUAL MOCKUP ONLY",
+      "Ⅱ ◖ 0:00 / 58:00",
+      "YouTube ⚙ ⛶",
+      "CONVERSATION · 58 MIN · 8 Jul 2025",
+      "Full Circle - Coach Pitso Mosimane",
+      "Coach Pitso Mosimane",
+      "Close video",
+      "Watch on YouTube ↗"
+    ],
+    "fills": [
+      "#131311"
+    ],
+    "strokes": [
+      "#B4F071"
+    ],
+    "layout": "column; padding 0 0 24 0; gap 20; fill #131311",
+    "render": "renders/components/library/episode-card-playing.png"
+  },
+  {
+    "id": "3:54149",
+    "name": "Episode card · Unavailable",
+    "width": 328,
+    "height": 437,
+    "group": "Episode card examples / Card states",
+    "text": [
+      "FULL CIRCLE",
+      "EPISODE ARTWORK · PLACEHOLDER",
+      "ET /",
+      "CONVERSATION · 58 MIN · 8 Jul 2025",
+      "Full Circle - Coach Pitso Mosimane",
+      "Coach Pitso Mosimane",
+      "Video unavailable. Try watching on YouTube.",
+      "Play →",
+      "Watch on YouTube ↗"
+    ],
+    "fills": [
+      "#131311"
+    ],
+    "strokes": [
+      "#262624"
+    ],
+    "layout": "column; padding 0 0 24 0; gap 20; fill #131311",
+    "render": "renders/components/library/episode-card-unavailable.png"
+  },
+  {
+    "id": "3:54154",
+    "name": "Identity ticker · Static",
+    "width": 1360,
+    "height": 80,
+    "group": "Ticker example",
+    "text": [
+      "IDENTITY — PURPOSE — MENTORSHIP — FOOTBALL — LIFE BEYOND THE GAME —"
+    ],
+    "fills": [
+      "#B4F071"
+    ],
+    "strokes": [],
+    "layout": "row; padding 0 40 0 40; fill #B4F071",
+    "render": "renders/components/library/identity-ticker-static.png"
+  },
+  {
+    "id": "3:54155",
+    "name": "Episode loading skeleton",
+    "width": 350,
+    "height": 345,
+    "group": "System states and mobile menu / Collection feedback states",
+    "text": [],
+    "fills": [
+      "#131311"
+    ],
+    "strokes": [],
+    "layout": "column; padding 0 0 24 0; gap 20; fill #131311",
+    "render": "renders/components/library/episode-loading-skeleton.png"
+  },
+  {
+    "id": "3:54156",
+    "name": "Empty search · xyz",
+    "width": 890,
+    "height": 264,
+    "group": "System states and mobile menu / Collection feedback states",
+    "text": [
+      "xyz",
+      "×",
+      "No conversations match ‘xyz’",
+      "Clear search to restore the seven conversations.",
+      "Clear search"
+    ],
+    "fills": [
+      "#131311"
+    ],
+    "strokes": [],
+    "layout": "column; padding 28 28 28 28; gap 16; fill #131311",
+    "render": "renders/components/library/empty-search.png"
+  },
+  {
+    "id": "3:54157",
+    "name": "Loading error",
+    "width": 890,
+    "height": 199,
+    "group": "System states and mobile menu / Collection feedback states",
+    "text": [
+      "The conversations couldn’t load.",
+      "Please try again. You can still find ExtraTime on YouTube.",
+      "Retry",
+      "Watch on YouTube ↗"
+    ],
+    "fills": [
+      "#131311"
+    ],
+    "strokes": [],
+    "layout": "column; padding 28 28 28 28; gap 20; fill #131311",
+    "render": "renders/components/library/loading-error.png"
+  },
+  {
+    "id": "3:54158",
+    "name": "Mobile menu · Open",
+    "width": 390,
+    "height": 844,
+    "group": "System states and mobile menu / Mobile menu example",
+    "text": [
+      "ExtraTIME",
+      "EPISODES",
+      "HOSTS",
+      "SOCIAL",
+      "ABOUT",
+      "Watch on YouTube ↗",
+      "YouTube @extratimeorg ↗",
+      "Instagram @extra.timeorg ↗",
+      "TikTok @extra.timeorg ↗"
+    ],
+    "fills": [
+      "#0A0A0A"
+    ],
+    "strokes": [],
+    "layout": "column; padding 20 20 20 20; gap 64; fill #0A0A0A",
+    "render": "renders/components/library/mobile-menu-open.png"
+  }
+]

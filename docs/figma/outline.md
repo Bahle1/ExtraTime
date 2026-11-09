@@ -1,0 +1,3637 @@
+# Figma node outline
+
+Every node of the canvas, in layer order (generated 2026-11-09 from `data/figma-file.json`).
+Format: `TYPE name [width×height]` then the text for text layers; auto-layout frames show direction, padding (top right bottom left), gap and fill.
+
+
+## Journey · Route recovery (`3:53742`)
+
+- FRAME Journey · Route recovery [1440×1139] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “08 / Route recovery”
+  - TEXT Handoff annotation [1360×21] “Mistyped route → Off the pitch 404 → Episodes archive. Recovery links remain visible.”
+  - FRAME Recovery journey [1360×839] (row; gap 40)
+    - FRAME Entry / Mistyped route [300×278] (column; gap 24)
+      - TEXT State label [300×17] “Entry / Mistyped route”
+      - FRAME Route error entry [300×237] (column; padding 28 28 28 28; gap 24; fill #131311)
+        - TEXT Metadata [244×16] “BROWSER ROUTE”
+        - TEXT Mistyped path [101×32] “/episo…”
+        - TEXT Route error [244×19] “Route not found”
+        - TEXT Handoff annotation [244×42] “Show the branded 404 page. Do not leave the visitor at a dead end.”
+    - FRAME 404 / Episodes recovery [390×781] (column; gap 24)
+      - TEXT State label [390×17] “404 / Episodes recovery”
+      - FRAME Compact mobile 404 [390×740] (column; fill #131311)
+        - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+          - TEXT Wordmark [130×34] “ExtraTIME”
+          - FRAME menu [28×28]
+            - VECTOR Vector [19×16]
+        - FRAME Recovery message [390×500] (column; padding 20 20 20 20; gap 32)
+          - TEXT Metadata [350×16] “404 / Route not found”
+          - TEXT Heading [350×148] “OFF THE PITCH.”
+          - TEXT Editorial standfirst [350×64] “Wrong turn. The conversation is still going.”
+          - FRAME Button [145×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+            - TEXT Label [105×15] “Back to Home →”
+          - FRAME Button · Keyboard focus [123×56] (row; padding 4 4 4 4; fill #0A0A0A)
+            - FRAME Button [115×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+              - TEXT Label [75×15] “Episodes →”
+    - FRAME Destination / Episodes archive [590×839] (column; gap 24)
+      - TEXT State label [590×17] “Destination / Episodes archive”
+      - TEXT Heading [590×63] “THE ARCHIVE.”
+      - TEXT Editorial standfirst [590×38] “Real conversations. The whole story.”
+      - TEXT Metadata [590×16] “7 CONVERSATIONS”
+      - FRAME Episode search [380×52] (row; padding 0 16 0 16; gap 16; fill #131311)
+        - FRAME search [18×18]
+          - VECTOR Vector [14×14]
+        - TEXT Query [314×17] “Search conversations”
+      - FRAME Episode card [590×533] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [590×332] (column)
+          - FRAME Episode artwork · Placeholder [590×332] (column; fill #B4F071)
+            - RECT Pitch boundary [519×266]
+            - ELLIPSE Centre circle [226×226]
+            - RECT Halfway line [1×266] (fill #0A0A0A)
+            - TEXT Graphic title [472×64] “IDENTITÉ”
+            - TEXT Artwork label [507×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [29×18] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [590×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [550×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+          - TEXT Episode title [550×68] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+          - TEXT Description [550×21] “Presented by Daniel and Haggi · French-language special”
+          - FRAME Episode actions [550×16] (row)
+            - TEXT Link [117×16] “Explore episode →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+
+## Journey · Share and follow (`3:53636`)
+
+- FRAME Journey · Share and follow [1440×1508] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “07 / Share and follow”
+  - TEXT Handoff annotation [1360×21] “Mobile episode Share → Link copied feedback → closing CTA YouTube follow. No live clipboard behavior is authored.”
+  - FRAME Mobile share journey [1360×1208] (row; gap 40)
+    - FRAME Episode / Share action [390×1156] (column; gap 24)
+      - TEXT State label [390×17] “Episode / Share action”
+      - FRAME Kinshasa episode · Share [390×1115] (column; fill #131311)
+        - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+          - TEXT Wordmark [130×34] “ExtraTIME”
+          - FRAME menu [28×28]
+            - VECTOR Vector [19×16]
+        - FRAME Episode introduction [390×1029] (column; padding 40 20 64 20; gap 32)
+          - TEXT Link [93×16] “← All episodes”
+          - FRAME Episode hero [350×877] (column; gap 32)
+            - FRAME Episode copy [350×616] (column; gap 28)
+              - TEXT Metadata [350×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+              - TEXT Heading [350×246] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+              - TEXT Editorial standfirst [350×90] “A French-language special on identity beyond football, from ExtraTime Kinshasa.”
+              - FRAME Presenter attribution [350×44] (column; gap 12)
+                - TEXT Metadata [350×16] “PRESENTED BY · FRENCH-LANGUAGE SPECIAL”
+                - FRAME Presenter links [350×16] (row; gap 24)
+                  - TEXT Link [55×16] “Daniel →”
+                  - TEXT Link [53×16] “Haggi →”
+              - FRAME Episode actions [350×108] (row; gap 12)
+                - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+                  - TEXT Label [47×15] “▶ Play”
+                - FRAME Button [176×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+                  - TEXT Label [136×15] “Watch on YouTube ↗”
+                - FRAME Button [93×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+                  - TEXT Label [53×15] “Share ↗”
+            - FRAME Episode media [350×229] (column; gap 16)
+              - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+                - RECT Pitch boundary [308×158]
+                - ELLIPSE Centre circle [134×134]
+                - RECT Halfway line [1×158] (fill #797970)
+                - TEXT Graphic title [280×38] “IDENTITÉ”
+                - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+                - TEXT Series mark [17×11] “ET /”
+              - TEXT Metadata [350×16] “EPISODE PLACEHOLDER · 16:9 ARTWORK”
+    - FRAME Feedback / Link copied [390×1208] (column; gap 24)
+      - TEXT State label [390×17] “Feedback / Link copied”
+      - FRAME Kinshasa episode · Link copied [390×1167] (column; fill #131311)
+        - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+          - TEXT Wordmark [130×34] “ExtraTIME”
+          - FRAME menu [28×28]
+            - VECTOR Vector [19×16]
+        - FRAME Episode introduction [390×1081] (column; padding 40 20 64 20; gap 32)
+          - TEXT Link [93×16] “← All episodes”
+          - FRAME Episode hero [350×929] (column; gap 32)
+            - FRAME Episode copy [350×668] (column; gap 28)
+              - TEXT Metadata [350×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+              - TEXT Heading [350×246] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+              - TEXT Editorial standfirst [350×90] “A French-language special on identity beyond football, from ExtraTime Kinshasa.”
+              - FRAME Presenter attribution [350×44] (column; gap 12)
+                - TEXT Metadata [350×16] “PRESENTED BY · FRENCH-LANGUAGE SPECIAL”
+                - FRAME Presenter links [350×16] (row; gap 24)
+                  - TEXT Link [55×16] “Daniel →”
+                  - TEXT Link [53×16] “Haggi →”
+              - FRAME Episode actions [350×116] (row; gap 12)
+                - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+                  - TEXT Label [47×15] “▶ Play”
+                - FRAME Button [176×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+                  - TEXT Label [136×15] “Watch on YouTube ↗”
+                - FRAME Button · Keyboard focus [138×56] (row; padding 4 4 4 4; fill #0A0A0A)
+                  - FRAME Button [130×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+                    - TEXT Label [90×15] “✓ Link copied”
+              - TEXT Copy feedback [280×16] “Link copied. Ready to share the conversation.”
+            - FRAME Episode media [350×229] (column; gap 16)
+              - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+                - RECT Pitch boundary [308×158]
+                - ELLIPSE Centre circle [134×134]
+                - RECT Halfway line [1×158] (fill #797970)
+                - TEXT Graphic title [280×38] “IDENTITÉ”
+                - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+                - TEXT Series mark [17×11] “ET /”
+              - TEXT Metadata [350×16] “EPISODE PLACEHOLDER · 16:9 ARTWORK”
+    - FRAME Closing CTA / YouTube follow [390×658] (column; gap 24)
+      - TEXT State label [390×17] “Closing CTA / YouTube follow”
+      - FRAME Mobile follow CTA [390×551] (column)
+        - FRAME Join the conversation [390×551] (column; padding 48 20 48 20; gap 32; fill #B4F071)
+          - FRAME Invitation [350×159] (column; gap 24)
+            - TEXT Metadata [350×16] “Stay in the conversation”
+            - FRAME Invitation statement [350×119] (column)
+              - TEXT Heading [350×31] “DON’T JUST WATCH.”
+              - TEXT Heading [350×49] “JOIN THE”
+              - TEXT Heading [350×39] “CONVERSATION.”
+          - FRAME Follow channels [350×264] (column)
+            - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+              - FRAME youtube [24×24]
+                - VECTOR Vector [20×14]
+              - FRAME Channel [267×48] (column; gap 4)
+                - TEXT Platform [104×29] “YouTube”
+                - TEXT Handle [86×15] “@extratimeorg”
+              - TEXT External destination [27×34] “↗”
+            - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+              - FRAME instagram [24×24]
+                - VECTOR Vector [20×20]
+              - FRAME Channel [267×48] (column; gap 4)
+                - TEXT Platform [121×29] “Instagram”
+                - TEXT Handle [93×15] “@extra.timeorg”
+              - TEXT External destination [27×34] “↗”
+            - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+              - FRAME music-2 [24×24]
+                - VECTOR Vector [15×20]
+              - FRAME Channel [267×48] (column; gap 4)
+                - TEXT Platform [80×29] “TikTok”
+                - TEXT Handle [93×15] “@extra.timeorg”
+              - TEXT External destination [27×34] “↗”
+      - TEXT Handoff annotation [390×42] “YouTube external destination: @extratimeorg. No exact video URL is invented.”
+
+## Journey · Social discovery (`3:53424`)
+
+- FRAME Journey · Social discovery [1440×2293] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “06 / Social discovery”
+  - TEXT Handoff annotation [1360×21] “Instagram filter → Load more expands the sample grid → Instagram external destination. No invented post URL.”
+  - FRAME Social discovery sequence [1360×1993] (row; gap 40)
+    - FRAME Instagram / Filtered [420×1993] (column; gap 24)
+      - TEXT State label [420×17] “Instagram / Filtered”
+      - FRAME Filters [313×39] (row; gap 8)
+        - FRAME Filter chip [46×39] (row; padding 12 16 12 16; fill #1B1B18; radius 100)
+          - TEXT Label [14×15] “All”
+        - FRAME Filter · Active [89×39] (row; padding 12 16 12 16; fill #B4F071; radius 100)
+          - TEXT Label [57×15] “Instagram”
+        - FRAME Filter · Unavailable [162×39] (row; padding 12 16 12 16; fill #1B1B18; radius 100)
+          - TEXT Label [130×15] “Facebook · unavailable”
+      - FRAME Sample social post [420×436] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [420×236] (column; fill #B4F071)
+          - RECT Pitch boundary [370×189]
+          - ELLIPSE Centre circle [161×161]
+          - RECT Halfway line [1×189] (fill #0A0A0A)
+          - TEXT Graphic title [336×45] “IDENTITY”
+          - TEXT Artwork label [361×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [21×13] “ET /”
+        - FRAME Post information [420×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [380×13] (row)
+            - TEXT Post counter [38×13] “01/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [380×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [420×436] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [420×236] (column; fill #B4F071)
+          - RECT Pitch boundary [370×189]
+          - ELLIPSE Centre circle [161×161]
+          - RECT Halfway line [1×189] (fill #0A0A0A)
+          - TEXT Graphic title [336×45] “PURPOSE”
+          - TEXT Artwork label [361×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [21×13] “ET /”
+        - FRAME Post information [420×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [380×13] (row)
+            - TEXT Post counter [38×13] “03/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [380×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [420×436] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [420×236] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [370×189]
+          - ELLIPSE Centre circle [161×161]
+          - RECT Halfway line [1×189] (fill #797970)
+          - TEXT Graphic title [336×90] “OUR STORIES”
+          - TEXT Artwork label [361×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [21×13] “ET /”
+        - FRAME Post information [420×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [380×13] (row)
+            - TEXT Post counter [38×13] “04/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [380×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [420×436] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [420×236] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [370×189]
+          - ELLIPSE Centre circle [161×161]
+          - RECT Halfway line [1×189] (fill #797970)
+          - TEXT Graphic title [336×90] “YOUR NEXT CHAPTER”
+          - TEXT Artwork label [361×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [21×13] “ET /”
+        - FRAME Post information [420×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [380×13] (row)
+            - TEXT Post counter [38×13] “06/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [380×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Button [108×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+        - TEXT Label [68×15] “Load more”
+    - FRAME Load more / Expanded sample grid [520×1599] (column; gap 24)
+      - TEXT State label [520×17] “Load more / Expanded sample grid”
+      - FRAME Expanded Instagram posts [520×1518] (column; gap 24)
+        - FRAME Loaded post row [520×362] (row; gap 24)
+          - FRAME Sample social post [248×362] (column; gap 20; fill #131311)
+            - FRAME Episode artwork · Placeholder [248×140] (column; fill #B4F071)
+              - RECT Pitch boundary [218×112]
+              - ELLIPSE Centre circle [95×95]
+              - RECT Halfway line [1×112] (fill #0A0A0A)
+              - TEXT Graphic title [198×27] “IDENTITY”
+              - TEXT Artwork label [213×22] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+              - TEXT Series mark [12×8] “ET /”
+            - FRAME Post information [248×202] (column; padding 0 20 24 20; gap 16)
+              - FRAME Post metadata [208×13] (row)
+                - TEXT Post counter [38×13] “01/06”
+                - TEXT Platform [69×13] “INSTAGRAM”
+              - TEXT Sample label [99×13] “SAMPLE CAPTION”
+              - TEXT Description [208×88] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+              - TEXT Link [133×16] “View on Instagram ↗”
+          - FRAME Sample social post [248×362] (column; gap 20; fill #131311)
+            - FRAME Episode artwork · Placeholder [248×140] (column; fill #B4F071)
+              - RECT Pitch boundary [218×112]
+              - ELLIPSE Centre circle [95×95]
+              - RECT Halfway line [1×112] (fill #0A0A0A)
+              - TEXT Graphic title [198×27] “PURPOSE”
+              - TEXT Artwork label [213×22] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+              - TEXT Series mark [12×8] “ET /”
+            - FRAME Post information [248×202] (column; padding 0 20 24 20; gap 16)
+              - FRAME Post metadata [208×13] (row)
+                - TEXT Post counter [38×13] “03/06”
+                - TEXT Platform [69×13] “INSTAGRAM”
+              - TEXT Sample label [99×13] “SAMPLE CAPTION”
+              - TEXT Description [208×88] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+              - TEXT Link [133×16] “View on Instagram ↗”
+        - FRAME Loaded post row [520×362] (row; gap 24)
+          - FRAME Sample social post [248×362] (column; gap 20; fill #131311)
+            - FRAME Episode artwork · Placeholder [248×140] (column; fill #0A0A0A @ 72%)
+              - RECT Pitch boundary [218×112]
+              - ELLIPSE Centre circle [95×95]
+              - RECT Halfway line [1×112] (fill #797970)
+              - TEXT Graphic title [198×54] “OUR STORIES”
+              - TEXT Artwork label [213×22] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+              - TEXT Series mark [12×8] “ET /”
+            - FRAME Post information [248×202] (column; padding 0 20 24 20; gap 16)
+              - FRAME Post metadata [208×13] (row)
+                - TEXT Post counter [38×13] “04/06”
+                - TEXT Platform [69×13] “INSTAGRAM”
+              - TEXT Sample label [99×13] “SAMPLE CAPTION”
+              - TEXT Description [208×88] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+              - TEXT Link [133×16] “View on Instagram ↗”
+          - FRAME Sample social post [248×362] (column; gap 20; fill #131311)
+            - FRAME Episode artwork · Placeholder [248×140] (column; fill #0A0A0A @ 72%)
+              - RECT Pitch boundary [218×112]
+              - ELLIPSE Centre circle [95×95]
+              - RECT Halfway line [1×112] (fill #797970)
+              - TEXT Graphic title [198×54] “YOUR NEXT CHAPTER”
+              - TEXT Artwork label [213×22] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+              - TEXT Series mark [12×8] “ET /”
+            - FRAME Post information [248×202] (column; padding 0 20 24 20; gap 16)
+              - FRAME Post metadata [208×13] (row)
+                - TEXT Post counter [38×13] “06/06”
+                - TEXT Platform [69×13] “INSTAGRAM”
+              - TEXT Sample label [99×13] “SAMPLE CAPTION”
+              - TEXT Description [208×88] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+              - TEXT Link [133×16] “View on Instagram ↗”
+        - FRAME Loaded post row [520×362] (row; gap 24)
+          - FRAME Sample social post [248×362] (column; gap 20; fill #131311)
+            - FRAME Episode artwork · Placeholder [248×140] (column; fill #B4F071)
+              - RECT Pitch boundary [218×112]
+              - ELLIPSE Centre circle [95×95]
+              - RECT Halfway line [1×112] (fill #0A0A0A)
+              - TEXT Graphic title [198×27] “IDENTITY”
+              - TEXT Artwork label [213×22] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+              - TEXT Series mark [12×8] “ET /”
+            - FRAME Post information [248×202] (column; padding 0 20 24 20; gap 16)
+              - FRAME Post metadata [208×13] (row)
+                - TEXT Post counter [38×13] “01/06”
+                - TEXT Platform [69×13] “INSTAGRAM”
+              - TEXT Sample label [99×13] “SAMPLE CAPTION”
+              - TEXT Description [208×88] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+              - TEXT Link [133×16] “View on Instagram ↗”
+          - FRAME Sample social post [248×362] (column; gap 20; fill #131311)
+            - FRAME Episode artwork · Placeholder [248×140] (column; fill #B4F071)
+              - RECT Pitch boundary [218×112]
+              - ELLIPSE Centre circle [95×95]
+              - RECT Halfway line [1×112] (fill #0A0A0A)
+              - TEXT Graphic title [198×27] “PURPOSE”
+              - TEXT Artwork label [213×22] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+              - TEXT Series mark [12×8] “ET /”
+            - FRAME Post information [248×202] (column; padding 0 20 24 20; gap 16)
+              - FRAME Post metadata [208×13] (row)
+                - TEXT Post counter [38×13] “03/06”
+                - TEXT Platform [69×13] “INSTAGRAM”
+              - TEXT Sample label [99×13] “SAMPLE CAPTION”
+              - TEXT Description [208×88] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+              - TEXT Link [133×16] “View on Instagram ↗”
+        - FRAME Loaded post row [520×362] (row; gap 24)
+          - FRAME Sample social post [248×362] (column; gap 20; fill #131311)
+            - FRAME Episode artwork · Placeholder [248×140] (column; fill #0A0A0A @ 72%)
+              - RECT Pitch boundary [218×112]
+              - ELLIPSE Centre circle [95×95]
+              - RECT Halfway line [1×112] (fill #797970)
+              - TEXT Graphic title [198×54] “OUR STORIES”
+              - TEXT Artwork label [213×22] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+              - TEXT Series mark [12×8] “ET /”
+            - FRAME Post information [248×202] (column; padding 0 20 24 20; gap 16)
+              - FRAME Post metadata [208×13] (row)
+                - TEXT Post counter [38×13] “04/06”
+                - TEXT Platform [69×13] “INSTAGRAM”
+              - TEXT Sample label [99×13] “SAMPLE CAPTION”
+              - TEXT Description [208×88] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+              - TEXT Link [133×16] “View on Instagram ↗”
+          - FRAME Sample social post [248×362] (column; gap 20; fill #131311)
+            - FRAME Episode artwork · Placeholder [248×140] (column; fill #0A0A0A @ 72%)
+              - RECT Pitch boundary [218×112]
+              - ELLIPSE Centre circle [95×95]
+              - RECT Halfway line [1×112] (fill #797970)
+              - TEXT Graphic title [198×54] “YOUR NEXT CHAPTER”
+              - TEXT Artwork label [213×22] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+              - TEXT Series mark [12×8] “ET /”
+            - FRAME Post information [248×202] (column; padding 0 20 24 20; gap 16)
+              - FRAME Post metadata [208×13] (row)
+                - TEXT Post counter [38×13] “06/06”
+                - TEXT Platform [69×13] “INSTAGRAM”
+              - TEXT Sample label [99×13] “SAMPLE CAPTION”
+              - TEXT Description [208×88] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+              - TEXT Link [133×16] “View on Instagram ↗”
+      - TEXT Loaded feedback [166×16] “More sample posts loaded.”
+    - FRAME External destination / Instagram [340×403] (column; gap 24)
+      - TEXT State label [340×17] “External destination / Instagram”
+      - FRAME Instagram handoff [340×362] (column; padding 28 28 28 28; gap 28; fill #F5F4EF)
+        - FRAME instagram [56×56]
+          - VECTOR Vector [47×47]
+        - TEXT Heading [284×70] “CONTINUE ON INSTAGRAM.”
+        - TEXT Known channel [118×18] “@extra.timeorg”
+        - TEXT Description [284×78] “External channel destination. A specific post link is awaiting supplied content.”
+
+## Journey · Founder to conversation (`3:53365`)
+
+- FRAME Journey · Founder to conversation [1440×1545] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “05 / Founder to conversation”
+  - TEXT Handoff annotation [1360×21] “Home founders → Shungu profile → Meet The Founders playing. Other series content is not presented as appearance credits.”
+  - FRAME Founder profile to playback [1360×1245] (row; gap 40)
+    - FRAME Home founders / View profile [350×457] (column; gap 24)
+      - TEXT State label [350×17] “Home founders / View profile”
+      - FRAME Founder card [350×376] (column; fill #131311)
+        - FRAME Monogram [350×245] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [302×16] “ExtraTime / Co-founder”
+          - TEXT Initials [302×139] “SD”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [350×131] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [302×27] “Shungu Dutiro”
+          - TEXT Metadata [302×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+      - TEXT Link [91×16] “View profile →”
+    - FRAME Profile / Known founder episode [390×1245] (column; gap 24)
+      - TEXT State label [390×17] “Profile / Known founder episode”
+      - FRAME Compact Shungu profile [390×1098] (column; fill #131311)
+        - FRAME Shungu profile [390×1098] (column; padding 48 20 48 20; gap 32)
+          - FRAME Monogram portrait [350×350] (column; padding 28 28 28 28; fill #1B1B18)
+            - TEXT Metadata [294×16] “ExtraTime / Co-founder”
+            - TEXT Shungu initials [294×209] “SD”
+            - TEXT Metadata [294×16] “A voice beyond the game”
+          - FRAME Profile information [350×620] (column; gap 28)
+            - TEXT Metadata [350×16] “CO-FOUNDER & HOST”
+            - TEXT Heading [350×126] “SHUNGU DUTIRO.”
+            - TEXT Editorial standfirst [350×96] “Helping young people see their value beyond what they do on the pitch.”
+            - TEXT Description [350×130] “Shungu Dutiro is a co-founder and host of ExtraTime alongside Henry Nzuzi. Their shared mission makes room for honest conversations about identity, purpose, me…”
+            - TEXT Metadata [350×16] “PERSONAL SOCIAL LINKS · NOT YET SUPPLIED”
+            - FRAME Personal social status [350×52] (row; gap 20)
+              - TEXT Instagram unavailable [186×16] “Instagram · handle unavailable”
+              - TEXT TikTok unavailable [165×16] “TikTok · handle unavailable”
+            - TEXT Link [310×16] “Follow ExtraTime on Instagram @extra.timeorg ↗”
+      - TEXT Handoff annotation [390×42] “Confirmed founder conversation, not inferred appearance credits.”
+      - TEXT Link [274×16] “Meet The Founders || Passion to Purpose →”
+    - FRAME Founder episode / Playing in place [540×575] (column; gap 24)
+      - TEXT State label [540×17] “Founder episode / Playing in place”
+      - TEXT Metadata [540×16] “FOUNDERS · 16 MIN · 17 FEB 2025”
+      - TEXT Heading [540×86] “Meet The Founders || Passion to Purpose”
+      - FRAME Video panel · Playing visual state [540×304] (column; padding 16 16 16 16; fill #131311)
+        - FRAME Player heading [508×15] (row)
+          - TEXT Now playing [85×13] “NOW PLAYING”
+          - TEXT Close video [78×15] “Close video ×”
+        - FRAME Video representation [508×99] (column; gap 12)
+          - FRAME pause [36×36]
+            - VECTOR Vector [21×27]
+          - TEXT Video title [508×27] “Meet The Founders || Passion to Purpose”
+          - TEXT Visual state notice [190×12] “YOUTUBE PLAYER · VISUAL MOCKUP ONLY”
+        - FRAME YouTube controls [508×27] (column; gap 12)
+          - RECT Playback progress [508×3] (fill #262624)
+          - FRAME Controls [508×12] (row)
+            - TEXT Time [84×12] “Ⅱ ◖ 0:00 / 16:00”
+            - TEXT YouTube controls [77×12] “YouTube ⚙ ⛶”
+      - FRAME Founder host links [219×16] (row; gap 20)
+        - TEXT Link [106×16] “Shungu Dutiro →”
+        - TEXT Link [93×16] “Henry Nzuzi →”
+      - TEXT Link [133×16] “Watch on YouTube ↗”
+
+## Journey · One active conversation (`3:53273`)
+
+- FRAME Journey · One active conversation [1440×872] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “04 / One active conversation”
+  - TEXT Handoff annotation [1360×21] “Home carousel A playing → B playing. A is restored to artwork before B becomes the only active video. No mini-player.”
+  - FRAME Playback exclusivity sequence [1360×572] (row; gap 40)
+    - FRAME A / Kinshasa playing · B at rest [660×572] (column; gap 24)
+      - TEXT State label [660×17] “A / Kinshasa playing · B at rest”
+      - FRAME Carousel state [660×486] (row; gap 24)
+        - FRAME Episode card · Playing [318×486] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Video panel · Playing visual state [318×220] (column; padding 16 16 16 16; fill #131311)
+            - FRAME Player heading [286×15] (row)
+              - TEXT Now playing [85×13] “NOW PLAYING”
+              - TEXT Close video [78×15] “Close video ×”
+            - FRAME Video representation [286×110] (column; gap 12)
+              - FRAME pause [36×36]
+                - VECTOR Vector [21×27]
+              - TEXT Video title [286×38] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+              - TEXT Visual state notice [190×12] “YOUTUBE PLAYER · VISUAL MOCKUP ONLY”
+            - FRAME YouTube controls [286×27] (column; gap 12)
+              - RECT Playback progress [286×3] (fill #262624)
+              - FRAME Controls [286×12] (row)
+                - TEXT Time [86×12] “Ⅱ ◖ 0:00 / 50:00”
+                - TEXT YouTube controls [77×12] “YouTube ⚙ ⛶”
+          - FRAME Episode information [318×222] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [278×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+            - TEXT Episode title [278×112] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+            - TEXT Description [278×42] “Presented by Daniel and Haggi · French-language special”
+            - FRAME Episode actions [278×16] (row)
+              - TEXT Link [74×16] “Close video”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+        - FRAME Episode card [318×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [318×220] (column)
+            - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+              - RECT Pitch boundary [280×143]
+              - ELLIPSE Centre circle [122×122]
+              - RECT Halfway line [1×143] (fill #0A0A0A)
+              - TEXT Graphic title [254×68] “FULL CIRCLE”
+              - TEXT Artwork label [273×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [16×10] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [318×145] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [278×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+            - TEXT Episode title [278×56] “Full Circle - Coach Pitso Mosimane”
+            - TEXT Description [278×21] “Coach Pitso Mosimane”
+            - FRAME Episode actions [278×16] (row)
+              - TEXT Link [43×16] “Play →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - TEXT Handoff annotation [660×21] “Active video: Kinshasa. All other artwork stays intact.”
+    - FRAME B / Full Circle playing · A restored [660×572] (column; gap 24)
+      - TEXT State label [660×17] “B / Full Circle playing · A restored”
+      - FRAME Carousel state [660×486] (row; gap 24)
+        - FRAME Episode card [318×486] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [318×220] (column)
+            - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+              - RECT Pitch boundary [280×143]
+              - ELLIPSE Centre circle [122×122]
+              - RECT Halfway line [1×143] (fill #0A0A0A)
+              - TEXT Graphic title [254×34] “IDENTITÉ”
+              - TEXT Artwork label [273×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [16×10] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [318×222] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [278×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+            - TEXT Episode title [278×112] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+            - TEXT Description [278×42] “Presented by Daniel and Haggi · French-language special”
+            - FRAME Episode actions [278×16] (row)
+              - TEXT Link [43×16] “Play →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+        - FRAME Episode card · Playing [318×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Video panel · Playing visual state [318×220] (column; padding 16 16 16 16; fill #131311)
+            - FRAME Player heading [286×15] (row)
+              - TEXT Now playing [85×13] “NOW PLAYING”
+              - TEXT Close video [78×15] “Close video ×”
+            - FRAME Video representation [286×91] (column; gap 12)
+              - FRAME pause [36×36]
+                - VECTOR Vector [21×27]
+              - TEXT Video title [286×19] “Full Circle - Coach Pitso Mosimane”
+              - TEXT Visual state notice [190×12] “YOUTUBE PLAYER · VISUAL MOCKUP ONLY”
+            - FRAME YouTube controls [286×27] (column; gap 12)
+              - RECT Playback progress [286×3] (fill #262624)
+              - FRAME Controls [286×12] (row)
+                - TEXT Time [86×12] “Ⅱ ◖ 0:00 / 58:00”
+                - TEXT YouTube controls [77×12] “YouTube ⚙ ⛶”
+          - FRAME Episode information [318×145] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [278×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+            - TEXT Episode title [278×56] “Full Circle - Coach Pitso Mosimane”
+            - TEXT Description [278×21] “Coach Pitso Mosimane”
+            - FRAME Episode actions [278×16] (row)
+              - TEXT Link [74×16] “Close video”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - TEXT Handoff annotation [660×21] “Active video: Full Circle. Kinshasa has returned to its original artwork.”
+
+## Journey · Archive identity search (`3:53223`)
+
+- FRAME Journey · Archive identity search [1440×1070] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “03 / Archive identity search”
+  - TEXT Handoff annotation [1360×21] “Search identity → one theme-matched result → Kinshasa detail. The xyz empty search is shown separately on the component sheet.”
+  - FRAME Search result to episode [1360×770] (row; gap 40)
+    - FRAME Archive / Query identity → 1 conversation [620×712] (column; gap 24)
+      - TEXT State label [620×17] “Archive / Query identity → 1 conversation”
+      - FRAME Episode search [380×52] (row; padding 0 16 0 16; gap 16; fill #131311)
+        - FRAME search [18×18]
+          - VECTOR Vector [14×14]
+        - TEXT Query [286×17] “identity”
+        - TEXT Clear search [12×22] “×”
+      - TEXT Handoff annotation [620×21] “Matched by theme: identity / identité”
+      - FRAME Episode card [620×550] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [620×349] (column)
+          - FRAME Episode artwork · Placeholder [620×349] (column; fill #B4F071)
+            - RECT Pitch boundary [546×279]
+            - ELLIPSE Centre circle [237×237]
+            - RECT Halfway line [1×279] (fill #0A0A0A)
+            - TEXT Graphic title [496×67] “IDENTITÉ”
+            - TEXT Artwork label [533×13] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [30×19] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [620×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [580×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+          - TEXT Episode title [580×68] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+          - TEXT Description [580×21] “Presented by Daniel and Haggi · French-language special”
+          - FRAME Episode actions [580×16] (row)
+            - TEXT Link [117×16] “Explore episode →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+    - FRAME Result destination / Kinshasa special [700×770] (column; gap 24)
+      - TEXT State label [700×17] “Result destination / Kinshasa special”
+      - TEXT Metadata [700×16] “SPECIAL · 50 MIN · 22 APR 2026”
+      - TEXT Heading [700×159] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+      - FRAME Episode artwork · Placeholder [700×394] (column; fill #0A0A0A @ 72%)
+        - RECT Pitch boundary [616×315]
+        - ELLIPSE Centre circle [268×268]
+        - RECT Halfway line [1×315] (fill #797970)
+        - TEXT Graphic title [560×76] “IDENTITÉ”
+        - TEXT Artwork label [602×13] “EPISODE ARTWORK · PLACEHOLDER”
+        - TEXT Series mark [34×21] “ET /”
+      - FRAME Correct presenter links [132×16] (row; gap 24)
+        - TEXT Link [55×16] “Daniel →”
+        - TEXT Link [53×16] “Haggi →”
+      - FRAME Watch options [279×48] (row; gap 20)
+        - FRAME Button [83×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+          - TEXT Label [43×15] “▶ Play”
+        - FRAME Button [176×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+          - TEXT Label [136×15] “Watch on YouTube ↗”
+
+## Journey · Mobile founder discovery (`3:53122`)
+
+- FRAME Journey · Mobile founder discovery [1440×1525] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “02 / Mobile founder discovery”
+  - TEXT Handoff annotation [1360×21] “Mobile founder episode landing → in-place playback → Shungu’s profile. Founder attribution is kept separate from the Kinshasa presenters.”
+  - FRAME Mobile founder journey [1360×1225] (row; gap 40)
+    - FRAME Landing / Founder episode [390×1074] (column; gap 24)
+      - TEXT State label [390×17] “Landing / Founder episode”
+      - FRAME Founder episode · Mobile landing [390×1033] (column; fill #131311)
+        - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+          - TEXT Wordmark [130×34] “ExtraTIME”
+          - FRAME menu [28×28]
+            - VECTOR Vector [19×16]
+        - FRAME Episode introduction [390×947] (column; padding 40 20 64 20; gap 32)
+          - TEXT Link [93×16] “← All episodes”
+          - FRAME Episode hero [350×795] (column; gap 32)
+            - FRAME Episode copy [350×534] (column; gap 28)
+              - TEXT Metadata [350×16] “FOUNDERS · 16 MIN · 17 Feb 2025”
+              - TEXT Heading [350×164] “Meet The Founders || Passion to Purpose”
+              - TEXT Editorial standfirst [350×90] “The people behind ExtraTime. A conversation about passion, purpose and why this space exists.”
+              - FRAME Presenter attribution [350×44] (column; gap 12)
+                - TEXT Metadata [350×16] “FOUNDERS & HOSTS”
+                - FRAME Presenter links [350×16] (row; gap 24)
+                  - TEXT Link [106×16] “Shungu Dutiro →”
+                  - TEXT Link [93×16] “Henry Nzuzi →”
+              - FRAME Episode actions [350×108] (row; gap 12)
+                - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+                  - TEXT Label [47×15] “▶ Play”
+                - FRAME Button [176×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+                  - TEXT Label [136×15] “Watch on YouTube ↗”
+                - FRAME Button [93×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+                  - TEXT Label [53×15] “Share ↗”
+            - FRAME Episode media [350×229] (column; gap 16)
+              - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+                - RECT Pitch boundary [308×158]
+                - ELLIPSE Centre circle [134×134]
+                - RECT Halfway line [1×158] (fill #797970)
+                - TEXT Graphic title [280×76] “PASSION TO PURPOSE”
+                - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+                - TEXT Series mark [17×11] “ET /”
+              - TEXT Metadata [350×16] “EPISODE PLACEHOLDER · 16:9 ARTWORK”
+    - FRAME Play / Same panel · 350 × 220 min [390×1097] (column; gap 24)
+      - TEXT State label [390×17] “Play / Same panel · 350 × 220 min”
+      - FRAME Founder episode · Mobile playing [390×1056] (column; fill #131311)
+        - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+          - TEXT Wordmark [130×34] “ExtraTIME”
+          - FRAME menu [28×28]
+            - VECTOR Vector [19×16]
+        - FRAME Episode introduction [390×970] (column; padding 40 20 64 20; gap 32)
+          - TEXT Link [93×16] “← All episodes”
+          - FRAME Episode hero [350×818] (column; gap 32)
+            - FRAME Episode copy [350×534] (column; gap 28)
+              - TEXT Metadata [350×16] “FOUNDERS · 16 MIN · 17 Feb 2025”
+              - TEXT Heading [350×164] “Meet The Founders || Passion to Purpose”
+              - TEXT Editorial standfirst [350×90] “The people behind ExtraTime. A conversation about passion, purpose and why this space exists.”
+              - FRAME Presenter attribution [350×44] (column; gap 12)
+                - TEXT Metadata [350×16] “FOUNDERS & HOSTS”
+                - FRAME Presenter links [350×16] (row; gap 24)
+                  - TEXT Link [106×16] “Shungu Dutiro →”
+                  - TEXT Link [93×16] “Henry Nzuzi →”
+              - FRAME Episode actions [350×108] (row; gap 12)
+                - FRAME Button [129×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+                  - TEXT Label [89×15] “Close video ×”
+                - FRAME Button [176×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+                  - TEXT Label [136×15] “Watch on YouTube ↗”
+                - FRAME Button [93×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+                  - TEXT Label [53×15] “Share ↗”
+            - FRAME Episode media [350×252] (column; gap 16)
+              - FRAME Video panel · Playing visual state [350×220] (column; padding 16 16 16 16; fill #131311)
+                - FRAME Player heading [318×15] (row)
+                  - TEXT Now playing [85×13] “NOW PLAYING”
+                  - TEXT Close video [78×15] “Close video ×”
+                - FRAME Video representation [318×110] (column; gap 12)
+                  - FRAME pause [36×36]
+                    - VECTOR Vector [21×27]
+                  - TEXT Video title [318×38] “Meet The Founders || Passion to Purpose”
+                  - TEXT Visual state notice [190×12] “YOUTUBE PLAYER · VISUAL MOCKUP ONLY”
+                - FRAME YouTube controls [318×27] (column; gap 12)
+                  - RECT Playback progress [318×3] (fill #262624)
+                  - FRAME Controls [318×12] (row)
+                    - TEXT Time [84×12] “Ⅱ ◖ 0:00 / 16:00”
+                    - TEXT YouTube controls [77×12] “YouTube ⚙ ⛶”
+              - TEXT Metadata [350×16] “IN-PLACE VIDEO STATE · NO MINI-PLAYER”
+    - FRAME Host link / Shungu profile [390×1225] (column; gap 24)
+      - TEXT State label [390×17] “Host link / Shungu profile”
+      - FRAME Shungu profile · Mobile state [390×1184] (column; fill #131311)
+        - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+          - TEXT Wordmark [130×34] “ExtraTIME”
+          - FRAME menu [28×28]
+            - VECTOR Vector [19×16]
+        - FRAME Shungu profile [390×1098] (column; padding 48 20 48 20; gap 32)
+          - FRAME Monogram portrait [350×350] (column; padding 28 28 28 28; fill #1B1B18)
+            - TEXT Metadata [294×16] “ExtraTime / Co-founder”
+            - TEXT Shungu initials [294×209] “SD”
+            - TEXT Metadata [294×16] “A voice beyond the game”
+          - FRAME Profile information [350×620] (column; gap 28)
+            - TEXT Metadata [350×16] “CO-FOUNDER & HOST”
+            - TEXT Heading [350×126] “SHUNGU DUTIRO.”
+            - TEXT Editorial standfirst [350×96] “Helping young people see their value beyond what they do on the pitch.”
+            - TEXT Description [350×130] “Shungu Dutiro is a co-founder and host of ExtraTime alongside Henry Nzuzi. Their shared mission makes room for honest conversations about identity, purpose, me…”
+            - TEXT Metadata [350×16] “PERSONAL SOCIAL LINKS · NOT YET SUPPLIED”
+            - FRAME Personal social status [350×52] (row; gap 20)
+              - TEXT Instagram unavailable [186×16] “Instagram · handle unavailable”
+              - TEXT TikTok unavailable [165×16] “TikTok · handle unavailable”
+            - TEXT Link [310×16] “Follow ExtraTime on Instagram @extra.timeorg ↗”
+
+## Journey · Home latest playback (`3:53040`)
+
+- FRAME Journey · Home latest playback [1440×1373] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “01 / Home latest playback”
+  - TEXT Handoff annotation [1360×21] “Home → Play latest in the hero → latest conversations. The hero artwork is replaced in place; the carousel remains artwork-only.”
+  - FRAME Home in-page playback states [1360×1073] (column; gap 40)
+    - FRAME Hero playing state [1360×495] (row; gap 40)
+      - FRAME Hero copy [440×468] (column; gap 24)
+        - TEXT State label [440×17] “Home / Latest playing in hero”
+        - TEXT Heading [440×315] “THE CONVERSATION BEYOND THE GAME.”
+        - FRAME Button [129×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+          - TEXT Label [89×15] “Close video ×”
+        - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Video panel · Playing visual state [880×495] (column; padding 16 16 16 16; fill #131311)
+        - FRAME Player heading [848×15] (row)
+          - TEXT Now playing [85×13] “NOW PLAYING”
+          - TEXT Close video [78×15] “Close video ×”
+        - FRAME Video representation [848×99] (column; gap 12)
+          - FRAME pause [36×36]
+            - VECTOR Vector [21×27]
+          - TEXT Video title [848×27] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+          - TEXT Visual state notice [190×12] “YOUTUBE PLAYER · VISUAL MOCKUP ONLY”
+        - FRAME YouTube controls [848×27] (column; gap 12)
+          - RECT Playback progress [848×3] (fill #262624)
+          - FRAME Controls [848×12] (row)
+            - TEXT Time [86×12] “Ⅱ ◖ 0:00 / 50:00”
+            - TEXT YouTube controls [77×12] “YouTube ⚙ ⛶”
+    - TEXT State label [1360×17] “Scroll to latest conversations / No second active player”
+    - FRAME Latest carousel at rest [1360×481] (row; gap 24)
+      - FRAME Episode card [437×481] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [437×246] (column)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×47] “IDENTITÉ”
+            - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [437×191] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [397×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+          - TEXT Episode title [397×102] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+          - TEXT Description [397×21] “Presented by Daniel and Haggi · French-language special”
+          - FRAME Episode actions [397×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [437×447] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [437×246] (column)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×94] “FULL CIRCLE”
+            - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [437×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [397×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [397×68] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [397×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [397×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [437×447] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [437×246] (column)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×94] “BIGGER THAN”
+            - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [437×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [397×16] “PURPOSE · PART 2 · 42 MIN · 22 May 2025”
+          - TEXT Episode title [397×68] “Purpose - Bigger Than Football Pt.2”
+          - TEXT Description [397×21] “Coach Cavin Johnson and Jesse Donn”
+          - FRAME Episode actions [397×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+
+## Components & visual states (`3:52840`)
+
+- FRAME Components & visual states [1440×2776] (column; padding 40 40 40 40; gap 40; fill #0A0A0A)
+  - TEXT Metadata [1360×16] “ExtraTime / Visual states & handoff”
+  - TEXT Heading [1360×63] “THE EXTRA TIME KIT.”
+  - TEXT Handoff annotation [1360×21] “Editable examples. Square geometry, 4 px spacing, 2 px lime keyboard focus. Static visual states only; no prototype interactions or live playback.”
+  - FRAME Brand foundation [1360×148] (column; gap 20)
+    - TEXT State label [1360×17] “Foundation / Provisional accent #B4F071”
+    - FRAME Palette [1360×111] (row; gap 16)
+      - FRAME Color sample [160×97] (column; gap 12)
+        - RECT Swatch [160×64] (fill #0A0A0A)
+        - TEXT Handoff annotation [160×21] “Ink / #0A0A0A”
+      - FRAME Color sample [160×97] (column; gap 12)
+        - RECT Swatch [160×64] (fill #131311)
+        - TEXT Handoff annotation [160×21] “Raised / #131311”
+      - FRAME Color sample [160×97] (column; gap 12)
+        - RECT Swatch [160×64] (fill #F5F4EF)
+        - TEXT Handoff annotation [160×21] “Paper / #F5F4EF”
+      - FRAME Color sample [160×97] (column; gap 12)
+        - RECT Swatch [160×64] (fill #B4F071)
+        - TEXT Handoff annotation [160×21] “Lime / #B4F071”
+      - FRAME Typography sample [656×111] (column; gap 12)
+        - TEXT Heading [656×39] “BEYOND THE GAME.”
+        - TEXT Metadata [656×16] “Mono / 10–11 px / +18% tracking”
+        - TEXT Editorial standfirst [656×32] “The conversation beyond the game”
+  - FRAME Navigation examples [1360×203] (column; gap 16)
+    - TEXT State label [1360×17] “Navigation / Default 86 px · Scrolled 68 px”
+    - COMPONENT Header · Default [1360×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+      - TEXT Wordmark [149×39] “ExtraTIME”
+      - FRAME Navigation [424×48] (row; gap 32)
+        - TEXT Navigation link [67×15] “Episodes”
+        - TEXT Navigation link [41×15] “Hosts”
+        - TEXT Navigation link [50×15] “Social”
+        - TEXT Navigation link [41×15] “About”
+        - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+          - TEXT Label [57×15] “Watch ↗”
+    - COMPONENT Header · Scrolled [1360×68] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+      - TEXT Wordmark [149×39] “ExtraTIME”
+      - FRAME Navigation [424×48] (row; gap 32)
+        - TEXT Navigation link [67×15] “Episodes”
+        - TEXT Navigation link [41×15] “Hosts”
+        - TEXT Navigation link [50×15] “Social”
+        - TEXT Navigation link [41×15] “About”
+        - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+          - TEXT Label [57×15] “Watch ↗”
+  - FRAME Control examples [1360×260] (column; gap 20)
+    - TEXT State label [1360×17] “Buttons / Default · Secondary · Keyboard focus”
+    - FRAME Buttons [660×56] (row; gap 20)
+      - COMPONENT Button [124×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [84×15] “▶ Play latest”
+      - COMPONENT Button [168×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+        - TEXT Label [128×15] “Explore episodes →”
+      - COMPONENT Button · Keyboard focus [132×56] (row; padding 4 4 4 4; fill #0A0A0A)
+        - FRAME Button [124×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+          - TEXT Label [84×15] “▶ Play latest”
+      - COMPONENT Button · Keyboard focus [176×56] (row; padding 4 4 4 4; fill #0A0A0A)
+        - FRAME Button [168×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+          - TEXT Label [128×15] “Explore episodes →”
+    - FRAME Filter examples [321×39] (row; gap 12)
+      - COMPONENT Filter chip [46×39] (row; padding 12 16 12 16; fill #1B1B18; radius 100)
+        - TEXT Label [14×15] “All”
+      - COMPONENT Filter · Active [89×39] (row; padding 12 16 12 16; fill #B4F071; radius 100)
+        - TEXT Label [57×15] “Instagram”
+      - COMPONENT Filter · Unavailable [162×39] (row; padding 12 16 12 16; fill #1B1B18; radius 100)
+        - TEXT Label [130×15] “Facebook · unavailable”
+    - FRAME Follow row example [600×88] (column)
+      - COMPONENT Follow row [600×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [517×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Episode card examples [1360×536] (column; gap 20)
+    - TEXT State label [1360×17] “Episode card / Default · Hover · Playing · Unavailable”
+    - FRAME Card states [1360×437] (row; gap 16)
+      - COMPONENT Episode card [328×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [328×220] (column)
+          - FRAME Episode artwork · Placeholder [328×184] (column; fill #B4F071)
+            - RECT Pitch boundary [289×148]
+            - ELLIPSE Centre circle [125×125]
+            - RECT Halfway line [1×148] (fill #0A0A0A)
+            - TEXT Graphic title [262×70] “FULL CIRCLE”
+            - TEXT Artwork label [282×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [16×10] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [328×145] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [288×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [288×56] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [288×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [288×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - COMPONENT Episode card · Hover [328×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [328×220] (column)
+          - FRAME Episode artwork · Placeholder [341×192] (column; fill #B4F071)
+            - RECT Pitch boundary [300×154]
+            - ELLIPSE Centre circle [130×130]
+            - RECT Halfway line [1×154] (fill #0A0A0A)
+            - TEXT Graphic title [273×74] “FULL CIRCLE”
+            - TEXT Artwork label [293×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [17×10] “ET /”
+          - FRAME Play action [64×64] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [328×145] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [288×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [288×56] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [288×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [288×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - COMPONENT Episode card · Playing [328×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Video panel · Playing visual state [328×220] (column; padding 16 16 16 16; fill #131311)
+          - FRAME Player heading [296×15] (row)
+            - TEXT Now playing [85×13] “NOW PLAYING”
+            - TEXT Close video [78×15] “Close video ×”
+          - FRAME Video representation [296×91] (column; gap 12)
+            - FRAME pause [36×36]
+              - VECTOR Vector [21×27]
+            - TEXT Video title [296×19] “Full Circle - Coach Pitso Mosimane”
+            - TEXT Visual state notice [190×12] “YOUTUBE PLAYER · VISUAL MOCKUP ONLY”
+          - FRAME YouTube controls [296×27] (column; gap 12)
+            - RECT Playback progress [296×3] (fill #262624)
+            - FRAME Controls [296×12] (row)
+              - TEXT Time [86×12] “Ⅱ ◖ 0:00 / 58:00”
+              - TEXT YouTube controls [77×12] “YouTube ⚙ ⛶”
+        - FRAME Episode information [328×145] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [288×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [288×56] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [288×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [288×16] (row)
+            - TEXT Link [74×16] “Close video”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - COMPONENT Episode card · Unavailable [328×437] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [328×220] (column)
+          - FRAME Episode artwork · Placeholder [328×184] (column; fill #B4F071)
+            - RECT Pitch boundary [289×148]
+            - ELLIPSE Centre circle [125×125]
+            - RECT Halfway line [1×148] (fill #0A0A0A)
+            - TEXT Graphic title [262×70] “FULL CIRCLE”
+            - TEXT Artwork label [282×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [16×10] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME ban [22×22]
+              - VECTOR Vector [18×18]
+        - FRAME Episode information [328×173] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [288×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [288×56] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [288×21] “Coach Pitso Mosimane”
+          - TEXT Unavailable feedback [274×16] “Video unavailable. Try watching on YouTube.”
+          - FRAME Episode actions [288×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+    - TEXT Handoff annotation [1360×42] “Hover: artwork scales to 104% within its mask; round play grows from 52 to 64 px. Playing: artwork is replaced in the same media slot; Close video restores it.…”
+  - FRAME Ticker example [1360×150] (column; gap 16)
+    - TEXT State label [1360×17] “Ticker / Reduced motion”
+    - COMPONENT Identity ticker · Static [1360×80] (row; padding 0 40 0 40; fill #B4F071)
+      - TEXT Ticker statement [1432×46] “IDENTITY — PURPOSE — MENTORSHIP — FOOTBALL — LIFE BEYOND THE GAME —”
+    - TEXT Handoff annotation [1360×21] “Reduced motion: display this line as a static strip. No animation is authored in this mockup.”
+  - FRAME System states and mobile menu [1360×979] (row; gap 40)
+    - FRAME Collection feedback states [890×979] (column; gap 28)
+      - TEXT State label [890×17] “Loading / Empty search / Error”
+      - COMPONENT Episode loading skeleton [350×345] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - RECT Artwork skeleton [350×197] (fill #1B1B18)
+        - FRAME Text skeleton [350×104] (column; padding 0 20 0 20; gap 12)
+          - RECT Metadata skeleton [175×10] (fill #262624)
+          - RECT Title skeleton [310×22] (fill #262624)
+          - RECT Title skeleton [245×22] (fill #262624)
+          - RECT Action skeleton [140×14] (fill #262624)
+      - COMPONENT Empty search · xyz [890×264] (column; padding 28 28 28 28; gap 16; fill #131311)
+        - FRAME Episode search [380×52] (row; padding 0 16 0 16; gap 16; fill #131311)
+          - FRAME search [18×18]
+            - VECTOR Vector [14×14]
+          - TEXT Query [286×17] “xyz”
+          - TEXT Clear search [12×22] “×”
+        - TEXT Empty message [834×39] “No conversations match ‘xyz’”
+        - TEXT Handoff annotation [834×21] “Clear search to restore the seven conversations.”
+        - FRAME Button [123×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+          - TEXT Label [83×15] “Clear search”
+      - COMPONENT Loading error [890×199] (column; padding 28 28 28 28; gap 20; fill #131311)
+        - TEXT Error message [834×34] “The conversations couldn’t load.”
+        - TEXT Handoff annotation [834×21] “Please try again. You can still find ExtraTime on YouTube.”
+        - FRAME Error actions [228×48] (row; gap 20)
+          - FRAME Button [75×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+            - TEXT Label [35×15] “Retry”
+          - TEXT Link [133×16] “Watch on YouTube ↗”
+      - TEXT Handoff annotation [890×42] “Small thumbnails, chips and list rows use an external YouTube destination rather than opening a player. Mobile playing panels are 350 × 220 px minimum. Visual …”
+    - FRAME Mobile menu example [390×881] (column; gap 20)
+      - TEXT State label [390×17] “Mobile / Full-screen menu”
+      - COMPONENT Mobile menu · Open [390×844] (column; padding 20 20 20 20; gap 64; fill #0A0A0A)
+        - FRAME Menu chrome [350×46] (row)
+          - TEXT Wordmark [130×34] “ExtraTIME”
+          - FRAME x [28×28]
+            - VECTOR Vector [14×14]
+        - FRAME Full-screen menu links [350×364] (column; gap 28)
+          - TEXT Menu link [350×70] “EPISODES”
+          - TEXT Menu link [350×70] “HOSTS”
+          - TEXT Menu link [350×70] “SOCIAL”
+          - TEXT Menu link [350×70] “ABOUT”
+        - FRAME Button [176×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+          - TEXT Label [136×15] “Watch on YouTube ↗”
+        - FRAME Menu follow links [350×80] (column; gap 16)
+          - TEXT Link [168×16] “YouTube @extratimeorg ↗”
+          - TEXT Link [180×16] “Instagram @extra.timeorg ↗”
+          - TEXT Link [159×16] “TikTok @extra.timeorg ↗”
+
+## 404 · Mobile (`3:52803`)
+
+- FRAME 404 · Mobile [390×1179] (column; fill #0A0A0A)
+  - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [130×34] “ExtraTIME”
+    - FRAME menu [28×28]
+      - VECTOR Vector [19×16]
+  - FRAME Off the pitch [390×640] (column; padding 56 20 56 20; gap 32)
+    - TEXT Route status [179×15] “404 / ROUTE NOT FOUND”
+    - TEXT Heading [350×152] “OFF THE PITCH.”
+    - TEXT Editorial standfirst [350×64] “Wrong turn. The conversation is still going.”
+    - TEXT Description [350×52] “This page isn’t here. Head home or find a conversation in the archive.”
+    - FRAME Recovery actions [350×48] (row; gap 16)
+      - FRAME Button [145×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [105×15] “Back to Home →”
+      - FRAME Button [115×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+        - TEXT Label [75×15] “Episodes →”
+  - FRAME Footer [390×453] (column; padding 48 20 48 20; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [350×277] (column; gap 36)
+      - FRAME Brand [350×113] (column; gap 20)
+        - TEXT Wordmark [241×63] “ExtraTIME”
+        - TEXT Editorial standfirst [350×30] “The conversation beyond the game”
+      - FRAME Footer links [350×128] (row; gap 36)
+        - FRAME Explore [90×128] (column; gap 12)
+          - TEXT Metadata [90×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [112×100] (column; gap 12)
+          - TEXT Metadata [112×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [76×44] (column; gap 12)
+          - TEXT Metadata [76×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [350×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [350×16] “ExtraTime · The conversation beyond the game”
+
+## 404 · Desktop (`3:52760`)
+
+- FRAME 404 · Desktop [1440×1216] (column; fill #0A0A0A)
+  - FRAME Header · Default [1440×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [149×39] “ExtraTIME”
+    - FRAME Navigation [424×48] (row; gap 32)
+      - TEXT Navigation link [67×15] “Episodes”
+      - TEXT Navigation link [41×15] “Hosts”
+      - TEXT Navigation link [50×15] “Social”
+      - TEXT Navigation link [41×15] “About”
+      - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [57×15] “Watch ↗”
+  - FRAME Off the pitch [1440×812] (column; padding 100 40 100 40; gap 32)
+    - TEXT Route status [179×15] “404 / ROUTE NOT FOUND”
+    - TEXT Heading [1360×352] “OFF THE PITCH.”
+    - TEXT Editorial standfirst [1360×43] “Wrong turn. The conversation is still going.”
+    - TEXT Description [1360×26] “This page isn’t here. Head home or find a conversation in the archive.”
+    - FRAME Recovery actions [1360×48] (row; gap 16)
+      - FRAME Button [145×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [105×15] “Back to Home →”
+      - FRAME Button [115×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+        - TEXT Label [75×15] “Episodes →”
+  - FRAME Footer [1440×318] (column; padding 48 40 48 40; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [1360×142] (row)
+      - FRAME Brand [520×142] (column; gap 20)
+        - TEXT Wordmark [352×92] “ExtraTIME”
+        - TEXT Editorial standfirst [520×30] “The conversation beyond the game”
+      - FRAME Footer links [488×128] (row; gap 64)
+        - FRAME Explore [120×128] (column; gap 12)
+          - TEXT Metadata [120×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [140×100] (column; gap 12)
+          - TEXT Metadata [140×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [100×44] (column; gap 12)
+          - TEXT Metadata [100×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [1360×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [1360×16] “ExtraTime · The conversation beyond the game”
+
+## About · Mobile (`3:52650`)
+
+- FRAME About · Mobile [390×4153] (column; fill #0A0A0A)
+  - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [130×34] “ExtraTIME”
+    - FRAME menu [28×28]
+      - VECTOR Vector [19×16]
+  - FRAME Page introduction [390×460] (column; padding 48 20 48 20; gap 24)
+    - TEXT Metadata [350×16] “About ExtraTime”
+    - TEXT Heading [350×236] “BEYOND THE GAME. INTO YOUR LIFE.”
+    - TEXT Editorial standfirst [350×64] “The conversation beyond the game”
+  - FRAME Our mission [390×639] (column; padding 48 20 48 20; gap 32; fill #F5F4EF)
+    - FRAME Mission heading [350×181] (column; gap 24)
+      - TEXT Metadata [350×16] “Why we exist”
+      - TEXT Heading [350×141] “YOU ARE MORE THAN WHAT YOU PLAY.”
+    - FRAME Mission copy [350×330] (column; gap 28)
+      - TEXT Editorial standfirst [350×224] “We help young people see their value beyond what they do on the pitch, through honest conversations with coaches, players and creatives about identity, purpose…”
+      - TEXT Description [350×78] “For football fans and young players, this is a space to think beyond performance and make room for who you are becoming.”
+  - FRAME Our values [390×800] (column; padding 56 20 56 20; gap 32)
+    - TEXT Metadata [350×16] “The things we make room for”
+    - FRAME Value [350×80] (row; padding 12 0 12 0)
+      - TEXT Value word [236×56] “FOOTBALL”
+      - TEXT Plus mark [30×53] “+”
+    - FRAME Value [350×80] (row; padding 12 0 12 0)
+      - TEXT Value word [207×56] “IDENTITY”
+      - TEXT Plus mark [30×53] “+”
+    - FRAME Value [350×80] (row; padding 12 0 12 0)
+      - TEXT Value word [259×56] “MENTALITY”
+      - TEXT Plus mark [30×53] “+”
+    - FRAME Value [350×80] (row; padding 12 0 12 0)
+      - TEXT Value word [203×56] “CULTURE”
+      - TEXT Plus mark [30×53] “+”
+    - FRAME Value [350×80] (row; padding 12 0 12 0)
+      - TEXT Value word [208×56] “PURPOSE”
+      - TEXT Plus mark [30×53] “+”
+    - FRAME Value [350×80] (row; padding 12 0 12 0)
+      - TEXT Value word [89×56] “LIFE”
+      - TEXT Plus mark [30×53] “+”
+  - FRAME Meet the founders [390×1164] (column; padding 56 20 56 20; gap 40; fill #0A0A0A)
+    - FRAME Section introduction [350×236] (column; gap 24)
+      - FRAME Heading group [350×134] (column; gap 12)
+        - TEXT Metadata [350×16] “02 / The voices behind ExtraTime”
+        - TEXT Heading [350×47] “MEET THE”
+        - TEXT Heading [350×47] “FOUNDERS.”
+      - TEXT Description [350×78] “Shungu Dutiro & Henry Nzuzi Co-founders. Hosts. Here for the conversation.”
+    - FRAME Founder cards [350×776] (column; gap 24)
+      - FRAME Founder card [350×376] (column; fill #131311)
+        - FRAME Monogram [350×245] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [302×16] “ExtraTime / Co-founder”
+          - TEXT Initials [302×139] “SD”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [350×131] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [302×27] “Shungu Dutiro”
+          - TEXT Metadata [302×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+      - FRAME Founder card [350×376] (column; fill #131311)
+        - FRAME Monogram [350×245] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [302×16] “ExtraTime / Co-founder”
+          - TEXT Initials [302×139] “HN”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [350×131] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [302×27] “Henry Nzuzi”
+          - TEXT Metadata [302×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+  - FRAME Join the conversation [390×551] (column; padding 48 20 48 20; gap 32; fill #B4F071)
+    - FRAME Invitation [350×159] (column; gap 24)
+      - TEXT Metadata [350×16] “Stay in the conversation”
+      - FRAME Invitation statement [350×119] (column)
+        - TEXT Heading [350×31] “DON’T JUST WATCH.”
+        - TEXT Heading [350×49] “JOIN THE”
+        - TEXT Heading [350×39] “CONVERSATION.”
+    - FRAME Follow channels [350×264] (column)
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [390×453] (column; padding 48 20 48 20; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [350×277] (column; gap 36)
+      - FRAME Brand [350×113] (column; gap 20)
+        - TEXT Wordmark [241×63] “ExtraTIME”
+        - TEXT Editorial standfirst [350×30] “The conversation beyond the game”
+      - FRAME Footer links [350×128] (row; gap 36)
+        - FRAME Explore [90×128] (column; gap 12)
+          - TEXT Metadata [90×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [112×100] (column; gap 12)
+          - TEXT Metadata [112×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [76×44] (column; gap 12)
+          - TEXT Metadata [76×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [350×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [350×16] “ExtraTime · The conversation beyond the game”
+
+## About · Desktop (`3:52534`)
+
+- FRAME About · Desktop [1440×4093] (column; fill #0A0A0A)
+  - FRAME Header · Default [1440×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [149×39] “ExtraTIME”
+    - FRAME Navigation [424×48] (row; gap 32)
+      - TEXT Navigation link [67×15] “Episodes”
+      - TEXT Navigation link [41×15] “Hosts”
+      - TEXT Navigation link [50×15] “Social”
+      - TEXT Navigation link [41×15] “About”
+      - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [57×15] “Watch ↗”
+  - FRAME Page introduction [1440×479] (column; padding 80 40 48 40; gap 24)
+    - TEXT Metadata [1360×16] “About ExtraTime”
+    - TEXT Heading [1360×244] “BEYOND THE GAME. INTO YOUR LIFE.”
+    - TEXT Editorial standfirst [1360×43] “The conversation beyond the game”
+  - FRAME Our mission [1440×541] (row; padding 80 40 80 40; gap 100; fill #F5F4EF)
+    - FRAME Mission heading [760×262] (column; gap 24)
+      - TEXT Metadata [760×16] “Why we exist”
+      - TEXT Heading [760×222] “YOU ARE MORE THAN WHAT YOU PLAY.”
+    - FRAME Mission copy [500×381] (column; gap 28)
+      - TEXT Editorial standfirst [500×301] “We help young people see their value beyond what they do on the pitch, through honest conversations with coaches, players and creatives about identity, purpose…”
+      - TEXT Description [500×52] “For football fans and young players, this is a space to think beyond performance and make room for who you are becoming.”
+  - FRAME Our values [1440×1238] (column; padding 80 40 80 40; gap 32)
+    - TEXT Metadata [1360×16] “The things we make room for”
+    - FRAME Value [1360×145] (row; padding 12 0 12 0)
+      - TEXT Value word [512×121] “FOOTBALL”
+      - TEXT Plus mark [66×121] “+”
+    - FRAME Value [1360×145] (row; padding 12 0 12 0)
+      - TEXT Value word [449×121] “IDENTITY”
+      - TEXT Plus mark [66×121] “+”
+    - FRAME Value [1360×145] (row; padding 12 0 12 0)
+      - TEXT Value word [563×121] “MENTALITY”
+      - TEXT Plus mark [66×121] “+”
+    - FRAME Value [1360×145] (row; padding 12 0 12 0)
+      - TEXT Value word [441×121] “CULTURE”
+      - TEXT Plus mark [66×121] “+”
+    - FRAME Value [1360×145] (row; padding 12 0 12 0)
+      - TEXT Value word [452×121] “PURPOSE”
+      - TEXT Plus mark [66×121] “+”
+    - FRAME Value [1360×145] (row; padding 12 0 12 0)
+      - TEXT Value word [194×121] “LIFE”
+      - TEXT Plus mark [66×121] “+”
+  - FRAME Meet the founders [1440×1007] (column; padding 80 40 80 40; gap 40; fill #0A0A0A)
+    - FRAME Section introduction [1360×196] (row)
+      - FRAME Heading group [780×196] (column; gap 12)
+        - TEXT Metadata [780×16] “02 / The voices behind ExtraTime”
+        - TEXT Heading [780×78] “MEET THE”
+        - TEXT Heading [780×78] “FOUNDERS.”
+      - TEXT Description [580×52] “Shungu Dutiro & Henry Nzuzi Co-founders. Hosts. Here for the conversation.”
+    - FRAME Founder cards [1360×611] (row; gap 24)
+      - FRAME Founder card [668×611] (column; fill #131311)
+        - FRAME Monogram [668×468] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [620×16] “ExtraTime / Co-founder”
+          - TEXT Initials [620×265] “SD”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [668×143] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [620×39] “Shungu Dutiro”
+          - TEXT Metadata [620×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+      - FRAME Founder card [668×611] (column; fill #131311)
+        - FRAME Monogram [668×468] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [620×16] “ExtraTime / Co-founder”
+          - TEXT Initials [620×265] “HN”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [668×143] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [620×39] “Henry Nzuzi”
+          - TEXT Metadata [620×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+  - FRAME Join the conversation [1440×424] (row; padding 80 40 80 40; gap 80; fill #B4F071)
+    - FRAME Invitation [840×262] (column; gap 24)
+      - TEXT Metadata [840×16] “Stay in the conversation”
+      - FRAME Invitation statement [840×222] (column)
+        - TEXT Heading [840×74] “DON’T JUST WATCH.”
+        - TEXT Heading [840×74] “JOIN THE”
+        - TEXT Heading [840×74] “CONVERSATION.”
+    - FRAME Follow channels [440×264] (column)
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [1440×318] (column; padding 48 40 48 40; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [1360×142] (row)
+      - FRAME Brand [520×142] (column; gap 20)
+        - TEXT Wordmark [352×92] “ExtraTIME”
+        - TEXT Editorial standfirst [520×30] “The conversation beyond the game”
+      - FRAME Footer links [488×128] (row; gap 64)
+        - FRAME Explore [120×128] (column; gap 12)
+          - TEXT Metadata [120×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [140×100] (column; gap 12)
+          - TEXT Metadata [140×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [100×44] (column; gap 12)
+          - TEXT Metadata [100×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [1360×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [1360×16] “ExtraTime · The conversation beyond the game”
+
+## Social · Mobile (`3:52368`)
+
+- FRAME Social · Mobile [390×4340] (column; fill #0A0A0A)
+  - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [130×34] “ExtraTIME”
+    - FRAME menu [28×28]
+      - VECTOR Vector [19×16]
+  - FRAME Page introduction [390×460] (column; padding 48 20 48 20; gap 24)
+    - TEXT Metadata [350×16] “The conversation continues”
+    - TEXT Heading [350×236] “OFF THE PITCH. ON YOUR FEED.”
+    - TEXT Editorial standfirst [350×64] “Same conversation. Different places to join in.”
+  - FRAME Social collection [390×2790] (column; padding 0 20 64 20; gap 32)
+    - FRAME Platform filters [350×39] (row; gap 8)
+      - FRAME Filter · Active [46×39] (row; padding 12 16 12 16; fill #B4F071; radius 100)
+        - TEXT Label [14×15] “All”
+      - FRAME Filter chip [89×39] (row; padding 12 16 12 16; fill #1B1B18; radius 100)
+        - TEXT Label [57×15] “Instagram”
+      - FRAME Filter · Unavailable [162×39] (row; padding 12 16 12 16; fill #1B1B18; radius 100)
+        - TEXT Label [130×15] “Facebook · unavailable”
+    - TEXT Description [350×42] “Sample content for layout only. No Facebook Page is available. All includes Instagram and TikTok.”
+    - FRAME Social posts [350×2501] (column; gap 24)
+      - FRAME Post row [350×397] (row; gap 24)
+        - FRAME Sample social post [350×397] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #0A0A0A)
+            - TEXT Graphic title [280×38] “IDENTITY”
+            - TEXT Artwork label [301×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Post information [350×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [310×13] (row)
+              - TEXT Post counter [38×13] “01/06”
+              - TEXT Platform [69×13] “INSTAGRAM”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [310×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Post row [350×397] (row; gap 24)
+        - FRAME Sample social post [350×397] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #797970)
+            - TEXT Graphic title [280×76] “BEYOND THE GAME”
+            - TEXT Artwork label [301×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Post information [350×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [310×13] (row)
+              - TEXT Post counter [38×13] “02/06”
+              - TEXT Platform [46×13] “TIKTOK”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [310×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [111×16] “View on TikTok ↗”
+      - FRAME Post row [350×397] (row; gap 24)
+        - FRAME Sample social post [350×397] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #0A0A0A)
+            - TEXT Graphic title [280×38] “PURPOSE”
+            - TEXT Artwork label [301×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Post information [350×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [310×13] (row)
+              - TEXT Post counter [38×13] “03/06”
+              - TEXT Platform [69×13] “INSTAGRAM”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [310×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Post row [350×397] (row; gap 24)
+        - FRAME Sample social post [350×397] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #797970)
+            - TEXT Graphic title [280×76] “OUR STORIES”
+            - TEXT Artwork label [301×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Post information [350×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [310×13] (row)
+              - TEXT Post counter [38×13] “04/06”
+              - TEXT Platform [69×13] “INSTAGRAM”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [310×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Post row [350×397] (row; gap 24)
+        - FRAME Sample social post [350×397] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #0A0A0A)
+            - TEXT Graphic title [280×76] “LIFE AFTER”
+            - TEXT Artwork label [301×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Post information [350×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [310×13] (row)
+              - TEXT Post counter [38×13] “05/06”
+              - TEXT Platform [46×13] “TIKTOK”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [310×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [111×16] “View on TikTok ↗”
+      - FRAME Post row [350×397] (row; gap 24)
+        - FRAME Sample social post [350×397] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #797970)
+            - TEXT Graphic title [280×76] “YOUR NEXT CHAPTER”
+            - TEXT Artwork label [301×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Post information [350×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [310×13] (row)
+              - TEXT Post counter [38×13] “06/06”
+              - TEXT Platform [69×13] “INSTAGRAM”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [310×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [133×16] “View on Instagram ↗”
+    - FRAME Load more action [350×48] (row)
+      - FRAME Button [108×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+        - TEXT Label [68×15] “Load more”
+  - FRAME Join the conversation [390×551] (column; padding 48 20 48 20; gap 32; fill #B4F071)
+    - FRAME Invitation [350×159] (column; gap 24)
+      - TEXT Metadata [350×16] “Stay in the conversation”
+      - FRAME Invitation statement [350×119] (column)
+        - TEXT Heading [350×31] “DON’T JUST WATCH.”
+        - TEXT Heading [350×49] “JOIN THE”
+        - TEXT Heading [350×39] “CONVERSATION.”
+    - FRAME Follow channels [350×264] (column)
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [390×453] (column; padding 48 20 48 20; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [350×277] (column; gap 36)
+      - FRAME Brand [350×113] (column; gap 20)
+        - TEXT Wordmark [241×63] “ExtraTIME”
+        - TEXT Editorial standfirst [350×30] “The conversation beyond the game”
+      - FRAME Footer links [350×128] (row; gap 36)
+        - FRAME Explore [90×128] (column; gap 12)
+          - TEXT Metadata [90×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [112×100] (column; gap 12)
+          - TEXT Metadata [112×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [76×44] (column; gap 12)
+          - TEXT Metadata [76×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [350×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [350×16] “ExtraTime · The conversation beyond the game”
+
+## Social · Desktop (`3:52200`)
+
+- FRAME Social · Desktop [1440×2491] (column; fill #0A0A0A)
+  - FRAME Header · Default [1440×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [149×39] “ExtraTIME”
+    - FRAME Navigation [424×48] (row; gap 32)
+      - TEXT Navigation link [67×15] “Episodes”
+      - TEXT Navigation link [41×15] “Hosts”
+      - TEXT Navigation link [50×15] “Social”
+      - TEXT Navigation link [41×15] “About”
+      - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [57×15] “Watch ↗”
+  - FRAME Page introduction [1440×479] (column; padding 80 40 48 40; gap 24)
+    - TEXT Metadata [1360×16] “The conversation continues”
+    - TEXT Heading [1360×244] “OFF THE PITCH. ON YOUR FEED.”
+    - TEXT Editorial standfirst [1360×43] “Same conversation. Different places to join in.”
+  - FRAME Social collection [1440×1184] (column; padding 0 40 64 40; gap 32)
+    - FRAME Platform filters [1360×39] (row; gap 8)
+      - FRAME Filter · Active [46×39] (row; padding 12 16 12 16; fill #B4F071; radius 100)
+        - TEXT Label [14×15] “All”
+      - FRAME Filter chip [89×39] (row; padding 12 16 12 16; fill #1B1B18; radius 100)
+        - TEXT Label [57×15] “Instagram”
+      - FRAME Filter · Unavailable [162×39] (row; padding 12 16 12 16; fill #1B1B18; radius 100)
+        - TEXT Label [130×15] “Facebook · unavailable”
+    - TEXT Description [1360×21] “Sample content for layout only. No Facebook Page is available. All includes Instagram and TikTok.”
+    - FRAME Social posts [1360×916] (column; gap 24)
+      - FRAME Post row [1360×446] (row; gap 24)
+        - FRAME Sample social post [437×446] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×47] “IDENTITY”
+            - TEXT Artwork label [376×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Post information [437×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [397×13] (row)
+              - TEXT Post counter [38×13] “01/06”
+              - TEXT Platform [69×13] “INSTAGRAM”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [397×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [133×16] “View on Instagram ↗”
+        - FRAME Sample social post [437×446] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #0A0A0A @ 72%)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #797970)
+            - TEXT Graphic title [350×94] “BEYOND THE GAME”
+            - TEXT Artwork label [376×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Post information [437×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [397×13] (row)
+              - TEXT Post counter [38×13] “02/06”
+              - TEXT Platform [46×13] “TIKTOK”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [397×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [111×16] “View on TikTok ↗”
+        - FRAME Sample social post [437×446] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×47] “PURPOSE”
+            - TEXT Artwork label [376×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Post information [437×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [397×13] (row)
+              - TEXT Post counter [38×13] “03/06”
+              - TEXT Platform [69×13] “INSTAGRAM”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [397×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Post row [1360×446] (row; gap 24)
+        - FRAME Sample social post [437×446] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #0A0A0A @ 72%)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #797970)
+            - TEXT Graphic title [350×94] “OUR STORIES”
+            - TEXT Artwork label [376×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Post information [437×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [397×13] (row)
+              - TEXT Post counter [38×13] “04/06”
+              - TEXT Platform [69×13] “INSTAGRAM”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [397×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [133×16] “View on Instagram ↗”
+        - FRAME Sample social post [437×446] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×94] “LIFE AFTER”
+            - TEXT Artwork label [376×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Post information [437×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [397×13] (row)
+              - TEXT Post counter [38×13] “05/06”
+              - TEXT Platform [46×13] “TIKTOK”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [397×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [111×16] “View on TikTok ↗”
+        - FRAME Sample social post [437×446] (column; gap 20; fill #131311)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #0A0A0A @ 72%)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #797970)
+            - TEXT Graphic title [350×94] “YOUR NEXT CHAPTER”
+            - TEXT Artwork label [376×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Post information [437×180] (column; padding 0 20 24 20; gap 16)
+            - FRAME Post metadata [397×13] (row)
+              - TEXT Post counter [38×13] “06/06”
+              - TEXT Platform [69×13] “INSTAGRAM”
+            - TEXT Sample label [99×13] “SAMPLE CAPTION”
+            - TEXT Description [397×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+            - TEXT Link [133×16] “View on Instagram ↗”
+    - FRAME Load more action [1360×48] (row)
+      - FRAME Button [108×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+        - TEXT Label [68×15] “Load more”
+  - FRAME Join the conversation [1440×424] (row; padding 80 40 80 40; gap 80; fill #B4F071)
+    - FRAME Invitation [840×262] (column; gap 24)
+      - TEXT Metadata [840×16] “Stay in the conversation”
+      - FRAME Invitation statement [840×222] (column)
+        - TEXT Heading [840×74] “DON’T JUST WATCH.”
+        - TEXT Heading [840×74] “JOIN THE”
+        - TEXT Heading [840×74] “CONVERSATION.”
+    - FRAME Follow channels [440×264] (column)
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [1440×318] (column; padding 48 40 48 40; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [1360×142] (row)
+      - FRAME Brand [520×142] (column; gap 20)
+        - TEXT Wordmark [352×92] “ExtraTIME”
+        - TEXT Editorial standfirst [520×30] “The conversation beyond the game”
+      - FRAME Footer links [488×128] (row; gap 64)
+        - FRAME Explore [120×128] (column; gap 12)
+          - TEXT Metadata [120×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [140×100] (column; gap 12)
+          - TEXT Metadata [140×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [100×44] (column; gap 12)
+          - TEXT Metadata [100×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [1360×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [1360×16] “ExtraTime · The conversation beyond the game”
+
+## Host profile · Mobile (`3:52064`)
+
+- FRAME Host profile · Mobile [390×4359] (column; fill #0A0A0A)
+  - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [130×34] “ExtraTIME”
+    - FRAME menu [28×28]
+      - VECTOR Vector [19×16]
+  - FRAME Back navigation [390×48] (column; padding 32 20 0 20)
+    - TEXT Link [71×16] “← All hosts”
+  - FRAME Shungu profile [390×1098] (column; padding 48 20 48 20; gap 32)
+    - FRAME Monogram portrait [350×350] (column; padding 28 28 28 28; fill #1B1B18)
+      - TEXT Metadata [294×16] “ExtraTime / Co-founder”
+      - TEXT Shungu initials [294×209] “SD”
+      - TEXT Metadata [294×16] “A voice beyond the game”
+    - FRAME Profile information [350×620] (column; gap 28)
+      - TEXT Metadata [350×16] “CO-FOUNDER & HOST”
+      - TEXT Heading [350×126] “SHUNGU DUTIRO.”
+      - TEXT Editorial standfirst [350×96] “Helping young people see their value beyond what they do on the pitch.”
+      - TEXT Description [350×130] “Shungu Dutiro is a co-founder and host of ExtraTime alongside Henry Nzuzi. Their shared mission makes room for honest conversations about identity, purpose, me…”
+      - TEXT Metadata [350×16] “PERSONAL SOCIAL LINKS · NOT YET SUPPLIED”
+      - FRAME Personal social status [350×52] (row; gap 20)
+        - TEXT Instagram unavailable [186×16] “Instagram · handle unavailable”
+        - TEXT TikTok unavailable [165×16] “TikTok · handle unavailable”
+      - TEXT Link [310×16] “Follow ExtraTime on Instagram @extra.timeorg ↗”
+  - FRAME Known founder episode [390×949] (column; padding 56 20 56 20; gap 32; fill #F5F4EF)
+    - TEXT Heading [350×78] “MEET THE FOUNDERS.”
+    - TEXT Metadata [350×32] “CONFIRMED FOUNDER CONVERSATION · 17 FEB 2025 · 16 MIN”
+    - FRAME Founder episode feature [350×663] (column; gap 40)
+      - FRAME Episode card [350×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [350×220] (column)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #0A0A0A)
+            - TEXT Graphic title [280×76] “PASSION TO PURPOSE”
+            - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [350×145] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [310×16] “FOUNDERS · 16 MIN · 17 Feb 2025”
+          - TEXT Episode title [310×56] “Meet The Founders || Passion to Purpose”
+          - TEXT Description [310×21] “Shungu Dutiro and Henry Nzuzi”
+          - FRAME Episode actions [310×16] (row)
+            - TEXT Link [117×16] “Explore episode →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Appearance context [350×214] (column; gap 28)
+        - TEXT Editorial standfirst [350×64] “Passion, purpose and the people behind the conversation.”
+        - TEXT Description [350×78] “This is ExtraTime’s founder episode with Shungu Dutiro and Henry Nzuzi. Explore it to meet both founders.”
+        - TEXT Link [169×16] “Explore founder episode →”
+  - FRAME Other series content [390×1174] (column; padding 56 20 56 20; gap 28)
+    - TEXT Heading [350×35] “FROM THE SERIES.”
+    - TEXT Description [350×52] “More ExtraTime conversations, not a list of Shungu’s appearance credits.”
+    - FRAME Series selections [350×919] (column; gap 24)
+      - FRAME Episode card [350×486] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [350×220] (column)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #0A0A0A)
+            - TEXT Graphic title [280×38] “IDENTITÉ”
+            - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [350×222] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [310×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+          - TEXT Episode title [310×112] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+          - TEXT Description [310×42] “Presented by Daniel and Haggi · French-language special”
+          - FRAME Episode actions [310×16] (row)
+            - TEXT Link [117×16] “Explore episode →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [350×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [350×220] (column)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #0A0A0A)
+            - TEXT Graphic title [280×76] “FULL CIRCLE”
+            - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [17×11] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [350×145] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [310×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [310×56] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [310×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [310×16] (row)
+            - TEXT Link [117×16] “Explore episode →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+  - FRAME Join the conversation [390×551] (column; padding 48 20 48 20; gap 32; fill #B4F071)
+    - FRAME Invitation [350×159] (column; gap 24)
+      - TEXT Metadata [350×16] “Stay in the conversation”
+      - FRAME Invitation statement [350×119] (column)
+        - TEXT Heading [350×31] “DON’T JUST WATCH.”
+        - TEXT Heading [350×49] “JOIN THE”
+        - TEXT Heading [350×39] “CONVERSATION.”
+    - FRAME Follow channels [350×264] (column)
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [390×453] (column; padding 48 20 48 20; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [350×277] (column; gap 36)
+      - FRAME Brand [350×113] (column; gap 20)
+        - TEXT Wordmark [241×63] “ExtraTIME”
+        - TEXT Editorial standfirst [350×30] “The conversation beyond the game”
+      - FRAME Footer links [350×128] (row; gap 36)
+        - FRAME Explore [90×128] (column; gap 12)
+          - TEXT Metadata [90×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [112×100] (column; gap 12)
+          - TEXT Metadata [112×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [76×44] (column; gap 12)
+          - TEXT Metadata [76×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [350×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [350×16] “ExtraTime · The conversation beyond the game”
+
+## Host profile · Desktop (`3:51922`)
+
+- FRAME Host profile · Desktop [1440×3194] (column; fill #0A0A0A)
+  - FRAME Header · Default [1440×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [149×39] “ExtraTIME”
+    - FRAME Navigation [424×48] (row; gap 32)
+      - TEXT Navigation link [67×15] “Episodes”
+      - TEXT Navigation link [41×15] “Hosts”
+      - TEXT Navigation link [50×15] “Social”
+      - TEXT Navigation link [41×15] “About”
+      - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [57×15] “Watch ↗”
+  - FRAME Back navigation [1440×48] (column; padding 32 40 0 40)
+    - TEXT Link [71×16] “← All hosts”
+  - FRAME Shungu profile [1440×748] (row; padding 80 40 80 40; gap 80)
+    - FRAME Monogram portrait [560×560] (column; padding 28 28 28 28; fill #1B1B18)
+      - TEXT Metadata [504×16] “ExtraTime / Co-founder”
+      - TEXT Shungu initials [504×323] “SD”
+      - TEXT Metadata [504×16] “A voice beyond the game”
+    - FRAME Profile information [720×588] (column; gap 28)
+      - TEXT Metadata [720×16] “CO-FOUNDER & HOST”
+      - TEXT Heading [720×196] “SHUNGU DUTIRO.”
+      - TEXT Editorial standfirst [720×82] “Helping young people see their value beyond what they do on the pitch.”
+      - TEXT Description [720×78] “Shungu Dutiro is a co-founder and host of ExtraTime alongside Henry Nzuzi. Their shared mission makes room for honest conversations about identity, purpose, me…”
+      - TEXT Metadata [720×16] “PERSONAL SOCIAL LINKS · NOT YET SUPPLIED”
+      - FRAME Personal social status [720×16] (row; gap 20)
+        - TEXT Instagram unavailable [186×16] “Instagram · handle unavailable”
+        - TEXT TikTok unavailable [165×16] “TikTok · handle unavailable”
+      - TEXT Link [310×16] “Follow ExtraTime on Instagram @extra.timeorg ↗”
+  - FRAME Known founder episode [1440×771] (column; padding 56 40 56 40; gap 32; fill #F5F4EF)
+    - TEXT Heading [1360×63] “MEET THE FOUNDERS.”
+    - TEXT Metadata [1360×16] “CONFIRMED FOUNDER CONVERSATION · 17 FEB 2025 · 16 MIN”
+    - FRAME Founder episode feature [1360×516] (row; gap 40)
+      - FRAME Episode card [560×516] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [560×315] (column)
+          - FRAME Episode artwork · Placeholder [560×315] (column; fill #B4F071)
+            - RECT Pitch boundary [493×252]
+            - ELLIPSE Centre circle [214×214]
+            - RECT Halfway line [1×252] (fill #0A0A0A)
+            - TEXT Graphic title [448×120] “PASSION TO PURPOSE”
+            - TEXT Artwork label [482×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [27×17] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [560×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [520×16] “FOUNDERS · 16 MIN · 17 Feb 2025”
+          - TEXT Episode title [520×68] “Meet The Founders || Passion to Purpose”
+          - TEXT Description [520×21] “Shungu Dutiro and Henry Nzuzi”
+          - FRAME Episode actions [520×16] (row)
+            - TEXT Link [117×16] “Explore episode →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Appearance context [760×210] (column; gap 28)
+        - TEXT Editorial standfirst [760×86] “Passion, purpose and the people behind the conversation.”
+        - TEXT Description [760×52] “This is ExtraTime’s founder episode with Shungu Dutiro and Henry Nzuzi. Explore it to meet both founders.”
+        - TEXT Link [169×16] “Explore founder episode →”
+  - FRAME Other series content [1440×799] (column; padding 56 40 56 40; gap 28)
+    - TEXT Heading [1360×55] “FROM THE SERIES.”
+    - TEXT Description [1360×26] “More ExtraTime conversations, not a list of Shungu’s appearance credits.”
+    - FRAME Series selections [1360×550] (row; gap 24)
+      - FRAME Episode card [560×550] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [560×315] (column)
+          - FRAME Episode artwork · Placeholder [560×315] (column; fill #B4F071)
+            - RECT Pitch boundary [493×252]
+            - ELLIPSE Centre circle [214×214]
+            - RECT Halfway line [1×252] (fill #0A0A0A)
+            - TEXT Graphic title [448×60] “IDENTITÉ”
+            - TEXT Artwork label [482×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [27×17] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [560×191] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [520×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+          - TEXT Episode title [520×102] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+          - TEXT Description [520×21] “Presented by Daniel and Haggi · French-language special”
+          - FRAME Episode actions [520×16] (row)
+            - TEXT Link [117×16] “Explore episode →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [560×516] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [560×315] (column)
+          - FRAME Episode artwork · Placeholder [560×315] (column; fill #B4F071)
+            - RECT Pitch boundary [493×252]
+            - ELLIPSE Centre circle [214×214]
+            - RECT Halfway line [1×252] (fill #0A0A0A)
+            - TEXT Graphic title [448×120] “FULL CIRCLE”
+            - TEXT Artwork label [482×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [27×17] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [560×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [520×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [520×68] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [520×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [520×16] (row)
+            - TEXT Link [117×16] “Explore episode →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+  - FRAME Join the conversation [1440×424] (row; padding 80 40 80 40; gap 80; fill #B4F071)
+    - FRAME Invitation [840×262] (column; gap 24)
+      - TEXT Metadata [840×16] “Stay in the conversation”
+      - FRAME Invitation statement [840×222] (column)
+        - TEXT Heading [840×74] “DON’T JUST WATCH.”
+        - TEXT Heading [840×74] “JOIN THE”
+        - TEXT Heading [840×74] “CONVERSATION.”
+    - FRAME Follow channels [440×264] (column)
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [1440×318] (column; padding 48 40 48 40; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [1360×142] (row)
+      - FRAME Brand [520×142] (column; gap 20)
+        - TEXT Wordmark [352×92] “ExtraTIME”
+        - TEXT Editorial standfirst [520×30] “The conversation beyond the game”
+      - FRAME Footer links [488×128] (row; gap 64)
+        - FRAME Explore [120×128] (column; gap 12)
+          - TEXT Metadata [120×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [140×100] (column; gap 12)
+          - TEXT Metadata [140×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [100×44] (column; gap 12)
+          - TEXT Metadata [100×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [1360×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [1360×16] “ExtraTime · The conversation beyond the game”
+
+## Hosts · Mobile (`3:51842`)
+
+- FRAME Hosts · Mobile [390×2732] (column; fill #0A0A0A)
+  - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [130×34] “ExtraTIME”
+    - FRAME menu [28×28]
+      - VECTOR Vector [19×16]
+  - FRAME Page introduction [390×492] (column; padding 48 20 48 20; gap 24)
+    - TEXT Metadata [350×16] “The founders & hosts”
+    - TEXT Heading [350×236] “TWO VOICES. ONE PURPOSE.”
+    - TEXT Editorial standfirst [350×96] “Shungu Dutiro and Henry Nzuzi. The people behind ExtraTime.”
+  - FRAME Hosts [390×856] (column; padding 0 20 80 20; gap 24)
+    - FRAME Founder card [350×376] (column; fill #131311)
+      - FRAME Monogram [350×245] (column; padding 24 24 24 24; fill #1B1B18)
+        - TEXT Metadata [302×16] “ExtraTime / Co-founder”
+        - TEXT Initials [302×139] “SD”
+        - RECT Accent rule [48×4] (fill #B4F071)
+      - FRAME Founder information [350×131] (column; padding 24 24 24 24; gap 12)
+        - TEXT Heading [302×27] “Shungu Dutiro”
+        - TEXT Metadata [302×16] “Co-founder & host”
+        - TEXT Link [91×16] “View profile →”
+    - FRAME Founder card [350×376] (column; fill #131311)
+      - FRAME Monogram [350×245] (column; padding 24 24 24 24; fill #1B1B18)
+        - TEXT Metadata [302×16] “ExtraTime / Co-founder”
+        - TEXT Initials [302×139] “HN”
+        - RECT Accent rule [48×4] (fill #B4F071)
+      - FRAME Founder information [350×131] (column; padding 24 24 24 24; gap 12)
+        - TEXT Heading [302×27] “Henry Nzuzi”
+        - TEXT Metadata [302×16] “Co-founder & host”
+        - TEXT Link [91×16] “View profile →”
+  - FRAME Founders conversation [390×294] (column; padding 48 20 48 20; gap 24; fill #F5F4EF)
+    - TEXT Heading [350×70] “PASSION TO PURPOSE.”
+    - TEXT Editorial standfirst [350×64] “Meet the founders in their own conversation.”
+    - TEXT Link [274×16] “Meet The Founders || Passion to Purpose →”
+  - FRAME Join the conversation [390×551] (column; padding 48 20 48 20; gap 32; fill #B4F071)
+    - FRAME Invitation [350×159] (column; gap 24)
+      - TEXT Metadata [350×16] “Stay in the conversation”
+      - FRAME Invitation statement [350×119] (column)
+        - TEXT Heading [350×31] “DON’T JUST WATCH.”
+        - TEXT Heading [350×49] “JOIN THE”
+        - TEXT Heading [350×39] “CONVERSATION.”
+    - FRAME Follow channels [350×264] (column)
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [390×453] (column; padding 48 20 48 20; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [350×277] (column; gap 36)
+      - FRAME Brand [350×113] (column; gap 20)
+        - TEXT Wordmark [241×63] “ExtraTIME”
+        - TEXT Editorial standfirst [350×30] “The conversation beyond the game”
+      - FRAME Footer links [350×128] (row; gap 36)
+        - FRAME Explore [90×128] (column; gap 12)
+          - TEXT Metadata [90×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [112×100] (column; gap 12)
+          - TEXT Metadata [112×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [76×44] (column; gap 12)
+          - TEXT Metadata [76×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [350×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [350×16] “ExtraTime · The conversation beyond the game”
+
+## Hosts · Desktop (`3:51756`)
+
+- FRAME Hosts · Desktop [1440×2245] (column; fill #0A0A0A)
+  - FRAME Header · Default [1440×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [149×39] “ExtraTIME”
+    - FRAME Navigation [424×48] (row; gap 32)
+      - TEXT Navigation link [67×15] “Episodes”
+      - TEXT Navigation link [41×15] “Hosts”
+      - TEXT Navigation link [50×15] “Social”
+      - TEXT Navigation link [41×15] “About”
+      - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [57×15] “Watch ↗”
+  - FRAME Page introduction [1440×479] (column; padding 80 40 48 40; gap 24)
+    - TEXT Metadata [1360×16] “The founders & hosts”
+    - TEXT Heading [1360×244] “TWO VOICES. ONE PURPOSE.”
+    - TEXT Editorial standfirst [1360×43] “Shungu Dutiro and Henry Nzuzi. The people behind ExtraTime.”
+  - FRAME Hosts [1440×691] (row; padding 0 40 80 40; gap 24)
+    - FRAME Founder card [668×611] (column; fill #131311)
+      - FRAME Monogram [668×468] (column; padding 24 24 24 24; fill #1B1B18)
+        - TEXT Metadata [620×16] “ExtraTime / Co-founder”
+        - TEXT Initials [620×265] “SD”
+        - RECT Accent rule [48×4] (fill #B4F071)
+      - FRAME Founder information [668×143] (column; padding 24 24 24 24; gap 12)
+        - TEXT Heading [620×39] “Shungu Dutiro”
+        - TEXT Metadata [620×16] “Co-founder & host”
+        - TEXT Link [91×16] “View profile →”
+    - FRAME Founder card [668×611] (column; fill #131311)
+      - FRAME Monogram [668×468] (column; padding 24 24 24 24; fill #1B1B18)
+        - TEXT Metadata [620×16] “ExtraTime / Co-founder”
+        - TEXT Initials [620×265] “HN”
+        - RECT Accent rule [48×4] (fill #B4F071)
+      - FRAME Founder information [668×143] (column; padding 24 24 24 24; gap 12)
+        - TEXT Heading [620×39] “Henry Nzuzi”
+        - TEXT Metadata [620×16] “Co-founder & host”
+        - TEXT Link [91×16] “View profile →”
+  - FRAME Founders conversation [1440×247] (column; padding 48 40 48 40; gap 24; fill #F5F4EF)
+    - TEXT Heading [1360×55] “PASSION TO PURPOSE.”
+    - TEXT Editorial standfirst [1360×32] “Meet the founders in their own conversation.”
+    - TEXT Link [274×16] “Meet The Founders || Passion to Purpose →”
+  - FRAME Join the conversation [1440×424] (row; padding 80 40 80 40; gap 80; fill #B4F071)
+    - FRAME Invitation [840×262] (column; gap 24)
+      - TEXT Metadata [840×16] “Stay in the conversation”
+      - FRAME Invitation statement [840×222] (column)
+        - TEXT Heading [840×74] “DON’T JUST WATCH.”
+        - TEXT Heading [840×74] “JOIN THE”
+        - TEXT Heading [840×74] “CONVERSATION.”
+    - FRAME Follow channels [440×264] (column)
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [1440×318] (column; padding 48 40 48 40; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [1360×142] (row)
+      - FRAME Brand [520×142] (column; gap 20)
+        - TEXT Wordmark [352×92] “ExtraTIME”
+        - TEXT Editorial standfirst [520×30] “The conversation beyond the game”
+      - FRAME Footer links [488×128] (row; gap 64)
+        - FRAME Explore [120×128] (column; gap 12)
+          - TEXT Metadata [120×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [140×100] (column; gap 12)
+          - TEXT Metadata [140×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [100×44] (column; gap 12)
+          - TEXT Metadata [100×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [1360×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [1360×16] “ExtraTime · The conversation beyond the game”
+
+## Episode detail · Mobile (`3:51601`)
+
+- FRAME Episode detail · Mobile [390×3703] (column; fill #0A0A0A)
+  - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [130×34] “ExtraTIME”
+    - FRAME menu [28×28]
+      - VECTOR Vector [19×16]
+  - FRAME Episode introduction [390×1029] (column; padding 40 20 64 20; gap 32)
+    - TEXT Link [93×16] “← All episodes”
+    - FRAME Episode hero [350×877] (column; gap 32)
+      - FRAME Episode copy [350×616] (column; gap 28)
+        - TEXT Metadata [350×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+        - TEXT Heading [350×246] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+        - TEXT Editorial standfirst [350×90] “A French-language special on identity beyond football, from ExtraTime Kinshasa.”
+        - FRAME Presenter attribution [350×44] (column; gap 12)
+          - TEXT Metadata [350×16] “PRESENTED BY · FRENCH-LANGUAGE SPECIAL”
+          - FRAME Presenter links [350×16] (row; gap 24)
+            - TEXT Link [55×16] “Daniel →”
+            - TEXT Link [53×16] “Haggi →”
+        - FRAME Episode actions [350×108] (row; gap 12)
+          - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+            - TEXT Label [47×15] “▶ Play”
+          - FRAME Button [176×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+            - TEXT Label [136×15] “Watch on YouTube ↗”
+          - FRAME Button [93×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+            - TEXT Label [53×15] “Share ↗”
+      - FRAME Episode media [350×229] (column; gap 16)
+        - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [308×158]
+          - ELLIPSE Centre circle [134×134]
+          - RECT Halfway line [1×158] (fill #797970)
+          - TEXT Graphic title [280×38] “IDENTITÉ”
+          - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+          - TEXT Series mark [17×11] “ET /”
+        - TEXT Metadata [350×16] “EPISODE PLACEHOLDER · 16:9 ARTWORK”
+  - FRAME About this episode [390×856] (column; padding 48 20 48 20; gap 32; fill #F5F4EF)
+    - FRAME Editorial introduction [350×341] (column; gap 24)
+      - TEXT Metadata [350×16] “About this episode”
+      - TEXT Heading [350×117] “YOUR VALUE. BEYOND THE PITCH.”
+      - TEXT Editorial standfirst [350×160] “What we do on the pitch is only one part of who we are. ExtraTime makes space for identity, purpose and the next chapter.”
+    - FRAME Show notes and credits [350×387] (column; gap 28)
+      - TEXT Heading [350×27] “SHOW NOTES”
+      - TEXT Description [350×130] “Official show notes are awaiting supplied content. This space will hold the episode summary, topics and any resources confirmed by ExtraTime. No timestamps or …”
+      - TEXT Metadata [350×16] “Presenters · Kinshasa special”
+      - FRAME Presenter chips [274×39] (row; gap 12)
+        - FRAME Filter chip [132×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [100×15] “Daniel · presenter”
+        - FRAME Filter chip [130×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [98×15] “Haggi · presenter”
+      - TEXT Description [350×63] “This special is presented by Daniel and Haggi. Shungu Dutiro and Henry Nzuzi are ExtraTime’s founders and hosts, not credited presenters of this special.”
+  - FRAME More conversations [390×728] (column; padding 56 0 56 0; gap 32)
+    - FRAME Section introduction [390×159] (column; padding 0 20 0 20; gap 20)
+      - TEXT Heading [350×123] “KEEP THE CONVERSATION GOING.”
+      - TEXT Metadata [350×16] “More conversations · Swipe or scroll →”
+    - FRAME More episodes carousel [1042×425] (row; padding 0 20 0 20; gap 24)
+      - FRAME Episode card [318×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [318×220] (column)
+          - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+            - RECT Pitch boundary [280×143]
+            - ELLIPSE Centre circle [122×122]
+            - RECT Halfway line [1×143] (fill #0A0A0A)
+            - TEXT Graphic title [254×68] “FULL CIRCLE”
+            - TEXT Artwork label [273×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [16×10] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [318×145] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [278×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [278×56] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [278×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [278×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [318×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [318×220] (column)
+          - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+            - RECT Pitch boundary [280×143]
+            - ELLIPSE Centre circle [122×122]
+            - RECT Halfway line [1×143] (fill #0A0A0A)
+            - TEXT Graphic title [254×68] “PASSION TO PURPOSE”
+            - TEXT Artwork label [273×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [16×10] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [318×145] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [278×16] “FOUNDERS · 16 MIN · 17 Feb 2025”
+          - TEXT Episode title [278×56] “Meet The Founders || Passion to Purpose”
+          - TEXT Description [278×21] “Shungu Dutiro and Henry Nzuzi”
+          - FRAME Episode actions [278×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [318×425] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [318×220] (column)
+          - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+            - RECT Pitch boundary [280×143]
+            - ELLIPSE Centre circle [122×122]
+            - RECT Halfway line [1×143] (fill #0A0A0A)
+            - TEXT Graphic title [254×68] “BIGGER THAN”
+            - TEXT Artwork label [273×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [16×10] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [318×161] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [278×32] “PURPOSE · PART 2 · 42 MIN · 22 May 2025”
+          - TEXT Episode title [278×56] “Purpose - Bigger Than Football Pt.2”
+          - TEXT Description [278×21] “Coach Cavin Johnson and Jesse Donn”
+          - FRAME Episode actions [278×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+  - FRAME Join the conversation [390×551] (column; padding 48 20 48 20; gap 32; fill #B4F071)
+    - FRAME Invitation [350×159] (column; gap 24)
+      - TEXT Metadata [350×16] “Stay in the conversation”
+      - FRAME Invitation statement [350×119] (column)
+        - TEXT Heading [350×31] “DON’T JUST WATCH.”
+        - TEXT Heading [350×49] “JOIN THE”
+        - TEXT Heading [350×39] “CONVERSATION.”
+    - FRAME Follow channels [350×264] (column)
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [390×453] (column; padding 48 20 48 20; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [350×277] (column; gap 36)
+      - FRAME Brand [350×113] (column; gap 20)
+        - TEXT Wordmark [241×63] “ExtraTIME”
+        - TEXT Editorial standfirst [350×30] “The conversation beyond the game”
+      - FRAME Footer links [350×128] (row; gap 36)
+        - FRAME Explore [90×128] (column; gap 12)
+          - TEXT Metadata [90×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [112×100] (column; gap 12)
+          - TEXT Metadata [112×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [76×44] (column; gap 12)
+          - TEXT Metadata [76×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [350×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [350×16] “ExtraTime · The conversation beyond the game”
+
+## Episode detail · Desktop (`3:51440`)
+
+- FRAME Episode detail · Desktop [1440×3027] (column; fill #0A0A0A)
+  - FRAME Header · Default [1440×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [149×39] “ExtraTIME”
+    - FRAME Navigation [424×48] (row; gap 32)
+      - TEXT Navigation link [67×15] “Episodes”
+      - TEXT Navigation link [41×15] “Hosts”
+      - TEXT Navigation link [50×15] “Social”
+      - TEXT Navigation link [41×15] “About”
+      - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [57×15] “Watch ↗”
+  - FRAME Episode introduction [1440×898] (column; padding 64 40 64 40; gap 32)
+    - TEXT Link [93×16] “← All episodes”
+    - FRAME Episode hero [1360×722] (row; gap 40)
+      - FRAME Episode copy [660×722] (column; gap 28)
+        - TEXT Metadata [660×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+        - TEXT Heading [660×426] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+        - TEXT Editorial standfirst [660×76] “A French-language special on identity beyond football, from ExtraTime Kinshasa.”
+        - FRAME Presenter attribution [660×44] (column; gap 12)
+          - TEXT Metadata [660×16] “PRESENTED BY · FRENCH-LANGUAGE SPECIAL”
+          - FRAME Presenter links [660×16] (row; gap 24)
+            - TEXT Link [55×16] “Daniel →”
+            - TEXT Link [53×16] “Haggi →”
+        - FRAME Episode actions [660×48] (row; gap 12)
+          - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+            - TEXT Label [47×15] “▶ Play”
+          - FRAME Button [176×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+            - TEXT Label [136×15] “Watch on YouTube ↗”
+          - FRAME Button [93×48] (row; padding 0 20 0 20; gap 12; fill #000000 @ 0%)
+            - TEXT Label [53×15] “Share ↗”
+      - FRAME Episode media [660×403] (column; gap 16)
+        - FRAME Episode artwork · Placeholder [660×371] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [581×297]
+          - ELLIPSE Centre circle [252×252]
+          - RECT Halfway line [1×297] (fill #797970)
+          - TEXT Graphic title [528×71] “IDENTITÉ”
+          - TEXT Artwork label [568×13] “EPISODE ARTWORK · PLACEHOLDER”
+          - TEXT Series mark [32×20] “ET /”
+        - TEXT Metadata [660×16] “EPISODE PLACEHOLDER · 16:9 ARTWORK”
+  - FRAME About this episode [1440×500] (row; padding 80 40 80 40; gap 100; fill #F5F4EF)
+    - FRAME Editorial introduction [780×319] (column; gap 24)
+      - TEXT Metadata [780×16] “About this episode”
+      - TEXT Heading [780×126] “YOUR VALUE. BEYOND THE PITCH.”
+      - TEXT Editorial standfirst [780×129] “What we do on the pitch is only one part of who we are. ExtraTime makes space for identity, purpose and the next chapter.”
+    - FRAME Show notes and credits [480×340] (column; gap 28)
+      - TEXT Heading [480×27] “SHOW NOTES”
+      - TEXT Description [480×104] “Official show notes are awaiting supplied content. This space will hold the episode summary, topics and any resources confirmed by ExtraTime. No timestamps or …”
+      - TEXT Metadata [480×16] “Presenters · Kinshasa special”
+      - FRAME Presenter chips [274×39] (row; gap 12)
+        - FRAME Filter chip [132×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [100×15] “Daniel · presenter”
+        - FRAME Filter chip [130×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [98×15] “Haggi · presenter”
+      - TEXT Description [480×42] “This special is presented by Daniel and Haggi. Shungu Dutiro and Henry Nzuzi are ExtraTime’s founders and hosts, not credited presenters of this special.”
+  - FRAME More conversations [1440×801] (column; padding 80 0 80 0; gap 32)
+    - FRAME Section introduction [1440×162] (column; padding 0 40 0 40; gap 20)
+      - TEXT Heading [1360×126] “KEEP THE CONVERSATION GOING.”
+      - TEXT Metadata [1360×16] “More conversations · Swipe or scroll →”
+    - FRAME More episodes carousel [1439×447] (row; padding 0 40 0 40; gap 24)
+      - FRAME Episode card [437×447] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [437×246] (column)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×94] “FULL CIRCLE”
+            - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [437×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [397×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [397×68] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [397×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [397×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [437×447] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [437×246] (column)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×94] “PASSION TO PURPOSE”
+            - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [437×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [397×16] “FOUNDERS · 16 MIN · 17 Feb 2025”
+          - TEXT Episode title [397×68] “Meet The Founders || Passion to Purpose”
+          - TEXT Description [397×21] “Shungu Dutiro and Henry Nzuzi”
+          - FRAME Episode actions [397×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [437×447] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [437×246] (column)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #0A0A0A)
+            - TEXT Graphic title [350×94] “BIGGER THAN”
+            - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [21×13] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [437×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [397×16] “PURPOSE · PART 2 · 42 MIN · 22 May 2025”
+          - TEXT Episode title [397×68] “Purpose - Bigger Than Football Pt.2”
+          - TEXT Description [397×21] “Coach Cavin Johnson and Jesse Donn”
+          - FRAME Episode actions [397×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+  - FRAME Join the conversation [1440×424] (row; padding 80 40 80 40; gap 80; fill #B4F071)
+    - FRAME Invitation [840×262] (column; gap 24)
+      - TEXT Metadata [840×16] “Stay in the conversation”
+      - FRAME Invitation statement [840×222] (column)
+        - TEXT Heading [840×74] “DON’T JUST WATCH.”
+        - TEXT Heading [840×74] “JOIN THE”
+        - TEXT Heading [840×74] “CONVERSATION.”
+    - FRAME Follow channels [440×264] (column)
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [1440×318] (column; padding 48 40 48 40; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [1360×142] (row)
+      - FRAME Brand [520×142] (column; gap 20)
+        - TEXT Wordmark [352×92] “ExtraTIME”
+        - TEXT Editorial standfirst [520×30] “The conversation beyond the game”
+      - FRAME Footer links [488×128] (row; gap 64)
+        - FRAME Explore [120×128] (column; gap 12)
+          - TEXT Metadata [120×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [140×100] (column; gap 12)
+          - TEXT Metadata [140×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [100×44] (column; gap 12)
+          - TEXT Metadata [100×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [1360×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [1360×16] “ExtraTime · The conversation beyond the game”
+
+## Episodes archive · Mobile (`3:51243`)
+
+- FRAME Episodes archive · Mobile [390×4681] (column; fill #0A0A0A)
+  - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [130×34] “ExtraTIME”
+    - FRAME menu [28×28]
+      - VECTOR Vector [19×16]
+  - FRAME Page introduction [390×342] (column; padding 48 20 48 20; gap 24)
+    - TEXT Metadata [350×16] “The archive”
+    - TEXT Heading [350×118] “ALL EPISODES”
+    - TEXT Editorial standfirst [350×64] “Real conversations. The whole story.”
+  - FRAME Archive results [390×3249] (column; padding 0 20 80 20; gap 32)
+    - FRAME Search and count [350×88] (column; gap 20)
+      - TEXT Metadata [350×16] “7 CONVERSATIONS”
+      - FRAME Episode search [350×52] (row; padding 0 16 0 16; gap 16; fill #131311)
+        - FRAME search [18×18]
+          - VECTOR Vector [14×14]
+        - TEXT Query [284×17] “Search conversations”
+    - FRAME All episodes [350×3049] (column; gap 24)
+      - FRAME Episode row [350×486] (row; gap 24)
+        - FRAME Episode card [350×486] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [350×220] (column)
+            - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+              - RECT Pitch boundary [308×158]
+              - ELLIPSE Centre circle [134×134]
+              - RECT Halfway line [1×158] (fill #0A0A0A)
+              - TEXT Graphic title [280×38] “IDENTITÉ”
+              - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [17×11] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [350×222] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [310×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+            - TEXT Episode title [310×112] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+            - TEXT Description [310×42] “Presented by Daniel and Haggi · French-language special”
+            - FRAME Episode actions [310×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode row [350×409] (row; gap 24)
+        - FRAME Episode card [350×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [350×220] (column)
+            - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+              - RECT Pitch boundary [308×158]
+              - ELLIPSE Centre circle [134×134]
+              - RECT Halfway line [1×158] (fill #0A0A0A)
+              - TEXT Graphic title [280×76] “FULL CIRCLE”
+              - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [17×11] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [350×145] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [310×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+            - TEXT Episode title [310×56] “Full Circle - Coach Pitso Mosimane”
+            - TEXT Description [310×21] “Coach Pitso Mosimane”
+            - FRAME Episode actions [310×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode row [350×409] (row; gap 24)
+        - FRAME Episode card [350×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [350×220] (column)
+            - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+              - RECT Pitch boundary [308×158]
+              - ELLIPSE Centre circle [134×134]
+              - RECT Halfway line [1×158] (fill #0A0A0A)
+              - TEXT Graphic title [280×76] “BIGGER THAN”
+              - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [17×11] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [350×145] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [310×16] “PURPOSE · PART 2 · 42 MIN · 22 May 2025”
+            - TEXT Episode title [310×56] “Purpose - Bigger Than Football Pt.2”
+            - TEXT Description [310×21] “Coach Cavin Johnson and Jesse Donn”
+            - FRAME Episode actions [310×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode row [350×430] (row; gap 24)
+        - FRAME Episode card [350×430] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [350×220] (column)
+            - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+              - RECT Pitch boundary [308×158]
+              - ELLIPSE Centre circle [134×134]
+              - RECT Halfway line [1×158] (fill #0A0A0A)
+              - TEXT Graphic title [280×38] “FOOTBALL”
+              - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [17×11] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [350×166] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [310×16] “PURPOSE · PART 1 · 33 MIN · 19 Mar 2025”
+            - TEXT Episode title [310×56] “Purpose - Bigger Than Football”
+            - TEXT Description [310×42] “Coach Cavin Johnson and former Bafana Bafana player Jesse Donn”
+            - FRAME Episode actions [310×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode row [350×409] (row; gap 24)
+        - FRAME Episode card [350×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [350×220] (column)
+            - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+              - RECT Pitch boundary [308×158]
+              - ELLIPSE Centre circle [134×134]
+              - RECT Halfway line [1×158] (fill #0A0A0A)
+              - TEXT Graphic title [280×76] “PASSION TO PURPOSE”
+              - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [17×11] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [350×145] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [310×16] “FOUNDERS · 16 MIN · 17 Feb 2025”
+            - TEXT Episode title [310×56] “Meet The Founders || Passion to Purpose”
+            - TEXT Description [310×21] “Shungu Dutiro and Henry Nzuzi”
+            - FRAME Episode actions [310×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode row [350×381] (row; gap 24)
+        - FRAME Episode card [350×381] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [350×220] (column)
+            - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+              - RECT Pitch boundary [308×158]
+              - ELLIPSE Centre circle [134×134]
+              - RECT Halfway line [1×158] (fill #0A0A0A)
+              - TEXT Graphic title [280×76] “BE YOURSELF”
+              - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [17×11] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [350×117] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [310×16] “SEASON 1 · 24 MIN · 14 Oct 2024”
+            - TEXT Episode title [310×28] “AUTHENTICITY”
+            - TEXT Description [310×21] “Visual artist Kay Kay Ribane”
+            - FRAME Episode actions [310×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode row [350×381] (row; gap 24)
+        - FRAME Episode card [350×381] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [350×220] (column)
+            - FRAME Episode artwork · Placeholder [350×197] (column; fill #B4F071)
+              - RECT Pitch boundary [308×158]
+              - ELLIPSE Centre circle [134×134]
+              - RECT Halfway line [1×158] (fill #0A0A0A)
+              - TEXT Graphic title [280×76] “THE JOURNEY”
+              - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [17×11] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [350×117] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [310×16] “EP. 01 · 67 MIN · 10 Jun 2024”
+            - TEXT Episode title [310×28] “JOURNEY”
+            - TEXT Description [310×21] “First episode of Season 1”
+            - FRAME Episode actions [310×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+  - FRAME Join the conversation [390×551] (column; padding 48 20 48 20; gap 32; fill #B4F071)
+    - FRAME Invitation [350×159] (column; gap 24)
+      - TEXT Metadata [350×16] “Stay in the conversation”
+      - FRAME Invitation statement [350×119] (column)
+        - TEXT Heading [350×31] “DON’T JUST WATCH.”
+        - TEXT Heading [350×49] “JOIN THE”
+        - TEXT Heading [350×39] “CONVERSATION.”
+    - FRAME Follow channels [350×264] (column)
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [390×453] (column; padding 48 20 48 20; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [350×277] (column; gap 36)
+      - FRAME Brand [350×113] (column; gap 20)
+        - TEXT Wordmark [241×63] “ExtraTIME”
+        - TEXT Editorial standfirst [350×30] “The conversation beyond the game”
+      - FRAME Footer links [350×128] (row; gap 36)
+        - FRAME Explore [90×128] (column; gap 12)
+          - TEXT Metadata [90×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [112×100] (column; gap 12)
+          - TEXT Metadata [112×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [76×44] (column; gap 12)
+          - TEXT Metadata [76×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [350×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [350×16] “ExtraTime · The conversation beyond the game”
+
+## Episodes archive · Desktop (`3:51044`)
+
+- FRAME Episodes archive · Desktop [1440×2759] (column; fill #0A0A0A)
+  - FRAME Header · Default [1440×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [149×39] “ExtraTIME”
+    - FRAME Navigation [424×48] (row; gap 32)
+      - TEXT Navigation link [67×15] “Episodes”
+      - TEXT Navigation link [41×15] “Hosts”
+      - TEXT Navigation link [50×15] “Social”
+      - TEXT Navigation link [41×15] “About”
+      - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [57×15] “Watch ↗”
+  - FRAME Page introduction [1440×357] (column; padding 80 40 48 40; gap 24)
+    - TEXT Metadata [1360×16] “The archive”
+    - TEXT Heading [1360×122] “ALL EPISODES”
+    - TEXT Editorial standfirst [1360×43] “Real conversations. The whole story.”
+  - FRAME Archive results [1440×1574] (column; padding 0 40 80 40; gap 32)
+    - FRAME Search and count [1360×52] (row)
+      - TEXT Metadata [980×16] “7 CONVERSATIONS”
+      - FRAME Episode search [380×52] (row; padding 0 16 0 16; gap 16; fill #131311)
+        - FRAME search [18×18]
+          - VECTOR Vector [14×14]
+        - TEXT Query [314×17] “Search conversations”
+    - FRAME All episodes [1360×1410] (column; gap 24)
+      - FRAME Episode row [1360×481] (row; gap 24)
+        - FRAME Episode card [437×481] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [437×246] (column)
+            - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+              - RECT Pitch boundary [385×197]
+              - ELLIPSE Centre circle [167×167]
+              - RECT Halfway line [1×197] (fill #0A0A0A)
+              - TEXT Graphic title [350×47] “IDENTITÉ”
+              - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [21×13] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [437×191] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [397×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+            - TEXT Episode title [397×102] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+            - TEXT Description [397×21] “Presented by Daniel and Haggi · French-language special”
+            - FRAME Episode actions [397×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+        - FRAME Episode card [437×447] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [437×246] (column)
+            - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+              - RECT Pitch boundary [385×197]
+              - ELLIPSE Centre circle [167×167]
+              - RECT Halfway line [1×197] (fill #0A0A0A)
+              - TEXT Graphic title [350×94] “FULL CIRCLE”
+              - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [21×13] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [437×157] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [397×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+            - TEXT Episode title [397×68] “Full Circle - Coach Pitso Mosimane”
+            - TEXT Description [397×21] “Coach Pitso Mosimane”
+            - FRAME Episode actions [397×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+        - FRAME Episode card [437×447] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [437×246] (column)
+            - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+              - RECT Pitch boundary [385×197]
+              - ELLIPSE Centre circle [167×167]
+              - RECT Halfway line [1×197] (fill #0A0A0A)
+              - TEXT Graphic title [350×94] “BIGGER THAN”
+              - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [21×13] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [437×157] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [397×16] “PURPOSE · PART 2 · 42 MIN · 22 May 2025”
+            - TEXT Episode title [397×68] “Purpose - Bigger Than Football Pt.2”
+            - TEXT Description [397×21] “Coach Cavin Johnson and Jesse Donn”
+            - FRAME Episode actions [397×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode row [1360×468] (row; gap 24)
+        - FRAME Episode card [437×468] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [437×246] (column)
+            - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+              - RECT Pitch boundary [385×197]
+              - ELLIPSE Centre circle [167×167]
+              - RECT Halfway line [1×197] (fill #0A0A0A)
+              - TEXT Graphic title [350×47] “FOOTBALL”
+              - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [21×13] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [437×178] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [397×16] “PURPOSE · PART 1 · 33 MIN · 19 Mar 2025”
+            - TEXT Episode title [397×68] “Purpose - Bigger Than Football”
+            - TEXT Description [397×42] “Coach Cavin Johnson and former Bafana Bafana player Jesse Donn”
+            - FRAME Episode actions [397×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+        - FRAME Episode card [437×447] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [437×246] (column)
+            - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+              - RECT Pitch boundary [385×197]
+              - ELLIPSE Centre circle [167×167]
+              - RECT Halfway line [1×197] (fill #0A0A0A)
+              - TEXT Graphic title [350×94] “PASSION TO PURPOSE”
+              - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [21×13] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [437×157] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [397×16] “FOUNDERS · 16 MIN · 17 Feb 2025”
+            - TEXT Episode title [397×68] “Meet The Founders || Passion to Purpose”
+            - TEXT Description [397×21] “Shungu Dutiro and Henry Nzuzi”
+            - FRAME Episode actions [397×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+        - FRAME Episode card [437×413] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [437×246] (column)
+            - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+              - RECT Pitch boundary [385×197]
+              - ELLIPSE Centre circle [167×167]
+              - RECT Halfway line [1×197] (fill #0A0A0A)
+              - TEXT Graphic title [350×94] “BE YOURSELF”
+              - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [21×13] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [437×123] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [397×16] “SEASON 1 · 24 MIN · 14 Oct 2024”
+            - TEXT Episode title [397×34] “AUTHENTICITY”
+            - TEXT Description [397×21] “Visual artist Kay Kay Ribane”
+            - FRAME Episode actions [397×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode row [1360×413] (row; gap 24)
+        - FRAME Episode card [437×413] (column; padding 0 0 24 0; gap 20; fill #131311)
+          - FRAME Artwork and action [437×246] (column)
+            - FRAME Episode artwork · Placeholder [437×246] (column; fill #B4F071)
+              - RECT Pitch boundary [385×197]
+              - ELLIPSE Centre circle [167×167]
+              - RECT Halfway line [1×197] (fill #0A0A0A)
+              - TEXT Graphic title [350×94] “THE JOURNEY”
+              - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+              - TEXT Series mark [21×13] “ET /”
+            - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+              - FRAME play [22×22]
+                - VECTOR Vector [15×16]
+          - FRAME Episode information [437×123] (column; padding 0 20 0 20; gap 12)
+            - TEXT Metadata [397×16] “EP. 01 · 67 MIN · 10 Jun 2024”
+            - TEXT Episode title [397×34] “JOURNEY”
+            - TEXT Description [397×21] “First episode of Season 1”
+            - FRAME Episode actions [397×16] (row)
+              - TEXT Link [117×16] “Explore episode →”
+              - TEXT Link [133×16] “Watch on YouTube ↗”
+  - FRAME Join the conversation [1440×424] (row; padding 80 40 80 40; gap 80; fill #B4F071)
+    - FRAME Invitation [840×262] (column; gap 24)
+      - TEXT Metadata [840×16] “Stay in the conversation”
+      - FRAME Invitation statement [840×222] (column)
+        - TEXT Heading [840×74] “DON’T JUST WATCH.”
+        - TEXT Heading [840×74] “JOIN THE”
+        - TEXT Heading [840×74] “CONVERSATION.”
+    - FRAME Follow channels [440×264] (column)
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [1440×318] (column; padding 48 40 48 40; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [1360×142] (row)
+      - FRAME Brand [520×142] (column; gap 20)
+        - TEXT Wordmark [352×92] “ExtraTIME”
+        - TEXT Editorial standfirst [520×30] “The conversation beyond the game”
+      - FRAME Footer links [488×128] (row; gap 64)
+        - FRAME Explore [120×128] (column; gap 12)
+          - TEXT Metadata [120×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [140×100] (column; gap 12)
+          - TEXT Metadata [140×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [100×44] (column; gap 12)
+          - TEXT Metadata [100×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [1360×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [1360×16] “ExtraTime · The conversation beyond the game”
+
+## Home · Mobile (`3:50690`)
+
+- FRAME Home · Mobile [390×9093] (column; fill #0A0A0A)
+  - FRAME Header · Default [390×86] (row; padding 0 20 0 20; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [130×34] “ExtraTIME”
+    - FRAME menu [28×28]
+      - VECTOR Vector [19×16]
+  - FRAME Latest conversation hero [390×758] (column; padding 36 20 32 20; gap 32; fill #0A0A0A)
+    - TEXT Metadata [350×16] “FOOTBALL CONVERSATIONS · SINCE 2024”
+    - FRAME Hero statement [350×166] (column)
+      - TEXT Heading [350×33] “THE CONVERSATION”
+      - TEXT Heading [350×74] “BEYOND”
+      - TEXT Heading [350×59] “THE GAME.”
+    - FRAME Hero actions [350×48] (row; gap 24)
+      - FRAME Button [128×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [88×15] “▶ Play latest”
+      - TEXT Link [108×16] “Explore episodes”
+    - FRAME Hero media slot [350×220] (column)
+      - RECT Monochrome studio artwork · Placeholder [350×197]
+    - FRAME Feature caption [350×37] (row)
+      - TEXT Scroll prompt [116×13] “01 / EXTRA TIME”
+      - FRAME Latest badge [203×37] (column; padding 12 12 12 12; fill #F5F4EF)
+        - TEXT Badge label [179×13] “LATEST · KINSHASA SPECIAL”
+  - FRAME Identity ticker · Static [390×64] (row; padding 0 20 0 20; fill #B4F071)
+    - TEXT Ticker statement [1055×34] “IDENTITY — PURPOSE — MENTORSHIP — FOOTBALL — LIFE BEYOND THE GAME —”
+  - FRAME More than football [390×666] (column; padding 56 20 56 20; gap 32; fill #F5F4EF)
+    - FRAME Statement [350×250] (column; gap 24)
+      - TEXT Metadata [350×16] “01 / Our purpose”
+      - TEXT Heading [350×210] “MORE THAN FOOTBALL. OUR STORIES. YOUR NEXT CHAPTER.”
+    - FRAME Mission [350×272] (column; gap 32)
+      - TEXT Editorial standfirst [350×224] “We help young people see their value beyond what they do on the pitch, through honest conversations with coaches, players and creatives about identity, purpose…”
+      - TEXT Link [121×16] “About ExtraTime →”
+  - FRAME Meet the founders [390×1164] (column; padding 56 20 56 20; gap 40; fill #0A0A0A)
+    - FRAME Section introduction [350×236] (column; gap 24)
+      - FRAME Heading group [350×134] (column; gap 12)
+        - TEXT Metadata [350×16] “02 / The voices behind ExtraTime”
+        - TEXT Heading [350×47] “MEET THE”
+        - TEXT Heading [350×47] “FOUNDERS.”
+      - TEXT Description [350×78] “Shungu Dutiro & Henry Nzuzi Co-founders. Hosts. Here for the conversation.”
+    - FRAME Founder cards [350×776] (column; gap 24)
+      - FRAME Founder card [350×376] (column; fill #131311)
+        - FRAME Monogram [350×245] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [302×16] “ExtraTime / Co-founder”
+          - TEXT Initials [302×139] “SD”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [350×131] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [302×27] “Shungu Dutiro”
+          - TEXT Metadata [302×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+      - FRAME Founder card [350×376] (column; fill #131311)
+        - FRAME Monogram [350×245] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [302×16] “ExtraTime / Co-founder”
+          - TEXT Initials [302×139] “HN”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [350×131] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [302×27] “Henry Nzuzi”
+          - TEXT Metadata [302×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+  - FRAME The latest conversations [390×806] (column; padding 56 0 56 0; gap 36; fill #0A0A0A)
+    - FRAME Section introduction [390×172] (column; padding 0 20 0 20; gap 24)
+      - TEXT Metadata [350×16] “03 / Press play. Go deeper.”
+      - TEXT Heading [350×74] “THE LATEST CONVERSATIONS.”
+      - FRAME Carousel navigation [350×34] (row)
+        - TEXT Metadata [272×16] “Swipe or scroll for more”
+        - TEXT Arrows [78×34] “← →”
+    - FRAME Episode carousel [1042×486] (row; padding 0 20 0 20; gap 24)
+      - FRAME Episode card [318×486] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [318×220] (column)
+          - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+            - RECT Pitch boundary [280×143]
+            - ELLIPSE Centre circle [122×122]
+            - RECT Halfway line [1×143] (fill #0A0A0A)
+            - TEXT Graphic title [254×34] “IDENTITÉ”
+            - TEXT Artwork label [273×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [16×10] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [318×222] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [278×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+          - TEXT Episode title [278×112] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+          - TEXT Description [278×42] “Presented by Daniel and Haggi · French-language special”
+          - FRAME Episode actions [278×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [318×409] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [318×220] (column)
+          - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+            - RECT Pitch boundary [280×143]
+            - ELLIPSE Centre circle [122×122]
+            - RECT Halfway line [1×143] (fill #0A0A0A)
+            - TEXT Graphic title [254×68] “FULL CIRCLE”
+            - TEXT Artwork label [273×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [16×10] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [318×145] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [278×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [278×56] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [278×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [278×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [318×425] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [318×220] (column)
+          - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+            - RECT Pitch boundary [280×143]
+            - ELLIPSE Centre circle [122×122]
+            - RECT Halfway line [1×143] (fill #0A0A0A)
+            - TEXT Graphic title [254×68] “BIGGER THAN”
+            - TEXT Artwork label [273×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [16×10] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [318×161] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [278×32] “PURPOSE · PART 2 · 42 MIN · 22 May 2025”
+          - TEXT Episode title [278×56] “Purpose - Bigger Than Football Pt.2”
+          - TEXT Description [278×21] “Coach Cavin Johnson and Jesse Donn”
+          - FRAME Episode actions [278×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+  - FRAME Ways in [390×1610] (column; padding 56 20 56 20; gap 40; fill #131311)
+    - TEXT Metadata [350×16] “04 / Find your way in”
+    - TEXT Heading [350×94] “THREE WAYS IN.”
+    - FRAME Series tiles [350×1308] (column; gap 24)
+      - FRAME Series tile [350×420] (column; padding 28 28 28 28; fill #B4F071)
+        - TEXT Series number [37×20] “01 /”
+        - FRAME Series information [294×191] (column; gap 24)
+          - TEXT Heading [294×111] “Season 1 — the Journey series”
+          - TEXT Metadata [294×16] “The first chapter · Since 2024”
+          - TEXT Link [123×16] “Explore Season 1 →”
+      - FRAME Series tile [350×420] (column; padding 28 28 28 28; fill #F5F4EF)
+        - TEXT Series number [37×20] “02 /”
+        - FRAME Series information [294×228] (column; gap 24)
+          - TEXT Heading [294×148] “Purpose — Bigger Than Football (two parts)”
+          - TEXT Metadata [294×16] “Two conversations · 33 + 42 min”
+          - TEXT Link [119×16] “Explore Purpose →”
+      - FRAME Series tile [350×420] (column; padding 28 28 28 28; fill #1B1B18)
+        - FRAME Monochrome texture [350×197] (column)
+          - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+            - RECT Pitch boundary [308×158]
+            - ELLIPSE Centre circle [134×134]
+            - RECT Halfway line [1×158] (fill #797970)
+            - TEXT Graphic title [280×38] “KINSHASA”
+            - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [17×11] “ET /”
+        - TEXT Series number [37×20] “03 /”
+        - FRAME Series information [294×191] (column; gap 24)
+          - TEXT Heading [294×111] “ExtraTime Specials — Kinshasa”
+          - TEXT Metadata [294×16] “French-language special · 50 min”
+          - TEXT Link [135×16] “Explore the special →”
+  - FRAME At our table [390×2234] (column; padding 56 20 56 20; gap 40; fill #F5F4EF)
+    - TEXT Metadata [350×16] “05 / Different voices. Shared possibilities.”
+    - TEXT Heading [350×102] “AT OUR TABLE.”
+    - FRAME Featured guests [350×1522] (column; gap 24)
+      - FRAME Featured guest card [350×716] (column; fill #0A0A0A)
+        - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [308×158]
+          - ELLIPSE Centre circle [134×134]
+          - RECT Halfway line [1×158] (fill #797970)
+          - TEXT Graphic title [280×76] “FULL CIRCLE”
+          - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+          - TEXT Series mark [17×11] “ET /”
+        - FRAME Guest names [350×185] (column; padding 28 28 28 28; gap 12; fill #E8E7E0)
+          - TEXT Heading [294×70] “COACH PITSO MOSIMANE”
+          - TEXT Accent statement [294×31] “FULL CIRCLE.”
+          - RECT Accent punctuation [72×4] (fill #B4F071)
+        - FRAME Featured conversation [350×334] (column; padding 28 28 28 28; gap 20)
+          - TEXT Metadata [294×16] “FEATURED GUEST”
+          - TEXT Heading [294×50] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [294×104] “A conversation in the ExtraTime series, where football opens the door to identity, purpose and life beyond the game.”
+          - FRAME Watch actions [294×48] (row; gap 20)
+            - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+              - TEXT Label [47×15] “▶ Play”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Featured guest card [350×782] (column; fill #0A0A0A)
+        - FRAME Episode artwork · Placeholder [350×197] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [308×158]
+          - ELLIPSE Centre circle [134×134]
+          - RECT Halfway line [1×158] (fill #797970)
+          - TEXT Graphic title [280×76] “BIGGER THAN”
+          - TEXT Artwork label [301×11] “EPISODE ARTWORK · PLACEHOLDER”
+          - TEXT Series mark [17×11] “ET /”
+        - FRAME Guest names [350×251] (column; padding 28 28 28 28; gap 12; fill #E8E7E0)
+          - TEXT Heading [294×105] “COACH CAVIN JOHNSON & JESSE DONN”
+          - TEXT Accent statement [294×62] “BIGGER THAN FOOTBALL.”
+          - RECT Accent punctuation [72×4] (fill #B4F071)
+        - FRAME Featured conversation [350×334] (column; padding 28 28 28 28; gap 20)
+          - TEXT Metadata [294×16] “FEATURED GUEST”
+          - TEXT Heading [294×50] “Purpose - Bigger Than Football Pt.2”
+          - TEXT Description [294×104] “A conversation in the ExtraTime series, where football opens the door to identity, purpose and life beyond the game.”
+          - FRAME Watch actions [294×48] (row; gap 20)
+            - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+              - TEXT Label [47×15] “▶ Play”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+    - FRAME The people at our table [350×362] (column; padding 24 24 24 24; gap 24; fill #E8E7E0)
+      - TEXT Heading [302×58] “THE PEOPLE AT OUR TABLE”
+      - FRAME Guest and presenter names [302×192] (row; gap 12)
+        - FRAME Filter chip [162×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [130×15] “Coach Pitso Mosimane”
+        - FRAME Filter chip [156×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [124×15] “Coach Cavin Johnson”
+        - FRAME Filter chip [99×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [67×15] “Jesse Donn”
+        - FRAME Filter chip [120×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [88×15] “Kay Kay Ribane”
+        - FRAME Filter chip [132×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [100×15] “Daniel · presenter”
+        - FRAME Filter chip [130×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [98×15] “Haggi · presenter”
+      - TEXT Link [134×16] “More on Instagram ↗”
+  - FRAME From the socials [390×701] (column; padding 56 0 56 0; gap 36; fill #0A0A0A)
+    - FRAME Social introduction [390×174] (column; padding 0 20 0 20; gap 24)
+      - TEXT Metadata [350×16] “06 / Keep it going”
+      - TEXT Heading [350×94] “FROM THE SOCIALS.”
+      - FRAME Social navigation [350×16] (row)
+        - TEXT Metadata [271×16] “01/06 · Swipe or scroll for more”
+        - TEXT Link [79×16] “All socials →”
+    - FRAME Social carousel [2068×379] (row; padding 0 20 0 20; gap 24)
+      - FRAME Sample social post [318×379] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+          - RECT Pitch boundary [280×143]
+          - ELLIPSE Centre circle [122×122]
+          - RECT Halfway line [1×143] (fill #0A0A0A)
+          - TEXT Graphic title [254×34] “IDENTITY”
+          - TEXT Artwork label [273×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [16×10] “ET /”
+        - FRAME Post information [318×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [278×13] (row)
+            - TEXT Post counter [38×13] “01/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [278×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [318×379] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [318×179] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [280×143]
+          - ELLIPSE Centre circle [122×122]
+          - RECT Halfway line [1×143] (fill #797970)
+          - TEXT Graphic title [254×68] “BEYOND THE GAME”
+          - TEXT Artwork label [273×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [16×10] “ET /”
+        - FRAME Post information [318×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [278×13] (row)
+            - TEXT Post counter [38×13] “02/06”
+            - TEXT Platform [46×13] “TIKTOK”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [278×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [111×16] “View on TikTok ↗”
+      - FRAME Sample social post [318×379] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+          - RECT Pitch boundary [280×143]
+          - ELLIPSE Centre circle [122×122]
+          - RECT Halfway line [1×143] (fill #0A0A0A)
+          - TEXT Graphic title [254×34] “PURPOSE”
+          - TEXT Artwork label [273×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [16×10] “ET /”
+        - FRAME Post information [318×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [278×13] (row)
+            - TEXT Post counter [38×13] “03/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [278×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [318×379] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [318×179] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [280×143]
+          - ELLIPSE Centre circle [122×122]
+          - RECT Halfway line [1×143] (fill #797970)
+          - TEXT Graphic title [254×68] “OUR STORIES”
+          - TEXT Artwork label [273×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [16×10] “ET /”
+        - FRAME Post information [318×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [278×13] (row)
+            - TEXT Post counter [38×13] “04/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [278×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [318×379] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [318×179] (column; fill #B4F071)
+          - RECT Pitch boundary [280×143]
+          - ELLIPSE Centre circle [122×122]
+          - RECT Halfway line [1×143] (fill #0A0A0A)
+          - TEXT Graphic title [254×68] “LIFE AFTER”
+          - TEXT Artwork label [273×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [16×10] “ET /”
+        - FRAME Post information [318×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [278×13] (row)
+            - TEXT Post counter [38×13] “05/06”
+            - TEXT Platform [46×13] “TIKTOK”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [278×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [111×16] “View on TikTok ↗”
+      - FRAME Sample social post [318×379] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [318×179] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [280×143]
+          - ELLIPSE Centre circle [122×122]
+          - RECT Halfway line [1×143] (fill #797970)
+          - TEXT Graphic title [254×68] “YOUR NEXT CHAPTER”
+          - TEXT Artwork label [273×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [16×10] “ET /”
+        - FRAME Post information [318×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [278×13] (row)
+            - TEXT Post counter [38×13] “06/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [278×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+  - FRAME Join the conversation [390×551] (column; padding 48 20 48 20; gap 32; fill #B4F071)
+    - FRAME Invitation [350×159] (column; gap 24)
+      - TEXT Metadata [350×16] “Stay in the conversation”
+      - FRAME Invitation statement [350×119] (column)
+        - TEXT Heading [350×31] “DON’T JUST WATCH.”
+        - TEXT Heading [350×49] “JOIN THE”
+        - TEXT Heading [350×39] “CONVERSATION.”
+    - FRAME Follow channels [350×264] (column)
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [350×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [267×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [390×453] (column; padding 48 20 48 20; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [350×277] (column; gap 36)
+      - FRAME Brand [350×113] (column; gap 20)
+        - TEXT Wordmark [241×63] “ExtraTIME”
+        - TEXT Editorial standfirst [350×30] “The conversation beyond the game”
+      - FRAME Footer links [350×128] (row; gap 36)
+        - FRAME Explore [90×128] (column; gap 12)
+          - TEXT Metadata [90×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [112×100] (column; gap 12)
+          - TEXT Metadata [112×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [76×44] (column; gap 12)
+          - TEXT Metadata [76×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [350×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [350×16] “ExtraTime · The conversation beyond the game”
+
+## Home · Desktop (`3:50329`)
+
+- FRAME Home · Desktop [1440×7417] (column; fill #0A0A0A)
+  - FRAME Header · Default [1440×86] (row; padding 0 40 0 40; fill #0A0A0A @ 92%)
+    - TEXT Wordmark [149×39] “ExtraTIME”
+    - FRAME Navigation [424×48] (row; gap 32)
+      - TEXT Navigation link [67×15] “Episodes”
+      - TEXT Navigation link [41×15] “Hosts”
+      - TEXT Navigation link [50×15] “Social”
+      - TEXT Navigation link [41×15] “About”
+      - FRAME Button [97×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [57×15] “Watch ↗”
+  - FRAME Latest conversation hero [1440×814] (column; padding 72 40 32 40; gap 48; fill #0A0A0A)
+    - FRAME Feature background [960×540] (column)
+      - RECT Monochrome studio artwork · Placeholder [960×540]
+      - RECT Feature shade [960×540] (fill #0A0A0A @ 13%)
+    - TEXT Metadata [1360×16] “FOOTBALL CONVERSATIONS · SINCE 2024”
+    - FRAME Hero statement [1100×388] (column)
+      - TEXT Heading [1100×98] “THE CONVERSATION”
+      - TEXT Heading [1100×145] “BEYOND”
+      - TEXT Heading [1100×145] “THE GAME.”
+    - FRAME Hero actions [1360×48] (row; gap 24)
+      - FRAME Button [128×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+        - TEXT Label [88×15] “▶ Play latest”
+      - TEXT Link [108×16] “Explore episodes”
+    - FRAME Feature caption [1360×53] (row)
+      - TEXT Scroll prompt [216×13] “SCROLL TO THE CONVERSATION ↓”
+      - FRAME Latest badge [219×53] (column; padding 20 20 20 20; fill #F5F4EF)
+        - TEXT Badge label [179×13] “LATEST · KINSHASA SPECIAL”
+  - FRAME Identity ticker · Static [1440×80] (row; padding 0 40 0 40; fill #B4F071)
+    - TEXT Ticker statement [1432×46] “IDENTITY — PURPOSE — MENTORSHIP — FOOTBALL — LIFE BEYOND THE GAME —”
+  - FRAME More than football [1440×527] (row; padding 96 40 96 40; gap 100; fill #F5F4EF)
+    - FRAME Statement [800×241] (column; gap 24)
+      - TEXT Metadata [800×16] “01 / Our purpose”
+      - TEXT Heading [800×201] “MORE THAN FOOTBALL. OUR STORIES. YOUR NEXT CHAPTER.”
+    - FRAME Mission [460×335] (column; gap 32)
+      - TEXT Editorial standfirst [460×287] “We help young people see their value beyond what they do on the pitch, through honest conversations with coaches, players and creatives about identity, purpose…”
+      - TEXT Link [121×16] “About ExtraTime →”
+  - FRAME Meet the founders [1440×1007] (column; padding 80 40 80 40; gap 40; fill #0A0A0A)
+    - FRAME Section introduction [1360×196] (row)
+      - FRAME Heading group [780×196] (column; gap 12)
+        - TEXT Metadata [780×16] “02 / The voices behind ExtraTime”
+        - TEXT Heading [780×78] “MEET THE”
+        - TEXT Heading [780×78] “FOUNDERS.”
+      - TEXT Description [580×52] “Shungu Dutiro & Henry Nzuzi Co-founders. Hosts. Here for the conversation.”
+    - FRAME Founder cards [1360×611] (row; gap 24)
+      - FRAME Founder card [668×611] (column; fill #131311)
+        - FRAME Monogram [668×468] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [620×16] “ExtraTime / Co-founder”
+          - TEXT Initials [620×265] “SD”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [668×143] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [620×39] “Shungu Dutiro”
+          - TEXT Metadata [620×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+      - FRAME Founder card [668×611] (column; fill #131311)
+        - FRAME Monogram [668×468] (column; padding 24 24 24 24; fill #1B1B18)
+          - TEXT Metadata [620×16] “ExtraTime / Co-founder”
+          - TEXT Initials [620×265] “HN”
+          - RECT Accent rule [48×4] (fill #B4F071)
+        - FRAME Founder information [668×143] (column; padding 24 24 24 24; gap 12)
+          - TEXT Heading [620×39] “Henry Nzuzi”
+          - TEXT Metadata [620×16] “Co-founder & host”
+          - TEXT Link [91×16] “View profile →”
+  - FRAME The latest conversations [1440×955] (column; padding 80 0 80 0; gap 36; fill #0A0A0A)
+    - FRAME Section introduction [1440×254] (column; padding 0 40 0 40; gap 24)
+      - TEXT Metadata [1360×16] “03 / Press play. Go deeper.”
+      - TEXT Heading [1360×156] “THE LATEST CONVERSATIONS.”
+      - FRAME Carousel navigation [1360×34] (row)
+        - TEXT Metadata [1282×16] “Swipe or scroll for more”
+        - TEXT Arrows [78×34] “← →”
+    - FRAME Episode carousel [1568×505] (row; padding 0 40 0 40; gap 24)
+      - FRAME Episode card [480×505] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [480×270] (column)
+          - FRAME Episode artwork · Placeholder [480×270] (column; fill #B4F071)
+            - RECT Pitch boundary [422×216]
+            - ELLIPSE Centre circle [184×184]
+            - RECT Halfway line [1×216] (fill #0A0A0A)
+            - TEXT Graphic title [384×52] “IDENTITÉ”
+            - TEXT Artwork label [413×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [24×15] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [480×191] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [440×16] “SPECIAL · 50 MIN · 22 Apr 2026”
+          - TEXT Episode title [440×102] “Plus que le football : construire son identité | ExtraTime Kinshasa”
+          - TEXT Description [440×21] “Presented by Daniel and Haggi · French-language special”
+          - FRAME Episode actions [440×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [480×471] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [480×270] (column)
+          - FRAME Episode artwork · Placeholder [480×270] (column; fill #B4F071)
+            - RECT Pitch boundary [422×216]
+            - ELLIPSE Centre circle [184×184]
+            - RECT Halfway line [1×216] (fill #0A0A0A)
+            - TEXT Graphic title [384×104] “FULL CIRCLE”
+            - TEXT Artwork label [413×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [24×15] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [480×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [440×16] “CONVERSATION · 58 MIN · 8 Jul 2025”
+          - TEXT Episode title [440×68] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [440×21] “Coach Pitso Mosimane”
+          - FRAME Episode actions [440×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Episode card [480×471] (column; padding 0 0 24 0; gap 20; fill #131311)
+        - FRAME Artwork and action [480×270] (column)
+          - FRAME Episode artwork · Placeholder [480×270] (column; fill #B4F071)
+            - RECT Pitch boundary [422×216]
+            - ELLIPSE Centre circle [184×184]
+            - RECT Halfway line [1×216] (fill #0A0A0A)
+            - TEXT Graphic title [384×104] “BIGGER THAN”
+            - TEXT Artwork label [413×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [24×15] “ET /”
+          - FRAME Play action [52×52] (row; fill #0A0A0A; radius 100)
+            - FRAME play [22×22]
+              - VECTOR Vector [15×16]
+        - FRAME Episode information [480×157] (column; padding 0 20 0 20; gap 12)
+          - TEXT Metadata [440×16] “PURPOSE · PART 2 · 42 MIN · 22 May 2025”
+          - TEXT Episode title [440×68] “Purpose - Bigger Than Football Pt.2”
+          - TEXT Description [440×21] “Coach Cavin Johnson and Jesse Donn”
+          - FRAME Episode actions [440×16] (row)
+            - TEXT Link [43×16] “Play →”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+  - FRAME Ways in [1440×834] (column; padding 80 40 80 40; gap 40; fill #131311)
+    - TEXT Metadata [1360×16] “04 / Find your way in”
+    - TEXT Heading [1360×78] “THREE WAYS IN.”
+    - FRAME Series tiles [1360×500] (row; gap 24)
+      - FRAME Series tile [437×500] (column; padding 28 28 28 28; fill #B4F071)
+        - TEXT Series number [37×20] “01 /”
+        - FRAME Series information [381×162] (column; gap 24)
+          - TEXT Heading [381×82] “Season 1 — the Journey series”
+          - TEXT Metadata [381×16] “The first chapter · Since 2024”
+          - TEXT Link [123×16] “Explore Season 1 →”
+      - FRAME Series tile [437×500] (column; padding 28 28 28 28; fill #F5F4EF)
+        - TEXT Series number [37×20] “02 /”
+        - FRAME Series information [381×244] (column; gap 24)
+          - TEXT Heading [381×164] “Purpose — Bigger Than Football (two parts)”
+          - TEXT Metadata [381×16] “Two conversations · 33 + 42 min”
+          - TEXT Link [119×16] “Explore Purpose →”
+      - FRAME Series tile [437×500] (column; padding 28 28 28 28; fill #1B1B18)
+        - FRAME Monochrome texture [437×246] (column)
+          - FRAME Episode artwork · Placeholder [437×246] (column; fill #0A0A0A @ 72%)
+            - RECT Pitch boundary [385×197]
+            - ELLIPSE Centre circle [167×167]
+            - RECT Halfway line [1×197] (fill #797970)
+            - TEXT Graphic title [350×47] “KINSHASA”
+            - TEXT Artwork label [376×11] “EPISODE ARTWORK · PLACEHOLDER”
+            - TEXT Series mark [21×13] “ET /”
+        - TEXT Series number [37×20] “03 /”
+        - FRAME Series information [381×203] (column; gap 24)
+          - TEXT Heading [381×123] “ExtraTime Specials — Kinshasa”
+          - TEXT Metadata [381×16] “French-language special · 50 min”
+          - TEXT Link [135×16] “Explore the special →”
+  - FRAME At our table [1440×1516] (column; padding 80 40 80 40; gap 40; fill #F5F4EF)
+    - TEXT Metadata [1360×16] “05 / Different voices. Shared possibilities.”
+    - TEXT Heading [1360×94] “AT OUR TABLE.”
+    - FRAME Featured guests [1360×904] (row; gap 24)
+      - FRAME Featured guest card [668×904] (column; fill #0A0A0A)
+        - FRAME Episode artwork · Placeholder [668×376] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [588×301]
+          - ELLIPSE Centre circle [256×256]
+          - RECT Halfway line [1×301] (fill #797970)
+          - TEXT Graphic title [534×144] “FULL CIRCLE”
+          - TEXT Artwork label [574×13] “EPISODE ARTWORK · PLACEHOLDER”
+          - TEXT Series mark [33×20] “ET /”
+        - FRAME Guest names [668×230] (column; padding 28 28 28 28; gap 12; fill #E8E7E0)
+          - TEXT Heading [612×102] “COACH PITSO MOSIMANE”
+          - TEXT Accent statement [612×44] “FULL CIRCLE.”
+          - RECT Accent punctuation [72×4] (fill #B4F071)
+        - FRAME Featured conversation [668×298] (column; padding 28 28 28 28; gap 20)
+          - TEXT Metadata [612×16] “FEATURED GUEST”
+          - TEXT Heading [612×66] “Full Circle - Coach Pitso Mosimane”
+          - TEXT Description [612×52] “A conversation in the ExtraTime series, where football opens the door to identity, purpose and life beyond the game.”
+          - FRAME Watch actions [612×48] (row; gap 20)
+            - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+              - TEXT Label [47×15] “▶ Play”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+      - FRAME Featured guest card [668×904] (column; fill #0A0A0A)
+        - FRAME Episode artwork · Placeholder [668×376] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [588×301]
+          - ELLIPSE Centre circle [256×256]
+          - RECT Halfway line [1×301] (fill #797970)
+          - TEXT Graphic title [534×144] “BIGGER THAN”
+          - TEXT Artwork label [574×13] “EPISODE ARTWORK · PLACEHOLDER”
+          - TEXT Series mark [33×20] “ET /”
+        - FRAME Guest names [668×230] (column; padding 28 28 28 28; gap 12; fill #E8E7E0)
+          - TEXT Heading [612×102] “COACH CAVIN JOHNSON & JESSE DONN”
+          - TEXT Accent statement [612×44] “BIGGER THAN FOOTBALL.”
+          - RECT Accent punctuation [72×4] (fill #B4F071)
+        - FRAME Featured conversation [668×298] (column; padding 28 28 28 28; gap 20)
+          - TEXT Metadata [612×16] “FEATURED GUEST”
+          - TEXT Heading [612×66] “Purpose - Bigger Than Football Pt.2”
+          - TEXT Description [612×52] “A conversation in the ExtraTime series, where football opens the door to identity, purpose and life beyond the game.”
+          - FRAME Watch actions [612×48] (row; gap 20)
+            - FRAME Button [87×48] (row; padding 0 20 0 20; gap 12; fill #B4F071)
+              - TEXT Label [47×15] “▶ Play”
+            - TEXT Link [133×16] “Watch on YouTube ↗”
+    - FRAME The people at our table [1360×222] (column; padding 40 40 40 40; gap 24; fill #E8E7E0)
+      - TEXT Heading [1280×39] “THE PEOPLE AT OUR TABLE”
+      - FRAME Guest and presenter names [1280×39] (row; gap 12)
+        - FRAME Filter chip [162×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [130×15] “Coach Pitso Mosimane”
+        - FRAME Filter chip [156×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [124×15] “Coach Cavin Johnson”
+        - FRAME Filter chip [99×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [67×15] “Jesse Donn”
+        - FRAME Filter chip [120×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [88×15] “Kay Kay Ribane”
+        - FRAME Filter chip [132×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [100×15] “Daniel · presenter”
+        - FRAME Filter chip [130×39] (row; padding 12 16 12 16; fill #E8E7E0; radius 100)
+          - TEXT Label [98×15] “Haggi · presenter”
+      - TEXT Link [134×16] “More on Instagram ↗”
+  - FRAME From the socials [1440×857] (column; padding 80 0 80 0; gap 36; fill #0A0A0A)
+    - FRAME Social introduction [1440×236] (column; padding 0 40 0 40; gap 24)
+      - TEXT Metadata [1360×16] “06 / Keep it going”
+      - TEXT Heading [1360×156] “FROM THE SOCIALS.”
+      - FRAME Social navigation [1360×16] (row)
+        - TEXT Metadata [1281×16] “01/06 · Swipe or scroll for more”
+        - TEXT Link [79×16] “All socials →”
+    - FRAME Social carousel [2600×425] (row; padding 0 40 0 40; gap 24)
+      - FRAME Sample social post [400×425] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [400×225] (column; fill #B4F071)
+          - RECT Pitch boundary [352×180]
+          - ELLIPSE Centre circle [153×153]
+          - RECT Halfway line [1×180] (fill #0A0A0A)
+          - TEXT Graphic title [320×43] “IDENTITY”
+          - TEXT Artwork label [344×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [20×12] “ET /”
+        - FRAME Post information [400×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [360×13] (row)
+            - TEXT Post counter [38×13] “01/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [360×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [400×425] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [400×225] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [352×180]
+          - ELLIPSE Centre circle [153×153]
+          - RECT Halfway line [1×180] (fill #797970)
+          - TEXT Graphic title [320×86] “BEYOND THE GAME”
+          - TEXT Artwork label [344×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [20×12] “ET /”
+        - FRAME Post information [400×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [360×13] (row)
+            - TEXT Post counter [38×13] “02/06”
+            - TEXT Platform [46×13] “TIKTOK”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [360×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [111×16] “View on TikTok ↗”
+      - FRAME Sample social post [400×425] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [400×225] (column; fill #B4F071)
+          - RECT Pitch boundary [352×180]
+          - ELLIPSE Centre circle [153×153]
+          - RECT Halfway line [1×180] (fill #0A0A0A)
+          - TEXT Graphic title [320×43] “PURPOSE”
+          - TEXT Artwork label [344×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [20×12] “ET /”
+        - FRAME Post information [400×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [360×13] (row)
+            - TEXT Post counter [38×13] “03/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [360×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [400×425] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [400×225] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [352×180]
+          - ELLIPSE Centre circle [153×153]
+          - RECT Halfway line [1×180] (fill #797970)
+          - TEXT Graphic title [320×86] “OUR STORIES”
+          - TEXT Artwork label [344×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [20×12] “ET /”
+        - FRAME Post information [400×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [360×13] (row)
+            - TEXT Post counter [38×13] “04/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [360×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+      - FRAME Sample social post [400×425] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [400×225] (column; fill #B4F071)
+          - RECT Pitch boundary [352×180]
+          - ELLIPSE Centre circle [153×153]
+          - RECT Halfway line [1×180] (fill #0A0A0A)
+          - TEXT Graphic title [320×86] “LIFE AFTER”
+          - TEXT Artwork label [344×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [20×12] “ET /”
+        - FRAME Post information [400×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [360×13] (row)
+            - TEXT Post counter [38×13] “05/06”
+            - TEXT Platform [46×13] “TIKTOK”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [360×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [111×16] “View on TikTok ↗”
+      - FRAME Sample social post [400×425] (column; gap 20; fill #131311)
+        - FRAME Episode artwork · Placeholder [400×225] (column; fill #0A0A0A @ 72%)
+          - RECT Pitch boundary [352×180]
+          - ELLIPSE Centre circle [153×153]
+          - RECT Halfway line [1×180] (fill #797970)
+          - TEXT Graphic title [320×86] “YOUR NEXT CHAPTER”
+          - TEXT Artwork label [344×11] “SAMPLE POST ARTWORK · NOT A PUBLISHED POST”
+          - TEXT Series mark [20×12] “ET /”
+        - FRAME Post information [400×180] (column; padding 0 20 24 20; gap 16)
+          - FRAME Post metadata [360×13] (row)
+            - TEXT Post counter [38×13] “06/06”
+            - TEXT Platform [69×13] “INSTAGRAM”
+          - TEXT Sample label [99×13] “SAMPLE CAPTION”
+          - TEXT Description [360×66] “Your value goes beyond the pitch. Make room for conversations about identity, purpose and your next chapter.”
+          - TEXT Link [133×16] “View on Instagram ↗”
+  - FRAME Join the conversation [1440×424] (row; padding 80 40 80 40; gap 80; fill #B4F071)
+    - FRAME Invitation [840×262] (column; gap 24)
+      - TEXT Metadata [840×16] “Stay in the conversation”
+      - FRAME Invitation statement [840×222] (column)
+        - TEXT Heading [840×74] “DON’T JUST WATCH.”
+        - TEXT Heading [840×74] “JOIN THE”
+        - TEXT Heading [840×74] “CONVERSATION.”
+    - FRAME Follow channels [440×264] (column)
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME youtube [24×24]
+          - VECTOR Vector [20×14]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [104×29] “YouTube”
+          - TEXT Handle [86×15] “@extratimeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME instagram [24×24]
+          - VECTOR Vector [20×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [121×29] “Instagram”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+      - FRAME Follow row [440×88] (row; padding 20 0 20 0; gap 16)
+        - FRAME music-2 [24×24]
+          - VECTOR Vector [15×20]
+        - FRAME Channel [357×48] (column; gap 4)
+          - TEXT Platform [80×29] “TikTok”
+          - TEXT Handle [93×15] “@extra.timeorg”
+        - TEXT External destination [27×34] “↗”
+  - FRAME Footer [1440×318] (column; padding 48 40 48 40; gap 40; fill #0A0A0A)
+    - FRAME Footer navigation [1360×142] (row)
+      - FRAME Brand [520×142] (column; gap 20)
+        - TEXT Wordmark [352×92] “ExtraTIME”
+        - TEXT Editorial standfirst [520×30] “The conversation beyond the game”
+      - FRAME Footer links [488×128] (row; gap 64)
+        - FRAME Explore [120×128] (column; gap 12)
+          - TEXT Metadata [120×16] “Explore”
+          - TEXT Link [58×16] “Episodes”
+          - TEXT Link [37×16] “Hosts”
+          - TEXT Link [39×16] “Social”
+          - TEXT Link [39×16] “About”
+        - FRAME Follow [140×100] (column; gap 12)
+          - TEXT Metadata [140×16] “Follow”
+          - TEXT Link [71×16] “YouTube ↗”
+          - TEXT Link [79×16] “Instagram ↗”
+          - TEXT Link [58×16] “TikTok ↗”
+        - FRAME Contact [100×44] (column; gap 12)
+          - TEXT Metadata [100×16] “Contact”
+          - TEXT Link [51×16] “Contact”
+    - FRAME Colophon [1360×40] (row; padding 24 0 0 0)
+      - TEXT Metadata [1360×16] “ExtraTime · The conversation beyond the game”

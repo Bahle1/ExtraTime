@@ -1,0 +1,1991 @@
+[
+  {
+    "id": "3:53742",
+    "name": "Journey · Route recovery",
+    "kind": "journey",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1139,
+    "x": -701,
+    "y": 41090,
+    "render": "renders/journeys/journey-route-recovery.png",
+    "sections": [
+      {
+        "id": "3:53743",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:53744",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:53745",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:53746",
+        "name": "Recovery journey",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 839,
+        "layout": "row; gap 40",
+        "children": [
+          "Entry / Mistyped route",
+          "404 / Episodes recovery",
+          "Destination / Episodes archive"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:53636",
+    "name": "Journey · Share and follow",
+    "kind": "journey",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1508,
+    "x": 859,
+    "y": 38637,
+    "render": "renders/journeys/journey-share-and-follow.png",
+    "sections": [
+      {
+        "id": "3:53637",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:53638",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:53639",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:53640",
+        "name": "Mobile share journey",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 1208,
+        "layout": "row; gap 40",
+        "children": [
+          "Episode / Share action",
+          "Feedback / Link copied",
+          "Closing CTA / YouTube follow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:53424",
+    "name": "Journey · Social discovery",
+    "kind": "journey",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 2293,
+    "x": -701,
+    "y": 38637,
+    "render": "renders/journeys/journey-social-discovery.png",
+    "sections": [
+      {
+        "id": "3:53425",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:53426",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:53427",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:53428",
+        "name": "Social discovery sequence",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 1993,
+        "layout": "row; gap 40",
+        "children": [
+          "Instagram / Filtered",
+          "Load more / Expanded sample grid",
+          "External destination / Instagram"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:53365",
+    "name": "Journey · Founder to conversation",
+    "kind": "journey",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1545,
+    "x": 859,
+    "y": 36932,
+    "render": "renders/journeys/journey-founder-to-conversation.png",
+    "sections": [
+      {
+        "id": "3:53366",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:53367",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:53368",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:53369",
+        "name": "Founder profile to playback",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 1245,
+        "layout": "row; gap 40",
+        "children": [
+          "Home founders / View profile",
+          "Profile / Known founder episode",
+          "Founder episode / Playing in place"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:53273",
+    "name": "Journey · One active conversation",
+    "kind": "journey",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 872,
+    "x": -701,
+    "y": 36932,
+    "render": "renders/journeys/journey-one-active-conversation.png",
+    "sections": [
+      {
+        "id": "3:53274",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:53275",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:53276",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:53277",
+        "name": "Playback exclusivity sequence",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 572,
+        "layout": "row; gap 40",
+        "children": [
+          "A / Kinshasa playing · B at rest",
+          "B / Full Circle playing · A restored"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:53223",
+    "name": "Journey · Archive identity search",
+    "kind": "journey",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1070,
+    "x": 859,
+    "y": 35247,
+    "render": "renders/journeys/journey-archive-identity-search.png",
+    "sections": [
+      {
+        "id": "3:53224",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:53225",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:53226",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:53227",
+        "name": "Search result to episode",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 770,
+        "layout": "row; gap 40",
+        "children": [
+          "Archive / Query identity → 1 conversation",
+          "Result destination / Kinshasa special"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:53122",
+    "name": "Journey · Mobile founder discovery",
+    "kind": "journey",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1525,
+    "x": -701,
+    "y": 35247,
+    "render": "renders/journeys/journey-mobile-founder-discovery.png",
+    "sections": [
+      {
+        "id": "3:53123",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:53124",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:53125",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:53126",
+        "name": "Mobile founder journey",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 1225,
+        "layout": "row; gap 40",
+        "children": [
+          "Landing / Founder episode",
+          "Play / Same panel · 350 × 220 min",
+          "Host link / Shungu profile"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:53040",
+    "name": "Journey · Home latest playback",
+    "kind": "journey",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1373,
+    "x": 859,
+    "y": 32311,
+    "render": "renders/journeys/journey-home-latest-playback.png",
+    "sections": [
+      {
+        "id": "3:53041",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:53042",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:53043",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:53044",
+        "name": "Home in-page playback states",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 1073,
+        "layout": "column; gap 40",
+        "children": [
+          "Hero playing state",
+          "State label",
+          "Latest carousel at rest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:52840",
+    "name": "Components & visual states",
+    "kind": "components",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 2776,
+    "x": -701,
+    "y": 32311,
+    "render": "renders/components/components-visual-states.png",
+    "sections": [
+      {
+        "id": "3:52841",
+        "name": "Metadata",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 16,
+        "layout": "fill #B4F071",
+        "children": []
+      },
+      {
+        "id": "3:52842",
+        "name": "Heading",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 63,
+        "layout": "fill #F5F4EF",
+        "children": []
+      },
+      {
+        "id": "3:52843",
+        "name": "Handoff annotation",
+        "type": "TEXT",
+        "width": 1360,
+        "height": 21,
+        "layout": "fill #A8A69C",
+        "children": []
+      },
+      {
+        "id": "3:52844",
+        "name": "Brand foundation",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 148,
+        "layout": "column; gap 20",
+        "children": [
+          "State label",
+          "Palette"
+        ]
+      },
+      {
+        "id": "3:52863",
+        "name": "Navigation examples",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 203,
+        "layout": "column; gap 16",
+        "children": [
+          "State label",
+          "Header · Default",
+          "Header · Scrolled"
+        ]
+      },
+      {
+        "id": "3:52883",
+        "name": "Control examples",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 260,
+        "layout": "column; gap 20",
+        "children": [
+          "State label",
+          "Buttons",
+          "Filter examples",
+          "Follow row example"
+        ]
+      },
+      {
+        "id": "3:52910",
+        "name": "Episode card examples",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 536,
+        "layout": "column; gap 20",
+        "children": [
+          "State label",
+          "Card states",
+          "Handoff annotation"
+        ]
+      },
+      {
+        "id": "3:52990",
+        "name": "Ticker example",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 150,
+        "layout": "column; gap 16",
+        "children": [
+          "State label",
+          "Identity ticker · Static",
+          "Handoff annotation"
+        ]
+      },
+      {
+        "id": "3:52995",
+        "name": "System states and mobile menu",
+        "type": "FRAME",
+        "width": 1360,
+        "height": 979,
+        "layout": "row; gap 40",
+        "children": [
+          "Collection feedback states",
+          "Mobile menu example"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:52803",
+    "name": "404 · Mobile",
+    "kind": "page",
+    "viewport": "mobile",
+    "width": 390,
+    "height": 1179,
+    "x": 859,
+    "y": 30935,
+    "render": "renders/pages/404-mobile.png",
+    "sections": [
+      {
+        "id": "3:52804",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 390,
+        "height": 86,
+        "layout": "row; padding 0 20 0 20; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "menu"
+        ]
+      },
+      {
+        "id": "3:52807",
+        "name": "Off the pitch",
+        "type": "FRAME",
+        "width": 390,
+        "height": 640,
+        "layout": "column; padding 56 20 56 20; gap 32",
+        "children": [
+          "Route status",
+          "Heading",
+          "Editorial standfirst",
+          "Description",
+          "Recovery actions"
+        ]
+      },
+      {
+        "id": "3:52817",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 390,
+        "height": 453,
+        "layout": "column; padding 48 20 48 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:52760",
+    "name": "404 · Desktop",
+    "kind": "page",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1216,
+    "x": -701,
+    "y": 30935,
+    "render": "renders/pages/404-desktop.png",
+    "sections": [
+      {
+        "id": "3:52761",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 86,
+        "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "Navigation"
+        ]
+      },
+      {
+        "id": "3:52770",
+        "name": "Off the pitch",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 812,
+        "layout": "column; padding 100 40 100 40; gap 32",
+        "children": [
+          "Route status",
+          "Heading",
+          "Editorial standfirst",
+          "Description",
+          "Recovery actions"
+        ]
+      },
+      {
+        "id": "3:52780",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 318,
+        "layout": "column; padding 48 40 48 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:52650",
+    "name": "About · Mobile",
+    "kind": "page",
+    "viewport": "mobile",
+    "width": 390,
+    "height": 4153,
+    "x": 859,
+    "y": 26622,
+    "render": "renders/pages/about-mobile.png",
+    "sections": [
+      {
+        "id": "3:52651",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 390,
+        "height": 86,
+        "layout": "row; padding 0 20 0 20; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "menu"
+        ]
+      },
+      {
+        "id": "3:52654",
+        "name": "Page introduction",
+        "type": "FRAME",
+        "width": 390,
+        "height": 460,
+        "layout": "column; padding 48 20 48 20; gap 24",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Editorial standfirst"
+        ]
+      },
+      {
+        "id": "3:52658",
+        "name": "Our mission",
+        "type": "FRAME",
+        "width": 390,
+        "height": 639,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #F5F4EF",
+        "children": [
+          "Mission heading",
+          "Mission copy"
+        ]
+      },
+      {
+        "id": "3:52665",
+        "name": "Our values",
+        "type": "FRAME",
+        "width": 390,
+        "height": 800,
+        "layout": "column; padding 56 20 56 20; gap 32",
+        "children": [
+          "Metadata",
+          "Value",
+          "Value",
+          "Value",
+          "Value",
+          "Value",
+          "Value"
+        ]
+      },
+      {
+        "id": "3:52685",
+        "name": "Meet the founders",
+        "type": "FRAME",
+        "width": 390,
+        "height": 1164,
+        "layout": "column; padding 56 20 56 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Section introduction",
+          "Founder cards"
+        ]
+      },
+      {
+        "id": "3:52711",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 551,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:52737",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 390,
+        "height": 453,
+        "layout": "column; padding 48 20 48 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:52534",
+    "name": "About · Desktop",
+    "kind": "page",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 4093,
+    "x": -701,
+    "y": 26622,
+    "render": "renders/pages/about-desktop.png",
+    "sections": [
+      {
+        "id": "3:52535",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 86,
+        "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "Navigation"
+        ]
+      },
+      {
+        "id": "3:52544",
+        "name": "Page introduction",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 479,
+        "layout": "column; padding 80 40 48 40; gap 24",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Editorial standfirst"
+        ]
+      },
+      {
+        "id": "3:52548",
+        "name": "Our mission",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 541,
+        "layout": "row; padding 80 40 80 40; gap 100; fill #F5F4EF",
+        "children": [
+          "Mission heading",
+          "Mission copy"
+        ]
+      },
+      {
+        "id": "3:52555",
+        "name": "Our values",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 1238,
+        "layout": "column; padding 80 40 80 40; gap 32",
+        "children": [
+          "Metadata",
+          "Value",
+          "Value",
+          "Value",
+          "Value",
+          "Value",
+          "Value"
+        ]
+      },
+      {
+        "id": "3:52575",
+        "name": "Meet the founders",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 1007,
+        "layout": "column; padding 80 40 80 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Section introduction",
+          "Founder cards"
+        ]
+      },
+      {
+        "id": "3:52601",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 424,
+        "layout": "row; padding 80 40 80 40; gap 80; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:52627",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 318,
+        "layout": "column; padding 48 40 48 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:52368",
+    "name": "Social · Mobile",
+    "kind": "page",
+    "viewport": "mobile",
+    "width": 390,
+    "height": 4340,
+    "x": 859,
+    "y": 22122,
+    "render": "renders/pages/social-mobile.png",
+    "sections": [
+      {
+        "id": "3:52369",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 390,
+        "height": 86,
+        "layout": "row; padding 0 20 0 20; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "menu"
+        ]
+      },
+      {
+        "id": "3:52372",
+        "name": "Page introduction",
+        "type": "FRAME",
+        "width": 390,
+        "height": 460,
+        "layout": "column; padding 48 20 48 20; gap 24",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Editorial standfirst"
+        ]
+      },
+      {
+        "id": "3:52376",
+        "name": "Social collection",
+        "type": "FRAME",
+        "width": 390,
+        "height": 2790,
+        "layout": "column; padding 0 20 64 20; gap 32",
+        "children": [
+          "Platform filters",
+          "Description",
+          "Social posts",
+          "Load more action"
+        ]
+      },
+      {
+        "id": "3:52485",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 551,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:52511",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 390,
+        "height": 453,
+        "layout": "column; padding 48 20 48 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:52200",
+    "name": "Social · Desktop",
+    "kind": "page",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 2491,
+    "x": -701,
+    "y": 22122,
+    "render": "renders/pages/social-desktop.png",
+    "sections": [
+      {
+        "id": "3:52201",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 86,
+        "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "Navigation"
+        ]
+      },
+      {
+        "id": "3:52210",
+        "name": "Page introduction",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 479,
+        "layout": "column; padding 80 40 48 40; gap 24",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Editorial standfirst"
+        ]
+      },
+      {
+        "id": "3:52214",
+        "name": "Social collection",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 1184,
+        "layout": "column; padding 0 40 64 40; gap 32",
+        "children": [
+          "Platform filters",
+          "Description",
+          "Social posts",
+          "Load more action"
+        ]
+      },
+      {
+        "id": "3:52319",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 424,
+        "layout": "row; padding 80 40 80 40; gap 80; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:52345",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 318,
+        "layout": "column; padding 48 40 48 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:52064",
+    "name": "Host profile · Mobile",
+    "kind": "page",
+    "viewport": "mobile",
+    "width": 390,
+    "height": 4359,
+    "x": 859,
+    "y": 17602,
+    "render": "renders/pages/host-profile-mobile.png",
+    "sections": [
+      {
+        "id": "3:52065",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 390,
+        "height": 86,
+        "layout": "row; padding 0 20 0 20; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "menu"
+        ]
+      },
+      {
+        "id": "3:52068",
+        "name": "Back navigation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 48,
+        "layout": "column; padding 32 20 0 20",
+        "children": [
+          "Link"
+        ]
+      },
+      {
+        "id": "3:52070",
+        "name": "Shungu profile",
+        "type": "FRAME",
+        "width": 390,
+        "height": 1098,
+        "layout": "column; padding 48 20 48 20; gap 32",
+        "children": [
+          "Monogram portrait",
+          "Profile information"
+        ]
+      },
+      {
+        "id": "3:52085",
+        "name": "Known founder episode",
+        "type": "FRAME",
+        "width": 390,
+        "height": 949,
+        "layout": "column; padding 56 20 56 20; gap 32; fill #F5F4EF",
+        "children": [
+          "Heading",
+          "Metadata",
+          "Founder episode feature"
+        ]
+      },
+      {
+        "id": "3:52111",
+        "name": "Other series content",
+        "type": "FRAME",
+        "width": 390,
+        "height": 1174,
+        "layout": "column; padding 56 20 56 20; gap 28",
+        "children": [
+          "Heading",
+          "Description",
+          "Series selections"
+        ]
+      },
+      {
+        "id": "3:52151",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 551,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:52177",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 390,
+        "height": 453,
+        "layout": "column; padding 48 20 48 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:51922",
+    "name": "Host profile · Desktop",
+    "kind": "page",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 3194,
+    "x": -701,
+    "y": 17602,
+    "render": "renders/pages/host-profile-desktop.png",
+    "sections": [
+      {
+        "id": "3:51923",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 86,
+        "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "Navigation"
+        ]
+      },
+      {
+        "id": "3:51932",
+        "name": "Back navigation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 48,
+        "layout": "column; padding 32 40 0 40",
+        "children": [
+          "Link"
+        ]
+      },
+      {
+        "id": "3:51934",
+        "name": "Shungu profile",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 748,
+        "layout": "row; padding 80 40 80 40; gap 80",
+        "children": [
+          "Monogram portrait",
+          "Profile information"
+        ]
+      },
+      {
+        "id": "3:51949",
+        "name": "Known founder episode",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 771,
+        "layout": "column; padding 56 40 56 40; gap 32; fill #F5F4EF",
+        "children": [
+          "Heading",
+          "Metadata",
+          "Founder episode feature"
+        ]
+      },
+      {
+        "id": "3:51975",
+        "name": "Other series content",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 799,
+        "layout": "column; padding 56 40 56 40; gap 28",
+        "children": [
+          "Heading",
+          "Description",
+          "Series selections"
+        ]
+      },
+      {
+        "id": "3:52015",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 424,
+        "layout": "row; padding 80 40 80 40; gap 80; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:52041",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 318,
+        "layout": "column; padding 48 40 48 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:51842",
+    "name": "Hosts · Mobile",
+    "kind": "page",
+    "viewport": "mobile",
+    "width": 390,
+    "height": 2732,
+    "x": 859,
+    "y": 14710,
+    "render": "renders/pages/hosts-mobile.png",
+    "sections": [
+      {
+        "id": "3:51843",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 390,
+        "height": 86,
+        "layout": "row; padding 0 20 0 20; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "menu"
+        ]
+      },
+      {
+        "id": "3:51846",
+        "name": "Page introduction",
+        "type": "FRAME",
+        "width": 390,
+        "height": 492,
+        "layout": "column; padding 48 20 48 20; gap 24",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Editorial standfirst"
+        ]
+      },
+      {
+        "id": "3:51850",
+        "name": "Hosts",
+        "type": "FRAME",
+        "width": 390,
+        "height": 856,
+        "layout": "column; padding 0 20 80 20; gap 24",
+        "children": [
+          "Founder card",
+          "Founder card"
+        ]
+      },
+      {
+        "id": "3:51869",
+        "name": "Founders conversation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 294,
+        "layout": "column; padding 48 20 48 20; gap 24; fill #F5F4EF",
+        "children": [
+          "Heading",
+          "Editorial standfirst",
+          "Link"
+        ]
+      },
+      {
+        "id": "3:51873",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 551,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:51899",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 390,
+        "height": 453,
+        "layout": "column; padding 48 20 48 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:51756",
+    "name": "Hosts · Desktop",
+    "kind": "page",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 2245,
+    "x": -701,
+    "y": 14710,
+    "render": "renders/pages/hosts-desktop.png",
+    "sections": [
+      {
+        "id": "3:51757",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 86,
+        "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "Navigation"
+        ]
+      },
+      {
+        "id": "3:51766",
+        "name": "Page introduction",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 479,
+        "layout": "column; padding 80 40 48 40; gap 24",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Editorial standfirst"
+        ]
+      },
+      {
+        "id": "3:51770",
+        "name": "Hosts",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 691,
+        "layout": "row; padding 0 40 80 40; gap 24",
+        "children": [
+          "Founder card",
+          "Founder card"
+        ]
+      },
+      {
+        "id": "3:51789",
+        "name": "Founders conversation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 247,
+        "layout": "column; padding 48 40 48 40; gap 24; fill #F5F4EF",
+        "children": [
+          "Heading",
+          "Editorial standfirst",
+          "Link"
+        ]
+      },
+      {
+        "id": "3:51793",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 424,
+        "layout": "row; padding 80 40 80 40; gap 80; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:51819",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 318,
+        "layout": "column; padding 48 40 48 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:51601",
+    "name": "Episode detail · Mobile",
+    "kind": "page",
+    "viewport": "mobile",
+    "width": 390,
+    "height": 3703,
+    "x": 859,
+    "y": 10848,
+    "render": "renders/pages/episode-detail-mobile.png",
+    "sections": [
+      {
+        "id": "3:51602",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 390,
+        "height": 86,
+        "layout": "row; padding 0 20 0 20; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "menu"
+        ]
+      },
+      {
+        "id": "3:51605",
+        "name": "Episode introduction",
+        "type": "FRAME",
+        "width": 390,
+        "height": 1029,
+        "layout": "column; padding 40 20 64 20; gap 32",
+        "children": [
+          "Link",
+          "Episode hero"
+        ]
+      },
+      {
+        "id": "3:51633",
+        "name": "About this episode",
+        "type": "FRAME",
+        "width": 390,
+        "height": 856,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #F5F4EF",
+        "children": [
+          "Editorial introduction",
+          "Show notes and credits"
+        ]
+      },
+      {
+        "id": "3:51648",
+        "name": "More conversations",
+        "type": "FRAME",
+        "width": 390,
+        "height": 728,
+        "layout": "column; padding 56 0 56 0; gap 32",
+        "children": [
+          "Section introduction",
+          "More episodes carousel"
+        ]
+      },
+      {
+        "id": "3:51707",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 551,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:51733",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 390,
+        "height": 453,
+        "layout": "column; padding 48 20 48 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:51440",
+    "name": "Episode detail · Desktop",
+    "kind": "page",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 3027,
+    "x": -701,
+    "y": 10848,
+    "render": "renders/pages/episode-detail-desktop.png",
+    "sections": [
+      {
+        "id": "3:51441",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 86,
+        "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "Navigation"
+        ]
+      },
+      {
+        "id": "3:51450",
+        "name": "Episode introduction",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 898,
+        "layout": "column; padding 64 40 64 40; gap 32",
+        "children": [
+          "Link",
+          "Episode hero"
+        ]
+      },
+      {
+        "id": "3:51478",
+        "name": "About this episode",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 500,
+        "layout": "row; padding 80 40 80 40; gap 100; fill #F5F4EF",
+        "children": [
+          "Editorial introduction",
+          "Show notes and credits"
+        ]
+      },
+      {
+        "id": "3:51493",
+        "name": "More conversations",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 801,
+        "layout": "column; padding 80 0 80 0; gap 32",
+        "children": [
+          "Section introduction",
+          "More episodes carousel"
+        ]
+      },
+      {
+        "id": "3:51552",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 424,
+        "layout": "row; padding 80 40 80 40; gap 80; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:51578",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 318,
+        "layout": "column; padding 48 40 48 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:51243",
+    "name": "Episodes archive · Mobile",
+    "kind": "page",
+    "viewport": "mobile",
+    "width": 390,
+    "height": 4681,
+    "x": 859,
+    "y": 6007,
+    "render": "renders/pages/episodes-archive-mobile.png",
+    "sections": [
+      {
+        "id": "3:51244",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 390,
+        "height": 86,
+        "layout": "row; padding 0 20 0 20; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "menu"
+        ]
+      },
+      {
+        "id": "3:51247",
+        "name": "Page introduction",
+        "type": "FRAME",
+        "width": 390,
+        "height": 342,
+        "layout": "column; padding 48 20 48 20; gap 24",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Editorial standfirst"
+        ]
+      },
+      {
+        "id": "3:51251",
+        "name": "Archive results",
+        "type": "FRAME",
+        "width": 390,
+        "height": 3249,
+        "layout": "column; padding 0 20 80 20; gap 32",
+        "children": [
+          "Search and count",
+          "All episodes"
+        ]
+      },
+      {
+        "id": "3:51391",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 551,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:51417",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 390,
+        "height": 453,
+        "layout": "column; padding 48 20 48 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:51044",
+    "name": "Episodes archive · Desktop",
+    "kind": "page",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 2759,
+    "x": -701,
+    "y": 6007,
+    "render": "renders/pages/episodes-archive-desktop.png",
+    "sections": [
+      {
+        "id": "3:51045",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 86,
+        "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "Navigation"
+        ]
+      },
+      {
+        "id": "3:51054",
+        "name": "Page introduction",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 357,
+        "layout": "column; padding 80 40 48 40; gap 24",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Editorial standfirst"
+        ]
+      },
+      {
+        "id": "3:51058",
+        "name": "Archive results",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 1574,
+        "layout": "column; padding 0 40 80 40; gap 32",
+        "children": [
+          "Search and count",
+          "All episodes"
+        ]
+      },
+      {
+        "id": "3:51194",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 424,
+        "layout": "row; padding 80 40 80 40; gap 80; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:51220",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 318,
+        "layout": "column; padding 48 40 48 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:50690",
+    "name": "Home · Mobile",
+    "kind": "page",
+    "viewport": "mobile",
+    "width": 390,
+    "height": 9093,
+    "x": 859,
+    "y": -3246,
+    "render": "renders/pages/home-mobile.png",
+    "sections": [
+      {
+        "id": "3:50691",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 390,
+        "height": 86,
+        "layout": "row; padding 0 20 0 20; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "menu"
+        ]
+      },
+      {
+        "id": "3:50694",
+        "name": "Latest conversation hero",
+        "type": "FRAME",
+        "width": 390,
+        "height": 758,
+        "layout": "column; padding 36 20 32 20; gap 32; fill #0A0A0A",
+        "children": [
+          "Metadata",
+          "Hero statement",
+          "Hero actions",
+          "Hero media slot",
+          "Feature caption"
+        ]
+      },
+      {
+        "id": "3:50710",
+        "name": "Identity ticker · Static",
+        "type": "FRAME",
+        "width": 390,
+        "height": 64,
+        "layout": "row; padding 0 20 0 20; fill #B4F071",
+        "children": [
+          "Ticker statement"
+        ]
+      },
+      {
+        "id": "3:50712",
+        "name": "More than football",
+        "type": "FRAME",
+        "width": 390,
+        "height": 666,
+        "layout": "column; padding 56 20 56 20; gap 32; fill #F5F4EF",
+        "children": [
+          "Statement",
+          "Mission"
+        ]
+      },
+      {
+        "id": "3:50719",
+        "name": "Meet the founders",
+        "type": "FRAME",
+        "width": 390,
+        "height": 1164,
+        "layout": "column; padding 56 20 56 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Section introduction",
+          "Founder cards"
+        ]
+      },
+      {
+        "id": "3:50745",
+        "name": "The latest conversations",
+        "type": "FRAME",
+        "width": 390,
+        "height": 806,
+        "layout": "column; padding 56 0 56 0; gap 36; fill #0A0A0A",
+        "children": [
+          "Section introduction",
+          "Episode carousel"
+        ]
+      },
+      {
+        "id": "3:50807",
+        "name": "Ways in",
+        "type": "FRAME",
+        "width": 390,
+        "height": 1610,
+        "layout": "column; padding 56 20 56 20; gap 40; fill #131311",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Series tiles"
+        ]
+      },
+      {
+        "id": "3:50837",
+        "name": "At our table",
+        "type": "FRAME",
+        "width": 390,
+        "height": 2234,
+        "layout": "column; padding 56 20 56 20; gap 40; fill #F5F4EF",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Featured guests",
+          "The people at our table"
+        ]
+      },
+      {
+        "id": "3:50897",
+        "name": "From the socials",
+        "type": "FRAME",
+        "width": 390,
+        "height": 701,
+        "layout": "column; padding 56 0 56 0; gap 36; fill #0A0A0A",
+        "children": [
+          "Social introduction",
+          "Social carousel"
+        ]
+      },
+      {
+        "id": "3:50995",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 390,
+        "height": 551,
+        "layout": "column; padding 48 20 48 20; gap 32; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:51021",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 390,
+        "height": 453,
+        "layout": "column; padding 48 20 48 20; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3:50329",
+    "name": "Home · Desktop",
+    "kind": "page",
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 7417,
+    "x": -701,
+    "y": -3246,
+    "render": "renders/pages/home-desktop.png",
+    "sections": [
+      {
+        "id": "3:50330",
+        "name": "Header · Default",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 86,
+        "layout": "row; padding 0 40 0 40; fill #0A0A0A @ 92%",
+        "children": [
+          "Wordmark",
+          "Navigation"
+        ]
+      },
+      {
+        "id": "3:50339",
+        "name": "Latest conversation hero",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 814,
+        "layout": "column; padding 72 40 32 40; gap 48; fill #0A0A0A",
+        "children": [
+          "Feature background",
+          "Metadata",
+          "Hero statement",
+          "Hero actions",
+          "Feature caption"
+        ]
+      },
+      {
+        "id": "3:50356",
+        "name": "Identity ticker · Static",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 80,
+        "layout": "row; padding 0 40 0 40; fill #B4F071",
+        "children": [
+          "Ticker statement"
+        ]
+      },
+      {
+        "id": "3:50358",
+        "name": "More than football",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 527,
+        "layout": "row; padding 96 40 96 40; gap 100; fill #F5F4EF",
+        "children": [
+          "Statement",
+          "Mission"
+        ]
+      },
+      {
+        "id": "3:50365",
+        "name": "Meet the founders",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 1007,
+        "layout": "column; padding 80 40 80 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Section introduction",
+          "Founder cards"
+        ]
+      },
+      {
+        "id": "3:50391",
+        "name": "The latest conversations",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 955,
+        "layout": "column; padding 80 0 80 0; gap 36; fill #0A0A0A",
+        "children": [
+          "Section introduction",
+          "Episode carousel"
+        ]
+      },
+      {
+        "id": "3:50453",
+        "name": "Ways in",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 834,
+        "layout": "column; padding 80 40 80 40; gap 40; fill #131311",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Series tiles"
+        ]
+      },
+      {
+        "id": "3:50483",
+        "name": "At our table",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 1516,
+        "layout": "column; padding 80 40 80 40; gap 40; fill #F5F4EF",
+        "children": [
+          "Metadata",
+          "Heading",
+          "Featured guests",
+          "The people at our table"
+        ]
+      },
+      {
+        "id": "3:50543",
+        "name": "From the socials",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 857,
+        "layout": "column; padding 80 0 80 0; gap 36; fill #0A0A0A",
+        "children": [
+          "Social introduction",
+          "Social carousel"
+        ]
+      },
+      {
+        "id": "3:50641",
+        "name": "Join the conversation",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 424,
+        "layout": "row; padding 80 40 80 40; gap 80; fill #B4F071",
+        "children": [
+          "Invitation",
+          "Follow channels"
+        ]
+      },
+      {
+        "id": "3:50667",
+        "name": "Footer",
+        "type": "FRAME",
+        "width": 1440,
+        "height": 318,
+        "layout": "column; padding 48 40 48 40; gap 40; fill #0A0A0A",
+        "children": [
+          "Footer navigation",
+          "Colophon"
+        ]
+      }
+    ]
+  }
+]
