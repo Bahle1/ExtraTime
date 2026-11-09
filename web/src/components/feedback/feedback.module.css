@@ -1,0 +1,67 @@
+.loading,
+.error,
+.empty {
+  padding: var(--space-6);
+  border: var(--hairline) solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-surface-raise);
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  min-height: var(--loading-min-height);
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--color-text-soft);
+}
+
+.spinner {
+  width: var(--space-5);
+  height: var(--space-5);
+  border: var(--focus-ring-width) solid var(--color-line);
+  border-top-color: var(--color-accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.error {
+  border-left: 3px solid var(--color-danger);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--type-d4);
+  font-weight: var(--font-weight-display);
+  letter-spacing: var(--track-display);
+  text-transform: uppercase;
+}
+
+.button {
+  min-height: var(--target-min-size);
+  padding: var(--space-3) var(--space-5);
+  border: var(--hairline) solid var(--color-accent);
+  border-radius: var(--radius);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--color-text);
+  border-color: var(--color-text);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}

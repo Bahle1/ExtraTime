@@ -1,0 +1,79 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  padding-block: var(--section-y);
+}
+
+.slogan {
+  max-width: var(--measure);
+  margin: 0;
+  font-family: var(--font-editorial);
+  font-size: var(--type-d3);
+  font-style: italic;
+  line-height: 1.25;
+  color: var(--color-text-soft);
+}
+
+.story {
+  display: grid;
+  gap: var(--space-6);
+}
+
+@media (min-width: 960px) {
+  .story {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.blockLabel {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  font-weight: 400;
+  letter-spacing: var(--track-label);
+  line-height: var(--line-height-body);
+}
+
+.storyBody {
+  max-width: var(--measure);
+  font-size: var(--type-standfirst);
+}
+
+.storyBody p {
+  margin: 0 0 var(--space-5);
+}
+
+.contact {
+  border-top: var(--hairline) solid var(--color-line);
+}
+
+.contactInner {
+  display: grid;
+  gap: var(--space-6);
+  align-items: end;
+  padding-block: var(--section-y);
+}
+
+@media (min-width: 960px) {
+  .contactInner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contactHeading {
+  margin: 0;
+  font-size: var(--type-d1);
+}
+
+.contactBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-5);
+}
+
+.contactBody p {
+  margin: 0;
+  color: var(--color-text-soft);
+}

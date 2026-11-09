@@ -1,0 +1,337 @@
+/* Layout helpers */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.section {
+  padding-block: var(--section-y);
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Section headings: mono eyebrow, stacked display lines, one accent line */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--color-text-soft);
+}
+
+.eyebrow::before {
+  content: '';
+  width: 20px;
+  height: var(--hairline);
+  background: var(--color-accent);
+}
+
+.heading {
+  margin: 0;
+}
+
+.headingLine {
+  display: block;
+}
+
+.accentLine {
+  display: block;
+  color: var(--color-accent);
+}
+
+.standfirst {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: var(--type-standfirst);
+  line-height: 1.45;
+  color: var(--color-text-soft);
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--color-text-soft);
+}
+
+/* Buttons and links */
+.buttonPrimary,
+.buttonGhost {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--target-min-size);
+  padding: var(--space-3) var(--space-5);
+  border: var(--hairline) solid var(--color-accent);
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background var(--motion-fast) var(--motion-ease),
+    color var(--motion-fast) var(--motion-ease);
+}
+
+.buttonPrimary {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+.buttonPrimary:hover {
+  background: var(--color-text);
+  border-color: var(--color-text);
+  color: var(--color-on-accent);
+}
+
+.buttonGhost {
+  background: transparent;
+  border-color: var(--color-text);
+  color: var(--color-text);
+}
+
+.buttonGhost:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.textLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--target-min-size);
+  padding-block: var(--space-1);
+  border-bottom: var(--hairline) solid currentcolor;
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Artwork */
+.artworkFrame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--color-surface-raise-2);
+}
+
+.artworkFrame[data-fill] {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: auto;
+  height: 100%;
+}
+
+.artwork,
+.placeholder {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder {
+  fill: var(--color-surface-raise-2);
+}
+
+/* Share */
+.share {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.shareButton {
+  composes: buttonGhost;
+}
+
+.shareStatus {
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+/* Ticker band */
+/* position: relative keeps visually hidden (absolute) descendants inside the clip. */
+.ticker {
+  position: relative;
+  overflow: hidden;
+  padding-block: var(--space-4);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  white-space: nowrap;
+}
+
+.tickerTrack {
+  display: inline-flex;
+  min-width: 200%;
+  font-family: var(--font-display);
+  font-size: clamp(0.9rem, 0.8rem + 0.4vw, 1.05rem);
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  animation: ticker var(--ticker-duration) linear infinite;
+}
+
+.tickerWord {
+  padding-inline-end: var(--space-3);
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Carousel: native horizontal scroll with snap points and arrow buttons */
+.carousel {
+  position: relative;
+}
+
+.carouselTrack {
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: var(--carousel-card-width);
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0 0 var(--space-4);
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+.carouselTrack > li {
+  scroll-snap-align: start;
+}
+
+.carouselFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+}
+
+.carouselControls {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.carouselButton {
+  display: grid;
+  place-items: center;
+  width: var(--target-min-size);
+  height: var(--target-min-size);
+  border: var(--hairline) solid var(--color-line);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.carouselButton:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.carouselHint {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--color-text-soft);
+}
+
+/* Chips */
+.chipList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min-size);
+  padding: var(--space-2) var(--space-4);
+  border: var(--hairline) solid var(--color-line);
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+a.chip:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Paper surface: light sections (accent text becomes ink with an accent underline for contrast) */
+.paper {
+  --color-surface: var(--et-paper);
+  --color-surface-raise: var(--et-paper-dim);
+  --color-surface-raise-2: var(--et-paper-dim);
+  --color-line: var(--et-paper-line);
+  --color-text: var(--et-ink);
+  --color-text-soft: var(--et-on-paper-soft);
+  --color-danger: var(--et-danger-on-paper);
+  --color-focus: var(--et-ink);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.paper .accentLine {
+  color: var(--et-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--et-accent);
+  text-decoration-thickness: 0.14em;
+  text-underline-offset: 0.06em;
+  text-decoration-skip-ink: none;
+}
+
+.paper .buttonPrimary {
+  border-color: var(--et-ink);
+}
+
+.paper a:hover {
+  color: var(--et-ink);
+  text-decoration-color: var(--et-ink);
+}

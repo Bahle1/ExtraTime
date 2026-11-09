@@ -1,0 +1,128 @@
+.pageHeader {
+  padding-block: var(--section-y) var(--space-8);
+  border-bottom: var(--hairline) solid var(--color-line);
+}
+
+.pageHeader p {
+  margin-top: var(--space-5);
+}
+
+.pageBody {
+  padding-block: var(--space-8) var(--section-y);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  height: 100%;
+  padding: var(--space-6);
+  border: var(--hairline) solid var(--color-line);
+  background: var(--color-surface-raise);
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+.cardName {
+  margin: 0;
+  font-size: var(--type-d3);
+}
+
+.cardName a {
+  text-decoration: none;
+}
+
+.shortBio {
+  margin: 0;
+  color: var(--color-text-soft);
+}
+
+/* Monogram (no consented photos yet) or portrait */
+.avatar {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 96px;
+  height: 96px;
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: var(--track-display);
+  object-fit: cover;
+}
+
+.avatar[data-size='large'] {
+  width: 140px;
+  height: 140px;
+  font-size: 3.2rem;
+}
+
+/* Profile */
+.profileHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--space-6);
+  padding-block: var(--section-y) var(--space-7);
+  border-bottom: var(--hairline) solid var(--color-line);
+}
+
+.profileHeader h1 {
+  margin: 0;
+}
+
+.profileBody {
+  display: grid;
+  gap: var(--space-6);
+  padding-block: var(--space-8);
+}
+
+@media (min-width: 960px) {
+  .profileBody {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.bio {
+  white-space: pre-line;
+  color: var(--color-text-soft);
+}
+
+.profileActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4);
+  margin-top: var(--space-5);
+}
+
+.section {
+  padding-block: var(--space-8) var(--section-y);
+  border-top: var(--hairline) solid var(--color-line);
+}
+
+.blockLabel {
+  margin: 0 0 var(--space-6);
+  font-family: var(--font-mono);
+  font-size: var(--type-label);
+  font-weight: 400;
+  letter-spacing: var(--track-label);
+  line-height: var(--line-height-body);
+  color: var(--color-text-soft);
+}

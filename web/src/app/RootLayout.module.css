@@ -1,0 +1,12 @@
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Pages own their full-bleed sections and inner containers. */
+.main {
+  flex: 1;
+  width: 100%;
+}
