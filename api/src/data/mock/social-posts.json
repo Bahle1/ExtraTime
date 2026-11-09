@@ -1,0 +1,341 @@
+[
+  {
+    "id": "sp_ig_fixture-01",
+    "platform": "instagram",
+    "kind": "video",
+    "caption": "🎙️ Pas de discipline = pas de réussite.\n🎙️ Tu es plus que ce que tu fais.",
+    "permalink": "https://www.instagram.com/extra.timeorg/",
+    "publishedAt": "2026-04-24T18:00:00Z",
+    "media": [
+      {
+        "type": "video",
+        "url": null,
+        "thumbnailUrl": "https://i.ytimg.com/vi/NIf49jnbwaM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extra.timeorg",
+      "avatarUrl": null
+    },
+    "metrics": null,
+    "relatedEpisodeId": null,
+    "relatedEpisodeSlug": null,
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_yt_NIf49jnbwaM",
+    "platform": "youtube",
+    "kind": "video",
+    "caption": "Un épisode authentique, inspirant, et ancré dans la réalité.",
+    "permalink": "https://www.youtube.com/watch?v=NIf49jnbwaM",
+    "publishedAt": "2026-04-22T20:11:44Z",
+    "media": [
+      {
+        "type": "video",
+        "url": null,
+        "thumbnailUrl": "https://i.ytimg.com/vi/NIf49jnbwaM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extratimeorg",
+      "avatarUrl": null
+    },
+    "metrics": {
+      "likes": 14,
+      "comments": null,
+      "shares": null,
+      "views": 365
+    },
+    "relatedEpisodeId": "ep_yt_NIf49jnbwaM",
+    "relatedEpisodeSlug": "plus-que-le-football-construire-son-identite-extratime",
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_ig_fixture-02",
+    "platform": "instagram",
+    "kind": "image",
+    "caption": "Developing not just skilled athletes, but well-rounded individuals, the holistic player of tomorrow.",
+    "permalink": "https://www.instagram.com/extra.timeorg/",
+    "publishedAt": "2025-07-10T17:00:00Z",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://i.ytimg.com/vi/YwtdXN617Qg/hqdefault.jpg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YwtdXN617Qg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extra.timeorg",
+      "avatarUrl": null
+    },
+    "metrics": null,
+    "relatedEpisodeId": null,
+    "relatedEpisodeSlug": null,
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_yt_YwtdXN617Qg",
+    "platform": "youtube",
+    "kind": "video",
+    "caption": "From player to coach to mentor and beyond, Coach Pitso Mosimane reflects on the full circle nature of his illustrious journey.",
+    "permalink": "https://www.youtube.com/watch?v=YwtdXN617Qg",
+    "publishedAt": "2025-07-08T17:00:46Z",
+    "media": [
+      {
+        "type": "video",
+        "url": null,
+        "thumbnailUrl": "https://i.ytimg.com/vi/YwtdXN617Qg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extratimeorg",
+      "avatarUrl": null
+    },
+    "metrics": {
+      "likes": 16,
+      "comments": null,
+      "shares": null,
+      "views": 541
+    },
+    "relatedEpisodeId": "ep_yt_YwtdXN617Qg",
+    "relatedEpisodeSlug": "full-circle-coach-pitso-mosimane",
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_ig_fixture-03",
+    "platform": "instagram",
+    "kind": "carousel",
+    "caption": "Football is more than just a game, it’s a journey of self-discovery.",
+    "permalink": "https://www.instagram.com/extra.timeorg/",
+    "publishedAt": "2025-05-25T17:00:00Z",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://i.ytimg.com/vi/1EPurDA9Jvo/hqdefault.jpg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1EPurDA9Jvo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "type": "image",
+        "url": "https://i.ytimg.com/vi/KrTgla0Cy_k/hqdefault.jpg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KrTgla0Cy_k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extra.timeorg",
+      "avatarUrl": null
+    },
+    "metrics": null,
+    "relatedEpisodeId": null,
+    "relatedEpisodeSlug": null,
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_ig_fixture-04",
+    "platform": "instagram",
+    "kind": "video",
+    "caption": "The journey doesn’t end with the final whistle, it’s just the beginning.",
+    "permalink": "https://www.instagram.com/extra.timeorg/",
+    "publishedAt": "2025-05-24T16:00:00Z",
+    "media": [
+      {
+        "type": "video",
+        "url": null,
+        "thumbnailUrl": "https://i.ytimg.com/vi/KrTgla0Cy_k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extra.timeorg",
+      "avatarUrl": null
+    },
+    "metrics": null,
+    "relatedEpisodeId": "ep_yt_KrTgla0Cy_k",
+    "relatedEpisodeSlug": "purpose-bigger-than-football-pt-2",
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_ig_fixture-05",
+    "platform": "instagram",
+    "kind": "image",
+    "caption": null,
+    "permalink": "https://www.instagram.com/extra.timeorg/",
+    "publishedAt": "2025-03-21T17:00:00Z",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://i.ytimg.com/vi/1EPurDA9Jvo/hqdefault.jpg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1EPurDA9Jvo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extra.timeorg",
+      "avatarUrl": null
+    },
+    "metrics": null,
+    "relatedEpisodeId": null,
+    "relatedEpisodeSlug": null,
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_yt_1EPurDA9Jvo",
+    "platform": "youtube",
+    "kind": "video",
+    "caption": "Bigger Than Football – Identity, Mentorship, and Guidance. 🌍🚀⚽️",
+    "permalink": "https://www.youtube.com/watch?v=1EPurDA9Jvo",
+    "publishedAt": "2025-03-19T17:05:01Z",
+    "media": [
+      {
+        "type": "video",
+        "url": null,
+        "thumbnailUrl": "https://i.ytimg.com/vi/1EPurDA9Jvo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extratimeorg",
+      "avatarUrl": null
+    },
+    "metrics": {
+      "likes": 8,
+      "comments": null,
+      "shares": null,
+      "views": 206
+    },
+    "relatedEpisodeId": "ep_yt_1EPurDA9Jvo",
+    "relatedEpisodeSlug": "purpose-bigger-than-football",
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_yt_LpLjDuIRvbE",
+    "platform": "youtube",
+    "kind": "video",
+    "caption": "The story behind the vision, where ExtraTIME began, and where ExtraTIME is heading.",
+    "permalink": "https://www.youtube.com/watch?v=LpLjDuIRvbE",
+    "publishedAt": "2025-02-17T16:45:06Z",
+    "media": [
+      {
+        "type": "video",
+        "url": null,
+        "thumbnailUrl": "https://i.ytimg.com/vi/LpLjDuIRvbE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extratimeorg",
+      "avatarUrl": null
+    },
+    "metrics": {
+      "likes": 17,
+      "comments": null,
+      "shares": null,
+      "views": 288
+    },
+    "relatedEpisodeId": "ep_yt_LpLjDuIRvbE",
+    "relatedEpisodeSlug": "meet-the-founders-passion-to-purpose",
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_ig_fixture-06",
+    "platform": "instagram",
+    "kind": "video",
+    "caption": "Meet our founders, Shungu Dutiro and Henry Nzuzi. 🎬🌍⚽️",
+    "permalink": "https://www.instagram.com/extra.timeorg/",
+    "publishedAt": "2025-02-15T16:00:00Z",
+    "media": [
+      {
+        "type": "video",
+        "url": null,
+        "thumbnailUrl": "https://i.ytimg.com/vi/LpLjDuIRvbE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extra.timeorg",
+      "avatarUrl": null
+    },
+    "metrics": null,
+    "relatedEpisodeId": null,
+    "relatedEpisodeSlug": null,
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_ig_fixture-07",
+    "platform": "instagram",
+    "kind": "image",
+    "caption": "\"We are all designed authentically\"",
+    "permalink": "https://www.instagram.com/extra.timeorg/",
+    "publishedAt": "2024-10-16T18:00:00Z",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://i.ytimg.com/vi/QphUHB4c1ZI/hqdefault.jpg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/QphUHB4c1ZI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extra.timeorg",
+      "avatarUrl": null
+    },
+    "metrics": null,
+    "relatedEpisodeId": "ep_s01e02",
+    "relatedEpisodeSlug": "s01e02-authenticity",
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  },
+  {
+    "id": "sp_ig_fixture-08",
+    "platform": "instagram",
+    "kind": "image",
+    "caption": "Join us as we seek to explore the power of the journey, purpose, faith and impact. 🔥🚀🔊",
+    "permalink": "https://www.instagram.com/extra.timeorg/",
+    "publishedAt": "2024-06-12T17:00:00Z",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://i.ytimg.com/vi/Za4mgaWtniE/hqdefault.jpg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Za4mgaWtniE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "author": {
+      "name": "ExtraTIME",
+      "handle": "extra.timeorg",
+      "avatarUrl": null
+    },
+    "metrics": null,
+    "relatedEpisodeId": null,
+    "relatedEpisodeSlug": null,
+    "fetchedAt": "2026-11-08T00:00:00Z"
+  }
+]

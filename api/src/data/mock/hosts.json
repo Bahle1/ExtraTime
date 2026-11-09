@@ -1,0 +1,46 @@
+[
+  {
+    "id": "host_shungu-dutiro",
+    "slug": "shungu-dutiro",
+    "name": "Shungu Dutiro",
+    "role": "Lead host",
+    "shortBio": "Co-founder of ExtraTIME with Henry Nzuzi, sharing a personal football story and ambitions for ExtraTIME in Meet The Founders.",
+    "bio": "Shungu Dutiro co-founded ExtraTIME with Henry Nzuzi. In \"Meet The Founders || Passion to Purpose\", the founders share their own personal football stories and ambitions for ExtraTIME: the genesis, the vision, the cause and the movement.\n\nExtraTime is a platform on the mission to empower young people to realise the importance of self-value and authenticity. Detaching your identity from what you do to who you are in pursuit of your craft.",
+    "avatar": null,
+    "favoriteClub": null,
+    "socialLinks": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@extratimeorg",
+        "handle": "extratimeorg"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/extra.timeorg/",
+        "handle": "extra.timeorg"
+      }
+    ]
+  },
+  {
+    "id": "host_henry-nzuzi",
+    "slug": "henry-nzuzi",
+    "name": "Henry Nzuzi",
+    "role": "Co-host",
+    "shortBio": "Co-founder of ExtraTIME with Shungu Dutiro, sharing a personal football story and ambitions for ExtraTIME in Meet The Founders.",
+    "bio": "Henry Nzuzi co-founded ExtraTIME with Shungu Dutiro. In \"Meet The Founders || Passion to Purpose\", the founders share their own personal football stories and ambitions for ExtraTIME: the genesis, the vision, the cause and the movement.\n\nExtraTime is a platform on the mission to empower young people to realise the importance of self-value and authenticity. Detaching your identity from what you do to who you are in pursuit of your craft.",
+    "avatar": null,
+    "favoriteClub": null,
+    "socialLinks": [
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@extratimeorg",
+        "handle": "extratimeorg"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/extra.timeorg/",
+        "handle": "extra.timeorg"
+      }
+    ]
+  }
+]

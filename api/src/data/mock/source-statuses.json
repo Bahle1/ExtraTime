@@ -1,0 +1,20 @@
+[
+  {
+    "platform": "youtube",
+    "status": "ok",
+    "lastSuccessAt": "2026-11-08T00:00:00Z",
+    "message": null
+  },
+  {
+    "platform": "instagram",
+    "status": "ok",
+    "lastSuccessAt": "2026-11-08T00:00:00Z",
+    "message": null
+  },
+  {
+    "platform": "facebook",
+    "status": "disabled",
+    "lastSuccessAt": null,
+    "message": "No Facebook Page is connected yet."
+  }
+]
