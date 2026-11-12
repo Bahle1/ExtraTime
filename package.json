@@ -13,6 +13,7 @@
   "scripts": {
     "dev": "concurrently -k -n api,web \"npm run dev -w @extratime/api\" \"npm run dev -w @extratime/web\"",
     "build": "npm run build -w @extratime/shared && npm run build -w @extratime/api -w @extratime/web",
+    "demo": "npm run build && concurrently -k -n api,web \"npm run dev -w @extratime/api\" \"npm run preview -w @extratime/web\"",
     "lint": "eslint . --max-warnings 0 && prettier --check .",
     "typecheck": "tsc -b packages/shared apps/api apps/web",
     "test": "vitest run --allowOnly=false",
