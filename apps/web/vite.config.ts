@@ -5,8 +5,8 @@ import { defineConfig } from 'vitest/config';
 const DEV_PORT = 5173;
 const PREVIEW_PORT = 4173;
 const API_PROXY = { '/api': 'http://localhost:4000' };
-/** Hosts allowed besides localhost: Cloudflare Quick Tunnel links. Add a Named Tunnel hostname here. */
-const SHARED_HOSTS = ['.trycloudflare.com'];
+/** Hosts allowed besides localhost: Cloudflare Quick Tunnel links and extratime.site with its subdomains. */
+const SHARED_HOSTS = ['.trycloudflare.com', '.extratime.site'];
 
 export default defineConfig({
   plugins: [react()],
